@@ -111,15 +111,19 @@
                 "<html><body style='margin:0;'><script async data-cfasync='false' src='" + ADSTERRA + "21/" + NATIVO + "'><\/script><div id='container-" + NATIVO + "'></div></body></html>",
                 'width:100%;height:260px;'));
         });
-        // Social Bar: solo en las páginas que lo piden (<body data-social-bar>).
-        // Necesita estar en la página misma (no en un marco) para poder mostrarse.
-        if (document.body.hasAttribute('data-social-bar')) {
-            var s = document.createElement('script');
-            s.src = ADSTERRA + '14/' + SOCIAL_BAR;
-            s.setAttribute('data-cfasync', 'false');
-            s.async = true;
-            document.body.appendChild(s);
-        }
+    }
+    // Social Bar: solo en las páginas que lo piden (<body data-social-bar>) y
+    // solo cuando no hay aviso de bloqueo (si no, en celular tapaba el aviso).
+    // Necesita estar en la página misma (no en un marco) para poder mostrarse.
+    var socialBarPuesta = false;
+    function ponerSocialBar() {
+        if (socialBarPuesta || !document.body.hasAttribute('data-social-bar')) return;
+        socialBarPuesta = true;
+        var s = document.createElement('script');
+        s.src = ADSTERRA + '14/' + SOCIAL_BAR;
+        s.setAttribute('data-cfasync', 'false');
+        s.async = true;
+        document.body.appendChild(s);
     }
 
     // ---------- Bloqueador de anuncios / VPN ----------
@@ -151,7 +155,10 @@
         var btn = document.getElementById('btn-reintentar');
         btn.style.display = '';
         btn.disabled = false;
+        // Al final del body: queda por encima de cualquier anuncio flotante.
+        document.body.appendChild(caja);
         caja.classList.add('activo');
+        caja.scrollTop = 0;
         document.body.style.overflow = 'hidden';
     }
     function mostrarVerificando() {
@@ -252,6 +259,7 @@
         var btn = document.getElementById('btn-reintentar');
         if (btn) btn.addEventListener('click', reintentar);
         verificacion = revisarBloqueos();
+        verificacion.then(function (ok) { if (ok) ponerSocialBar(); });
         // Como el original: se vuelve a revisar cada 30 s (por si activan el bloqueador o la VPN después).
         setInterval(function () {
             var caja = document.getElementById('bloqueo-overlay');

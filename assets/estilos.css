@@ -84,7 +84,7 @@ footer a { color:var(--amarillo); text-decoration:none; }
 .mensaje-vacio { color:#888; padding:40px 16px; text-align:center; grid-column:1/-1; }
 
 /* Aviso de bloqueador / VPN (diseño original de PulsoMX) */
-#bloqueo-overlay { display:none; position:fixed; inset:0; overflow-y:auto; background:rgba(15,23,42,.98); z-index:999999; align-items:center; justify-content:center; padding:20px; font-family:sans-serif; }
+#bloqueo-overlay { display:none; position:fixed; inset:0; overflow-y:auto; background:rgba(15,23,42,.98); z-index:2147483647; align-items:center; justify-content:center; padding:20px; font-family:sans-serif; -webkit-overflow-scrolling:touch; overscroll-behavior:contain; }
 #bloqueo-overlay.activo { display:flex; }
 #bloqueo-card { margin:auto; background:#1e293b; border:1px solid #334155; border-radius:20px; padding:40px 32px; max-width:460px; width:100%; text-align:center; color:#f1f5f9; box-shadow:0 25px 50px -12px rgba(0,0,0,.5); }
 #bloqueo-icono { font-size:3.5rem; margin-bottom:1.2rem; }
@@ -95,3 +95,12 @@ footer a { color:var(--amarillo); text-decoration:none; }
 #btn-reintentar { width:100%; background:#9333ea; color:#fff; font-weight:bold; padding:12px; border-radius:12px; border:none; cursor:pointer; font-size:.9rem; transition:background .2s; }
 #btn-reintentar:hover { background:#7e22ce; }
 #btn-reintentar:disabled { opacity:.6; cursor:wait; }
+@media (max-width:480px), (max-height:700px) {
+    #bloqueo-overlay { padding:12px; }
+    #bloqueo-card { padding:22px 18px; border-radius:16px; }
+    #bloqueo-icono { font-size:2.4rem; margin-bottom:.6rem; }
+    #bloqueo-titulo { font-size:1.2rem; margin-bottom:.5rem; }
+    #bloqueo-mensaje { font-size:.8rem; margin-bottom:1rem; }
+    #bloqueo-instrucciones-box { padding:12px; font-size:.75rem; line-height:1.5; margin-bottom:1rem; }
+    #btn-reintentar { padding:12px; font-size:.88rem; }
+}
