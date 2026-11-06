@@ -204,7 +204,7 @@
         return Promise.all([
             ceboEscondido(),
             descargaBloqueada(ADSTERRA + '22/' + BANNERS['728'].clave),
-            descargaBloqueada('https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2125166334282472')
+            descargaBloqueada(ADSTERRA + '21/' + NATIVO)
         ]).then(function (s) { return s[0] || s[1] || s[2]; });
     }
     // La VPN la revisa el servidor de NetGamer con la IP real (no se puede
