@@ -11,6 +11,7 @@ Necesita el secreto GROQ_API_KEY en el repositorio.
 import hashlib
 import json
 import os
+import random
 import re
 import sys
 import time
@@ -23,22 +24,40 @@ import requests
 from bs4 import BeautifulSoup
 
 # ⚙️ CONFIGURACIÓN
-NOTICIAS_POR_CORRIDA = 4          # notas nuevas cada vez que corre
 POR_MEDIO = 1                     # máximo por medio en cada corrida (variedad)
-MAXIMO_GUARDADAS = 100            # el archivo guarda solo las últimas 100
+MAXIMO_GUARDADAS = 150            # el archivo guarda solo las últimas 150
 MIN_PALABRAS_FUENTE = 80          # si la nota original trae menos texto, no se publica
 INTENTOS_POR_MEDIO = 6            # notas que revisa de cada medio antes de pasar al siguiente
 FALLAS_IA_SEGUIDAS = 3            # si la IA falla 3 veces seguidas, se detiene (clave o modelo mal)
 
-# Revisados en noviembre de 2026. El Universal y La Jornada se quitaron:
-# sus páginas no dejan leer el texto de la nota. Si un medio cambia su RSS,
-# el robot lo salta y sigue con los demás; solo hay que corregir la dirección aquí.
-RSS_FEEDS = [
-    ("Infobae México", "https://www.infobae.com/arc/outboundfeeds/rss/category/mexico/?outputType=xml"),
-    ("El Financiero", "https://www.elfinanciero.com.mx/arc/outboundfeeds/rss/?outputType=xml"),
-    ("El Economista", "https://www.eleconomista.com.mx/rss/ultimas-noticias"),
-    ("Expansión", "https://expansion.mx/rss"),
-]
+# Medios revisados en noviembre de 2026, separados por sección.
+# "cuantas" = noticias nuevas de esa sección en cada corrida (cada hora).
+# El orden de los medios se mezcla en cada corrida para que vayan rotando.
+# Si un medio cambia su RSS, el robot lo salta y sigue con los demás.
+# (El Universal, La Jornada y CNN en Español se quitaron: no dejan leer sus notas.)
+SECCIONES = {
+    "mexico": {
+        "cuantas": 2,
+        "medios": [
+            ("Infobae México", "https://www.infobae.com/arc/outboundfeeds/rss/category/mexico/?outputType=xml"),
+            ("El Financiero", "https://www.elfinanciero.com.mx/arc/outboundfeeds/rss/?outputType=xml"),
+            ("El Economista", "https://www.eleconomista.com.mx/rss/ultimas-noticias"),
+            ("Expansión", "https://expansion.mx/rss"),
+        ],
+    },
+    "mundo": {
+        "cuantas": 2,
+        "medios": [
+            ("BBC Mundo", "https://feeds.bbci.co.uk/mundo/rss.xml"),
+            ("DW Español", "https://rss.dw.com/xml/rss-sp-all"),
+            ("France 24", "https://www.france24.com/es/rss"),
+            ("El País", "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/internacional/portada"),
+            ("Infobae América", "https://www.infobae.com/arc/outboundfeeds/rss/category/america/?outputType=xml"),
+        ],
+    },
+}
+# Enlaces que no son notas de texto (videos, transmisiones en vivo, podcasts).
+NO_SON_NOTAS = ("/video", "/live/", "/podcast", "/en-vivo", "/av/", "/audio")
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 JSON_PATH = os.path.join(RAIZ, "data", "noticias.json")
@@ -171,13 +190,13 @@ def resumir_con_ia(titulo, texto_fuente, medio):
         return None
 
     instrucciones = (
-        "Eres editor de un sitio de resúmenes de noticias en México. Con el TEXTO DE LA FUENTE que te dan, "
-        "escribe un resumen fiel en español. Reglas obligatorias:\n"
+        "Eres editor de un sitio de resúmenes de noticias en español para lectores de México y Latinoamérica. "
+        "Con el TEXTO DE LA FUENTE que te dan, escribe un resumen fiel en español. Reglas obligatorias:\n"
         "- Usa SOLO datos que aparezcan en el texto de la fuente. No inventes cifras, fechas, nombres ni declaraciones.\n"
         "- Solo puedes poner una cita textual si aparece tal cual en la fuente.\n"
         "- Si algo no está en la fuente, no lo menciones.\n"
         "- Tono informativo y neutral, sin opiniones propias.\n"
-        "Responde ÚNICAMENTE con un objeto JSON con las claves: titulo, resumen, contenido."
+        "Responde ÚNICAMENTE con un objeto JSON con las claves: titulo, resumen, contenido, region."
     )
     pedido = (
         f"MEDIO: {medio}\nTITULAR ORIGINAL: {titulo}\n\nTEXTO DE LA FUENTE:\n{texto_fuente}\n\n"
@@ -185,7 +204,9 @@ def resumir_con_ia(titulo, texto_fuente, medio):
         '- "titulo": titular claro, máximo 90 caracteres, sin exagerar.\n'
         '- "resumen": 2 o 3 oraciones con lo esencial.\n'
         '- "contenido": entre 180 y 400 palabras, en párrafos separados por una línea en blanco. '
-        "Si la fuente es corta, el contenido también puede serlo."
+        "Si la fuente es corta, el contenido también puede serlo.\n"
+        '- "region": el país o región principal de la noticia en una o dos palabras '
+        '(por ejemplo "México", "Estados Unidos", "Europa", "Medio Oriente"). Si no está claro, "".'
     )
 
     modo_json = True
@@ -218,10 +239,11 @@ def resumir_con_ia(titulo, texto_fuente, medio):
             titulo_ia = limpiar(str(data.get("titulo", "")), 140)
             resumen = str(data.get("resumen", "")).strip()
             contenido = str(data.get("contenido", "")).strip()
+            region = limpiar(str(data.get("region", "")), 30)
             if not titulo_ia or len(resumen.split()) < 10 or len(contenido.split()) < 60:
                 print("   ⚠️ Respuesta muy corta, se descarta")
                 return None
-            return titulo_ia, resumen, contenido
+            return titulo_ia, resumen, contenido, region
         except Exception as e:
             print(f"   ⚠️ Error IA (intento {intento + 1}): {e}")
             time.sleep(5)
@@ -286,56 +308,69 @@ def ejecutar():
     nuevas = 0
     fallas_ia = 0
 
-    for medio, feed in RSS_FEEDS:
-        if nuevas >= NOTICIAS_POR_CORRIDA or fallas_ia >= FALLAS_IA_SEGUIDAS:
-            break
-        print(f"\n📡 {medio}: {feed}")
-        de_este_medio = 0
-        intentos = 0
-        for titulo, enlace in leer_feed(feed):
-            if nuevas >= NOTICIAS_POR_CORRIDA or de_este_medio >= POR_MEDIO or intentos >= INTENTOS_POR_MEDIO:
-                break
-            if fallas_ia >= FALLAS_IA_SEGUIDAS:
-                break
-            titulo = limpiar(titulo, 200)
-            enlace = (enlace or "").strip()
-            if len(titulo.split()) < 4 or not enlace.startswith("http"):
-                continue
-            nid = id_de(titulo, enlace)
-            if nid in ya or titulo in ya:
-                continue
+    for seccion, conf in SECCIONES.items():
+        meta = conf["cuantas"]
+        de_esta_seccion = 0
+        medios = list(conf["medios"])
+        random.shuffle(medios)   # rotan: no siempre empieza el mismo medio
+        print(f"\n==================== {seccion.upper()} (meta: {meta}) ====================")
 
-            intentos += 1
-            print(f"\n🔄 {titulo[:70]}")
-            imagen, texto = leer_articulo(enlace)
-            if len(texto.split()) < MIN_PALABRAS_FUENTE:
-                print("   ⏭️ La fuente no trae suficiente texto, se omite")
+        for medio, feed in medios:
+            if de_esta_seccion >= meta or fallas_ia >= FALLAS_IA_SEGUIDAS:
+                break
+            print(f"\n📡 {medio}: {feed}")
+            de_este_medio = 0
+            intentos = 0
+            for titulo, enlace in leer_feed(feed):
+                if (de_esta_seccion >= meta or de_este_medio >= POR_MEDIO
+                        or intentos >= INTENTOS_POR_MEDIO or fallas_ia >= FALLAS_IA_SEGUIDAS):
+                    break
+                titulo = limpiar(titulo, 200)
+                enlace = (enlace or "").strip()
+                if len(titulo.split()) < 4 or not enlace.startswith("http"):
+                    continue
+                if any(x in enlace.lower() for x in NO_SON_NOTAS):
+                    continue
+                nid = id_de(titulo, enlace)
+                if nid in ya or titulo in ya:
+                    continue
+
+                intentos += 1
+                print(f"\n🔄 {titulo[:70]}")
+                imagen, texto = leer_articulo(enlace)
+                if len(texto.split()) < MIN_PALABRAS_FUENTE:
+                    print("   ⏭️ La fuente no trae suficiente texto, se omite")
+                    ya.add(nid)
+                    continue
+
+                resultado = resumir_con_ia(titulo, texto, medio)
+                if not resultado:
+                    fallas_ia += 1
+                    continue
+                fallas_ia = 0
+                titulo_ia, resumen, contenido, region = resultado
+                if seccion == "mexico" and not region:
+                    region = "México"
+
+                guardadas.append({
+                    "id": nid,
+                    "titulo_original": titulo,
+                    "titulo": titulo_ia,
+                    "resumen": resumen,
+                    "contenido": contenido,
+                    "imagen": imagen_publica(imagen, titulo),
+                    "fecha": datetime.now(HORA_MX).strftime("%Y-%m-%d"),
+                    "seccion": seccion,
+                    "region": region,
+                    "medio": medio,
+                    "url_origen": enlace,
+                })
                 ya.add(nid)
-                continue
-
-            resultado = resumir_con_ia(titulo, texto, medio)
-            if not resultado:
-                fallas_ia += 1
-                continue
-            fallas_ia = 0
-            titulo_ia, resumen, contenido = resultado
-
-            guardadas.append({
-                "id": nid,
-                "titulo_original": titulo,
-                "titulo": titulo_ia,
-                "resumen": resumen,
-                "contenido": contenido,
-                "imagen": imagen_publica(imagen, titulo),
-                "fecha": datetime.now(HORA_MX).strftime("%Y-%m-%d"),
-                "medio": medio,
-                "url_origen": enlace,
-            })
-            ya.add(nid)
-            nuevas += 1
-            de_este_medio += 1
-            print(f"✅ Guardada: {titulo_ia[:60]} ({len(contenido.split())} palabras)")
-            time.sleep(10)  # evita el límite de peticiones de Groq
+                nuevas += 1
+                de_este_medio += 1
+                de_esta_seccion += 1
+                print(f"✅ Guardada [{seccion} · {region or 'sin región'}]: {titulo_ia[:55]} ({len(contenido.split())} palabras)")
+                time.sleep(10)  # evita el límite de peticiones de Groq
 
     if nuevas:
         guardar_noticias(guardadas[-MAXIMO_GUARDADAS:])

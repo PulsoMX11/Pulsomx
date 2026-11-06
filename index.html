@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PulsoMX | Últimas noticias de México</title>
-    <meta name="description" content="PulsoMX: resúmenes de las noticias más importantes de México, actualizados cada hora, con enlace a la fuente original.">
+    <title>PulsoMX | Noticias de México y el mundo</title>
+    <meta name="description" content="PulsoMX: resúmenes de las noticias más importantes de México y el mundo, actualizados cada hora, con enlace a la fuente original.">
     <meta name="robots" content="index, follow">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="PulsoMX">
-    <meta property="og:title" content="PulsoMX | Últimas noticias de México">
-    <meta property="og:description" content="Resúmenes de las noticias más importantes de México, actualizados cada hora.">
+    <meta property="og:title" content="PulsoMX | Noticias de México y el mundo">
+    <meta property="og:description" content="Resúmenes de las noticias más importantes de México y el mundo, actualizados cada hora.">
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E⚡%3C/text%3E%3C/svg%3E">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
@@ -43,6 +43,11 @@
     <div class="contenedor">
         <main>
             <p class="titulo-seccion">Titulares de hoy</p>
+            <div class="pestanas" role="group" aria-label="Sección">
+                <button type="button" data-seccion="todas" aria-pressed="true"><i class="fa-solid fa-newspaper"></i> Todas</button>
+                <button type="button" data-seccion="mexico" aria-pressed="false"><i class="fa-solid fa-location-dot"></i> México</button>
+                <button type="button" data-seccion="mundo" aria-pressed="false"><i class="fa-solid fa-earth-americas"></i> Mundo</button>
+            </div>
             <div id="destacada">
                 <div class="hero-card">
                     <div class="skeleton" style="height:clamp(180px,35vw,340px);"></div>
@@ -73,45 +78,72 @@
             <a href="contacto.html">Contacto</a>
             <a href="acerca.html">Acerca de</a>
         </div>
-        <p>© <span id="anio">2026</span> PulsoMX — Resúmenes de noticias de México.</p>
+        <p>© <span id="anio">2026</span> PulsoMX — Resúmenes de noticias de México y el mundo.</p>
         <p style="margin-top:5px;font-size:.72rem;opacity:.6;">Cada nota es un resumen hecho con ayuda de inteligencia artificial a partir de una fuente pública, enlazada en la propia nota.</p>
     </footer>
 
     <script>
-        Pulso.cargarNoticias().then(function (lista) {
-            var noticias = lista.slice().reverse();
+        var todas = [];
+        var e = Pulso.esc;
+        var enlace = function (n) { return 'noticia.html?id=' + encodeURIComponent(n.id); };
+        var etiqueta = function (n) {
+            return '<span class="etiqueta-region' + (Pulso.seccionDe(n) === 'mundo' ? ' mundo' : '') + '">' + e(Pulso.etiquetaDe(n)) + '</span>';
+        };
+
+        function seccionActual() {
+            var s = location.hash.replace('#', '');
+            return s === 'mexico' || s === 'mundo' ? s : 'todas';
+        }
+
+        function pintar() {
+            var seccion = seccionActual();
+            document.querySelectorAll('.pestanas button').forEach(function (b) {
+                b.setAttribute('aria-pressed', String(b.getAttribute('data-seccion') === seccion));
+            });
+            var noticias = seccion === 'todas' ? todas : todas.filter(function (n) { return Pulso.seccionDe(n) === seccion; });
             var destacada = document.getElementById('destacada');
             var cuadricula = document.getElementById('lista');
             if (!noticias.length) {
                 destacada.innerHTML = '';
-                cuadricula.innerHTML = '<p class="mensaje-vacio">Esperando la primera actualización automática de noticias…</p>';
-                document.getElementById('ahora-texto').textContent = 'Pronto habrá noticias nuevas.';
+                cuadricula.innerHTML = '<p class="mensaje-vacio">' + (todas.length
+                    ? 'Todavía no hay noticias en esta sección. El robot agrega nuevas cada hora.'
+                    : 'Esperando la primera actualización automática de noticias…') + '</p>';
                 return;
             }
-            var e = Pulso.esc;
-            var enlace = function (n) { return 'noticia.html?id=' + encodeURIComponent(n.id); };
-
-            document.getElementById('ahora-texto').textContent = noticias[0].titulo;
 
             var h = noticias[0];
             destacada.innerHTML =
                 '<a href="' + enlace(h) + '" class="hero-card">' +
                     '<img src="' + e(Pulso.imagenDe(h)) + '" alt="' + e(h.titulo) + '" referrerpolicy="no-referrer">' +
-                    '<div class="cuerpo"><span class="etiqueta">Destacado</span>' +
+                    '<div class="cuerpo"><span class="etiqueta">Destacado</span> ' + etiqueta(h) +
                     '<h2>' + e(h.titulo) + '</h2><p>' + e(Pulso.soloTexto(h.resumen)) + '</p></div></a>';
 
             cuadricula.innerHTML = noticias.slice(1).map(function (n) {
                 return '<a href="' + enlace(n) + '" class="news-card">' +
                     '<img src="' + e(Pulso.imagenDe(n)) + '" alt="' + e(n.titulo) + '" loading="lazy" referrerpolicy="no-referrer">' +
-                    '<div class="cuerpo"><span class="fecha">' + e(Pulso.fechaBonita(n.fecha)) + '</span>' +
+                    '<div class="cuerpo">' + etiqueta(n) + '<span class="fecha">' + e(Pulso.fechaBonita(n.fecha)) + '</span>' +
                     '<h3>' + e(n.titulo) + '</h3></div></a>';
             }).join('');
+        }
 
-            document.getElementById('lateral').innerHTML = noticias.slice(0, 5).map(function (n) {
+        document.querySelectorAll('.pestanas button').forEach(function (b) {
+            b.addEventListener('click', function () {
+                var s = b.getAttribute('data-seccion');
+                history.replaceState(null, '', s === 'todas' ? location.pathname : '#' + s);
+                pintar();
+            });
+        });
+        window.addEventListener('hashchange', pintar);
+
+        Pulso.cargarNoticias().then(function (lista) {
+            todas = lista.slice().reverse();
+            document.getElementById('ahora-texto').textContent = todas.length ? todas[0].titulo : 'Pronto habrá noticias nuevas.';
+            document.getElementById('lateral').innerHTML = todas.slice(0, 5).map(function (n) {
                 return '<a href="' + enlace(n) + '" class="item-lateral">' +
                     '<img src="' + e(Pulso.imagenDe(n)) + '" alt="" loading="lazy" referrerpolicy="no-referrer">' +
-                    '<div><span class="fecha">' + e(Pulso.fechaBonita(n.fecha)) + '</span><h4>' + e(n.titulo) + '</h4></div></a>';
+                    '<div>' + etiqueta(n) + '<span class="fecha">' + e(Pulso.fechaBonita(n.fecha)) + '</span><h4>' + e(n.titulo) + '</h4></div></a>';
             }).join('');
+            pintar();
         }).catch(function () {
             document.getElementById('destacada').innerHTML = '';
             document.getElementById('lista').innerHTML = '<p class="mensaje-vacio">No se pudieron cargar las noticias. Intenta de nuevo en un momento.</p>';

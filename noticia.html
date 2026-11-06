@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noticia | PulsoMX</title>
-    <meta name="description" content="Resumen de noticias de México en PulsoMX.">
+    <meta name="description" content="Resumen de noticias de México y el mundo en PulsoMX.">
     <meta name="robots" content="index, follow">
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="PulsoMX">
@@ -70,7 +70,7 @@
         <main>
             <div class="migas"><a href="index.html">Inicio</a> › <span id="migas-titulo">Noticia</span></div>
             <article>
-                <span class="etiqueta">Noticia</span>
+                <span class="etiqueta" id="etiqueta">Noticia</span>
                 <h1 id="titulo"></h1>
                 <div class="meta">
                     <span><i class="fa-regular fa-calendar"></i> <span id="fecha"></span></span>
@@ -119,7 +119,7 @@
             <a href="contacto.html">Contacto</a>
             <a href="acerca.html">Acerca de</a>
         </div>
-        <p>© <span id="anio">2026</span> PulsoMX — Resúmenes de noticias de México.</p>
+        <p>© <span id="anio">2026</span> PulsoMX — Resúmenes de noticias de México y el mundo.</p>
     </footer>
 
     <script>
@@ -142,6 +142,7 @@
                 desc.setAttribute('content', Pulso.soloTexto(n.resumen).slice(0, 160));
                 document.getElementById('migas-titulo').textContent = n.titulo;
                 document.getElementById('titulo').textContent = n.titulo;
+                document.getElementById('etiqueta').textContent = Pulso.etiquetaDe(n);
                 document.getElementById('fecha').textContent = Pulso.fechaBonita(n.fecha);
                 if (n.medio) document.getElementById('medio').textContent = 'Fuente: ' + n.medio;
                 var img = document.getElementById('imagen');

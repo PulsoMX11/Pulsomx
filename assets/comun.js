@@ -62,6 +62,13 @@
             .then(function (lista) { return (Array.isArray(lista) ? lista : []).filter(function (n) { return n && idValido(n.id) && n.titulo; }); });
     }
     function imagenDe(n) { return urlSegura(n.imagen) || 'https://picsum.photos/seed/pulsomx/800/500'; }
+    // Las noticias viejas no traen sección: eran todas de México.
+    function seccionDe(n) { return n.seccion === 'mundo' ? 'mundo' : 'mexico'; }
+    function etiquetaDe(n) {
+        var r = String(n.region || '').trim();
+        if (r) return r;
+        return seccionDe(n) === 'mundo' ? 'Mundo' : 'México';
+    }
 
     // ---------- Anuncios ----------
     // Cada anuncio va en su propio marco SIN acceso a la página
@@ -137,6 +144,7 @@
     window.Pulso = {
         esc: esc, soloTexto: soloTexto, urlSegura: urlSegura, idValido: idValido, fechaBonita: fechaBonita,
         pase: pase, llamarRecompensa: llamarRecompensa, cargarNoticias: cargarNoticias, imagenDe: imagenDe,
+        seccionDe: seccionDe, etiquetaDe: etiquetaDe,
         ponerAnuncios: ponerAnuncios, revisarBloqueos: revisarBloqueos
     };
 
