@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima en México | PulsoMX</title>
+    <meta name="description" content="El clima ahora mismo en las principales ciudades de México.">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E⚡%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/estilos.css">
+    <script src="assets/comun.js"></script>
+    <style>
+        .clima-wrap { max-width:1000px; margin:24px auto; padding:0 16px; }
+        .clima-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:14px; }
+        .ciudad { background:#fff; border-radius:12px; padding:18px; box-shadow:0 2px 12px rgba(0,0,0,.07); }
+        .ciudad h3 { font-family:'Playfair Display',serif; font-size:1.05rem; margin-bottom:8px; }
+        .ciudad .temp { font-size:2.2rem; font-weight:700; color:var(--rojo); display:flex; align-items:center; gap:10px; }
+        .ciudad .temp span { font-size:1.8rem; }
+        .ciudad .desc { color:var(--texto-suave); font-size:.9rem; margin-top:4px; }
+        .ciudad .extra { display:flex; gap:14px; margin-top:10px; font-size:.8rem; color:var(--texto-suave); }
+        .nota-clima { color:var(--texto-suave); font-size:.78rem; margin-top:18px; text-align:center; }
+    </style>
+</head>
+<body>
+    <div id="bloqueo"><div class="caja">
+        <div class="bq-icono"></div><h2 class="bq-titulo"></h2><p class="bq-texto"></p>
+        <button type="button" onclick="location.reload()">Ya lo desactivé — Reintentar</button>
+    </div></div>
+
+    <header>
+        <div class="header-inner">
+            <a href="index.html" class="logo">⚡ PULSO<span>MX</span></a>
+            <nav class="header-nav">
+                <a href="index.html"><i class="fa-solid fa-house"></i> <span class="hide-xs">Inicio</span></a>
+                <a href="acerca.html" class="hide-xs">Acerca de</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="ad-top"><div data-anuncio="728"></div><div data-anuncio="320"></div></div>
+
+    <div class="clima-wrap">
+        <p class="titulo-seccion">El clima ahora en México</p>
+        <div id="ciudades" class="clima-grid"><p class="mensaje-vacio">Cargando el clima…</p></div>
+        <p class="nota-clima">Datos de <a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer" style="color:var(--rojo);">Open-Meteo</a>. Se actualiza cada 15 minutos.</p>
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Inicio</a>
+            <a href="privacidad.html">Política de privacidad</a>
+            <a href="terminos.html">Términos de uso</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="acerca.html">Acerca de</a>
+        </div>
+        <p>© <span id="anio">2026</span> PulsoMX — Resúmenes de noticias de México.</p>
+    </footer>
+
+    <script>
+        var CIUDADES = [
+            ['Ciudad de México', 19.43, -99.13], ['Guadalajara', 20.67, -103.35], ['Monterrey', 25.69, -100.32],
+            ['Puebla', 19.04, -98.21], ['Tijuana', 32.51, -117.04], ['Mérida', 20.97, -89.62],
+            ['Cancún', 21.16, -86.85], ['León', 21.12, -101.68], ['Querétaro', 20.59, -100.39],
+            ['Chihuahua', 28.63, -106.07], ['Veracruz', 19.17, -96.13], ['Oaxaca', 17.07, -96.72]
+        ];
+        // Códigos del clima de Open-Meteo (WMO)
+        function cielo(c) {
+            if (c === 0) return ['☀️', 'Despejado'];
+            if (c <= 2) return ['🌤️', 'Parcialmente nublado'];
+            if (c === 3) return ['☁️', 'Nublado'];
+            if (c <= 48) return ['🌫️', 'Niebla'];
+            if (c <= 57) return ['🌦️', 'Llovizna'];
+            if (c <= 67) return ['🌧️', 'Lluvia'];
+            if (c <= 77) return ['🌨️', 'Nieve'];
+            if (c <= 82) return ['🌧️', 'Chubascos'];
+            if (c <= 86) return ['🌨️', 'Chubascos de nieve'];
+            return ['⛈️', 'Tormenta'];
+        }
+        function cargarClima() {
+            var url = 'https://api.open-meteo.com/v1/forecast?latitude=' + CIUDADES.map(function (c) { return c[1]; }).join(',') +
+                '&longitude=' + CIUDADES.map(function (c) { return c[2]; }).join(',') +
+                '&current=temperature_2m,weather_code,wind_speed_10m,relative_humidity_2m&timezone=America%2FMexico_City';
+            fetch(url).then(function (r) { return r.json(); }).then(function (datos) {
+                var lista = Array.isArray(datos) ? datos : [datos];
+                var e = Pulso.esc;
+                document.getElementById('ciudades').innerHTML = lista.map(function (d, i) {
+                    var a = d.current || {};
+                    var c = cielo(Number(a.weather_code));
+                    return '<div class="ciudad"><h3>' + e(CIUDADES[i][0]) + '</h3>' +
+                        '<div class="temp"><span>' + c[0] + '</span>' + Math.round(a.temperature_2m) + '°C</div>' +
+                        '<div class="desc">' + c[1] + '</div>' +
+                        '<div class="extra"><span><i class="fa-solid fa-droplet"></i> ' + Math.round(a.relative_humidity_2m) + '%</span>' +
+                        '<span><i class="fa-solid fa-wind"></i> ' + Math.round(a.wind_speed_10m) + ' km/h</span></div></div>';
+                }).join('');
+            }).catch(function () {
+                document.getElementById('ciudades').innerHTML = '<p class="mensaje-vacio">No se pudo cargar el clima. Intenta más tarde.</p>';
+            });
+        }
+        cargarClima();
+        setInterval(function () { if (!document.hidden) cargarClima(); }, 15 * 60 * 1000);
+    </script>
+</body>
+</html>

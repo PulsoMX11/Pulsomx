@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de | PulsoMX</title>
+    <meta name="description" content="Qué es PulsoMX y cómo se hacen sus notas.">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E⚡%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/estilos.css">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="index.html" class="logo">⚡ PULSO<span>MX</span></a>
+            <nav class="header-nav">
+                <a href="index.html"><i class="fa-solid fa-house"></i> <span class="hide-xs">Inicio</span></a>
+                <a href="clima.html" class="btn-clima"><i class="fa-solid fa-cloud-sun"></i> <span>Clima</span></a>
+            </nav>
+        </div>
+    </header>
+    <main class="pagina-texto">
+        <h1>Acerca de PulsoMX</h1>
+        <p class="nota">Noticias de México, en resumen.</p>
+        <p>PulsoMX reúne cada hora las notas más recientes de medios mexicanos y publica un resumen corto y fácil de leer de cada una.</p>
+        <h2>Cómo se hace cada nota</h2>
+        <ul>
+            <li>Un programa automático lee los canales públicos (RSS) de medios como El Universal, Infobae México, El Financiero, El Economista, Expansión y La Jornada.</li>
+            <li>Toma el texto público de la nota original y una inteligencia artificial escribe un resumen <b>usando solo los datos de esa nota</b>. No se inventan declaraciones ni datos.</li>
+            <li>Cada resumen indica el medio de origen y enlaza a la nota completa. El crédito y la información completa son de ese medio.</li>
+        </ul>
+        <h2>Errores</h2>
+        <p>Los resúmenes automáticos pueden tener errores. Si encuentras uno, <a href="contacto.html">escríbenos</a> y lo corregimos o retiramos. Ante cualquier duda, la versión válida es siempre la de la fuente original.</p>
+        <h2>NetGamer</h2>
+        <p>Si llegas desde NetGamer, puedes ganar NetCoins por leer noticias. Las reglas de esas recompensas son las de NetGamer.</p>
+    </main>
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Inicio</a>
+            <a href="privacidad.html">Política de privacidad</a>
+            <a href="terminos.html">Términos de uso</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="acerca.html">Acerca de</a>
+        </div>
+        <p>© <span id="anio">2026</span> PulsoMX — Resúmenes de noticias de México.</p>
+    </footer>
+    <script>document.getElementById('anio').textContent = new Date().getFullYear();</script>
+</body>
+</html>
