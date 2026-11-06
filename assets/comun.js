@@ -136,24 +136,50 @@
         caja.classList.add('activo');
         document.body.style.overflow = 'hidden';
     }
-    function hayAdblock() {
+    // Señal 1: un "cebo" con clases de anuncio que los bloqueadores esconden.
+    function ceboEscondido() {
         return new Promise(function (resolve) {
             var cebo = document.createElement('div');
-            cebo.className = 'adsbox ad ad-banner ads advertisement';
+            cebo.className = 'adsbox ad ad-banner ads advertisement pub_300x250 textads';
             cebo.style.cssText = 'width:1px;height:1px;position:absolute;left:-9999px;top:-9999px;';
+            cebo.innerHTML = '&nbsp;';
             document.body.appendChild(cebo);
             setTimeout(function () {
-                var oculto = cebo.offsetHeight === 0 || getComputedStyle(cebo).display === 'none';
+                var oculto = cebo.offsetHeight === 0 || getComputedStyle(cebo).display === 'none' || getComputedStyle(cebo).visibility === 'hidden';
                 cebo.remove();
                 resolve(oculto);
-            }, 500);
+            }, 600);
         });
     }
+    // Señal 2: el navegador corta la descarga de un anuncio (Malwarebytes,
+    // Brave, uBlock...). Un error inmediato = bloqueado; si solo tarda, no cuenta.
+    function descargaBloqueada(url) {
+        return new Promise(function (resolve) {
+            var listo = false;
+            var fin = function (v) { if (!listo) { listo = true; resolve(v); } };
+            setTimeout(function () { fin(false); }, 4000);
+            fetch(url, { mode: 'no-cors', cache: 'no-store' })
+                .then(function () { fin(false); })
+                .catch(function () { fin(navigator.onLine !== false); });
+        });
+    }
+    function hayAdblock() {
+        return Promise.all([
+            ceboEscondido(),
+            descargaBloqueada(ADSTERRA + '22/' + BANNERS['728'].clave),
+            descargaBloqueada('https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2125166334282472')
+        ]).then(function (s) { return s[0] || s[1] || s[2]; });
+    }
+    // La VPN la revisa el servidor de NetGamer con la IP real (no se puede
+    // saltar bloqueando una petición). Solo aplica a quien viene de NetGamer.
     function hayVpn() {
-        return fetch('https://api.ipapi.is/', { signal: AbortSignal.timeout(5000) })
-            .then(function (r) { return r.json(); })
-            .then(function (d) { return !!(d.is_vpn || d.is_proxy || d.is_tor); })
-            .catch(function () { return false; });
+        return fetch(FUNCIONES + 'recompensar-noticia', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ accion: 'conexion', pase: pase() })
+        }).then(function (r) { return r.json(); })
+          .then(function (d) { return d.vpn === true; })
+          .catch(function () { return false; });
     }
     function revisarBloqueos() {
         return hayAdblock().then(function (adb) {
@@ -162,18 +188,21 @@
             return hayVpn().then(function (vpn) { if (vpn) { avisoBloqueo('vpn'); return false; } return true; });
         });
     }
+    var verificacion = null;
 
     window.Pulso = {
         esc: esc, soloTexto: soloTexto, urlSegura: urlSegura, idValido: idValido, fechaBonita: fechaBonita,
         pase: pase, llamarRecompensa: llamarRecompensa, cargarNoticias: cargarNoticias, imagenDe: imagenDe,
         seccionDe: seccionDe, etiquetaDe: etiquetaDe,
-        ponerAnuncios: ponerAnuncios, revisarBloqueos: revisarBloqueos
+        ponerAnuncios: ponerAnuncios, revisarBloqueos: revisarBloqueos,
+        // Promesa: true si no hay bloqueador ni VPN (la recompensa espera esto).
+        verificado: function () { return verificacion || Promise.resolve(true); }
     };
 
     document.addEventListener('DOMContentLoaded', function () {
         var a = document.getElementById('anio');
         if (a) a.textContent = new Date().getFullYear();
         ponerAnuncios();
-        revisarBloqueos();
+        verificacion = revisarBloqueos();
     });
 })();

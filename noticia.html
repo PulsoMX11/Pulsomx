@@ -184,7 +184,8 @@
                 document.getElementById('cargando').style.display = 'none';
                 document.getElementById('contenido').style.display = 'grid';
 
-                if (Pulso.pase()) iniciarRecompensa(n.id);
+                // La barra de NetCoins solo arranca si no hay bloqueador ni VPN.
+                if (Pulso.pase()) Pulso.verificado().then(function (ok) { if (ok) iniciarRecompensa(n.id); });
             }).catch(function () { sinNoticia('Error al cargar la noticia. Intenta de nuevo en un momento.'); });
         }
 
@@ -196,7 +197,8 @@
             noticia_invalida: 'Esta noticia aún no está disponible para recompensa',
             cuenta_suspendida: 'Tu cuenta de NetGamer está suspendida',
             muy_pronto: 'Sigue leyendo un poco más…',
-            lectura_no_iniciada: 'No se pudo registrar tu lectura. Recarga la página'
+            lectura_no_iniciada: 'No se pudo registrar tu lectura. Recarga la página',
+            vpn: 'No se permite usar VPN o proxy para ganar NetCoins'
         };
         function premioTexto(icono, color, txt) {
             var t = document.getElementById('premio-texto');
