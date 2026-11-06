@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticia | PulsoMX</title>
+    <meta name="description" content="Resumen de noticias de México en PulsoMX.">
+    <meta name="robots" content="index, follow">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="PulsoMX">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E⚡%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/estilos.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2125166334282472" crossorigin="anonymous"></script>
+    <script src="assets/comun.js"></script>
+    <style>
+        .migas { font-size:.78rem; color:var(--texto-suave); margin-bottom:14px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+        .migas a { color:var(--rojo); text-decoration:none; }
+        article { background:#fff; border-radius:12px; padding:clamp(16px,4vw,32px); box-shadow:0 2px 12px rgba(0,0,0,.07); }
+        #titulo { font-family:'Playfair Display',serif; font-size:clamp(1.3rem,4vw,2rem); font-weight:900; line-height:1.2; margin-bottom:12px; overflow-wrap:anywhere; }
+        .meta { display:flex; gap:14px; padding:10px 0; border-top:1px solid #eee; border-bottom:1px solid #eee; margin-bottom:18px; font-size:clamp(.72rem,2vw,.82rem); color:var(--texto-suave); flex-wrap:wrap; }
+        .meta i { color:var(--rojo); }
+        #imagen { width:100%; height:clamp(180px,40vw,380px); object-fit:cover; border-radius:10px; margin-bottom:20px; }
+        #cuerpo { font-size:clamp(.95rem,2.5vw,1.05rem); line-height:1.85; color:#2d2d2d; overflow-wrap:anywhere; }
+        #cuerpo p { margin-bottom:16px; }
+        .fuente { background:#f8f8f8; border-left:4px solid var(--rojo); padding:12px 16px; border-radius:0 8px 8px 0; margin-top:24px; font-size:.85rem; line-height:1.6; }
+        .fuente a { color:var(--rojo); font-weight:700; overflow-wrap:anywhere; }
+        .compartir { margin-top:24px; padding-top:18px; border-top:1px solid #eee; }
+        .compartir p { font-weight:700; font-size:.88rem; margin-bottom:10px; }
+        .botones { display:flex; gap:8px; flex-wrap:wrap; }
+        .botones a { padding:8px 14px; border-radius:8px; font-weight:700; font-size:.78rem; text-decoration:none; color:#fff; display:flex; align-items:center; gap:6px; }
+        .wa { background:#25D366; } .tw { background:#111; } .fb { background:#1877F2; }
+        .relacionadas { font-family:'Playfair Display',serif; font-size:clamp(1rem,3vw,1.2rem); font-weight:900; border-left:4px solid var(--rojo); padding-left:12px; margin:28px 0 16px; text-transform:uppercase; }
+        #cargando { text-align:center; padding:60px 16px; color:var(--texto-suave); }
+
+        /* Barra de recompensa NetGamer */
+        #premio { display:none; position:fixed; bottom:20px; left:50%; transform:translateX(-50%); width:calc(100% - 32px); max-width:400px; background:#1a1a2e; border-radius:18px; padding:14px 16px; box-shadow:0 10px 25px rgba(0,0,0,.5); z-index:9999; text-align:center; border:1px solid #333; transition:opacity .5s; }
+        #premio-texto { color:#fff; font-size:14px; font-weight:700; margin-bottom:10px; }
+        #premio-barra-fondo { width:100%; background:#2a2a40; border-radius:10px; height:12px; overflow:hidden; }
+        #premio-barra { width:0; height:100%; background:linear-gradient(90deg,#f5b800,#ffea00); transition:width 1s linear; }
+    </style>
+</head>
+<body>
+    <div id="bloqueo"><div class="caja">
+        <div class="bq-icono"></div><h2 class="bq-titulo"></h2><p class="bq-texto"></p>
+        <button type="button" onclick="location.reload()">Ya lo desactivé — Reintentar</button>
+    </div></div>
+
+    <header>
+        <div class="header-inner">
+            <a href="index.html" class="logo">⚡ PULSO<span>MX</span></a>
+            <nav class="header-nav">
+                <a href="index.html"><i class="fa-solid fa-arrow-left"></i> <span class="hide-xs">Inicio</span></a>
+                <a href="acerca.html" class="hide-xs">Acerca de</a>
+                <a href="clima.html" class="btn-clima"><i class="fa-solid fa-cloud-sun"></i> <span>Clima</span></a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="ad-top"><div data-anuncio="728"></div><div data-anuncio="320"></div></div>
+
+    <div id="cargando">
+        <i class="fa-solid fa-spinner fa-spin" style="color:var(--rojo);font-size:2rem;"></i>
+        <p style="margin-top:12px;">Cargando noticia…</p>
+    </div>
+
+    <div id="contenido" class="contenedor" style="display:none;">
+        <main>
+            <div class="migas"><a href="index.html">Inicio</a> › <span id="migas-titulo">Noticia</span></div>
+            <article>
+                <span class="etiqueta">Noticia</span>
+                <h1 id="titulo"></h1>
+                <div class="meta">
+                    <span><i class="fa-regular fa-calendar"></i> <span id="fecha"></span></span>
+                    <span><i class="fa-solid fa-newspaper"></i> <span id="medio">PulsoMX</span></span>
+                    <span><i class="fa-solid fa-clock"></i> <span id="lectura">2 min de lectura</span></span>
+                </div>
+                <img id="imagen" alt="" referrerpolicy="no-referrer">
+                <div class="ad-nativo" data-anuncio="nativo"></div>
+                <div id="cuerpo"></div>
+                <div class="fuente">
+                    <i class="fa-solid fa-link" style="color:var(--rojo);margin-right:6px;"></i>
+                    Resumen elaborado con ayuda de inteligencia artificial a partir de la nota original.
+                    Lee la nota completa en la fuente: <a id="fuente-enlace" href="#" target="_blank" rel="noopener noreferrer nofollow"></a>
+                </div>
+                <div class="compartir">
+                    <p><i class="fa-solid fa-share-nodes" style="color:var(--rojo);margin-right:6px;"></i>Compartir esta noticia</p>
+                    <div class="botones">
+                        <a id="c-wa" class="wa" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+                        <a id="c-tw" class="tw" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i> X</a>
+                        <a id="c-fb" class="fb" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i> Facebook</a>
+                    </div>
+                </div>
+            </article>
+            <p class="relacionadas">Noticias relacionadas</p>
+            <div id="relacionadas" class="related-grid"></div>
+        </main>
+        <aside class="sidebar">
+            <div class="widget">
+                <p class="widget-titulo">Últimas noticias</p>
+                <div id="lateral"></div>
+            </div>
+            <div class="ad-sidebar" data-anuncio="320"></div>
+        </aside>
+    </div>
+
+    <div id="premio">
+        <div id="premio-texto"></div>
+        <div id="premio-barra-fondo"><div id="premio-barra"></div></div>
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Inicio</a>
+            <a href="privacidad.html">Política de privacidad</a>
+            <a href="terminos.html">Términos de uso</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="acerca.html">Acerca de</a>
+        </div>
+        <p>© <span id="anio">2026</span> PulsoMX — Resúmenes de noticias de México.</p>
+    </footer>
+
+    <script>
+        var e = Pulso.esc;
+        var idNoticia = new URLSearchParams(location.search).get('id');
+
+        function sinNoticia(msg) {
+            document.getElementById('cargando').innerHTML = '<p>' + e(msg) + '</p><p style="margin-top:14px;"><a href="index.html" style="color:var(--rojo);font-weight:700;">Ver todas las noticias</a></p>';
+        }
+
+        if (!Pulso.idValido(idNoticia)) {
+            sinNoticia('La noticia no existe o fue eliminada.');
+        } else {
+            Pulso.cargarNoticias().then(function (lista) {
+                var n = lista.find(function (x) { return x.id === idNoticia; });
+                if (!n) { sinNoticia('La noticia no existe o fue eliminada.'); return; }
+
+                document.title = n.titulo + ' | PulsoMX';
+                var desc = document.querySelector('meta[name="description"]');
+                desc.setAttribute('content', Pulso.soloTexto(n.resumen).slice(0, 160));
+                document.getElementById('migas-titulo').textContent = n.titulo;
+                document.getElementById('titulo').textContent = n.titulo;
+                document.getElementById('fecha').textContent = Pulso.fechaBonita(n.fecha);
+                if (n.medio) document.getElementById('medio').textContent = 'Fuente: ' + n.medio;
+                var img = document.getElementById('imagen');
+                img.src = Pulso.imagenDe(n);
+                img.alt = n.titulo;
+
+                var texto = Pulso.soloTexto(n.contenido || n.resumen || '');
+                var cuerpo = document.getElementById('cuerpo');
+                texto.split(/\n+/).map(function (p) { return p.trim(); }).filter(Boolean).forEach(function (p) {
+                    var el = document.createElement('p');
+                    el.textContent = p;
+                    cuerpo.appendChild(el);
+                });
+                var palabras = texto.split(/\s+/).length;
+                document.getElementById('lectura').textContent = Math.max(1, Math.round(palabras / 200)) + ' min de lectura';
+
+                var fuente = Pulso.urlSegura(n.url_origen);
+                var aFuente = document.getElementById('fuente-enlace');
+                if (fuente) { aFuente.href = fuente; aFuente.textContent = n.medio || new URL(fuente).hostname; }
+                else { aFuente.removeAttribute('href'); aFuente.textContent = 'no disponible'; }
+
+                var url = encodeURIComponent(location.origin + location.pathname + '?id=' + encodeURIComponent(n.id));
+                var tit = encodeURIComponent(n.titulo);
+                document.getElementById('c-wa').href = 'https://wa.me/?text=' + tit + '%20' + url;
+                document.getElementById('c-tw').href = 'https://twitter.com/intent/tweet?text=' + tit + '&url=' + url;
+                document.getElementById('c-fb').href = 'https://www.facebook.com/sharer/sharer.php?u=' + url;
+
+                var tarjeta = function (x, clase) {
+                    return '<a href="noticia.html?id=' + encodeURIComponent(x.id) + '" class="' + clase + '">' +
+                        '<img src="' + e(Pulso.imagenDe(x)) + '" alt="" loading="lazy" referrerpolicy="no-referrer">';
+                };
+                var otras = lista.filter(function (x) { return x.id !== n.id; }).reverse();
+                document.getElementById('relacionadas').innerHTML = otras.slice(0, 4).map(function (x) {
+                    return tarjeta(x, 'related-card') + '<div class="cuerpo"><h4>' + e(x.titulo) + '</h4></div></a>';
+                }).join('');
+                document.getElementById('lateral').innerHTML = otras.slice(0, 5).map(function (x) {
+                    return tarjeta(x, 'item-lateral') + '<div><span class="fecha">' + e(Pulso.fechaBonita(x.fecha)) + '</span><h4>' + e(x.titulo) + '</h4></div></a>';
+                }).join('');
+
+                document.getElementById('cargando').style.display = 'none';
+                document.getElementById('contenido').style.display = 'grid';
+
+                if (Pulso.pase()) iniciarRecompensa(n.id);
+            }).catch(function () { sinNoticia('Error al cargar la noticia. Intenta de nuevo en un momento.'); });
+        }
+
+        // ---------- Recompensa NetGamer ----------
+        var MENSAJES = {
+            ya_reclamada: 'Ya cobraste esta noticia',
+            limite_diario: '¡Llegaste al límite de noticias de hoy! Vuelve mañana',
+            pase_invalido: 'Tu sesión de NetGamer venció. Entra de nuevo desde NetGamer',
+            noticia_invalida: 'Esta noticia aún no está disponible para recompensa',
+            cuenta_suspendida: 'Tu cuenta de NetGamer está suspendida',
+            muy_pronto: 'Sigue leyendo un poco más…',
+            lectura_no_iniciada: 'No se pudo registrar tu lectura. Recarga la página'
+        };
+        function premioTexto(icono, color, txt) {
+            var t = document.getElementById('premio-texto');
+            t.innerHTML = '<i class="fa-solid ' + icono + '" style="color:' + color + ';margin-right:6px;"></i>';
+            t.appendChild(document.createTextNode(txt));
+        }
+        function premioCerrar(ms) {
+            var w = document.getElementById('premio');
+            setTimeout(function () { w.style.opacity = '0'; setTimeout(function () { w.style.display = 'none'; }, 500); }, ms);
+        }
+        function premioError(codigo) {
+            premioTexto('fa-circle-exclamation', '#ef4444', MENSAJES[codigo] || 'No se pudo acreditar. Intenta más tarde');
+            document.getElementById('premio-barra').style.background = '#ef4444';
+            document.getElementById('premio-barra').style.width = '100%';
+            premioCerrar(4000);
+        }
+
+        function iniciarRecompensa(newsId) {
+            var w = document.getElementById('premio');
+            var barra = document.getElementById('premio-barra');
+            Pulso.llamarRecompensa('iniciar', newsId).then(function (r) {
+                if (r.ya_leida) { w.style.display = 'block'; premioError('ya_reclamada'); return; }
+                if (!r.ok) { if (r.error === 'pase_invalido' || r.error === 'cuenta_suspendida') { w.style.display = 'block'; premioError(r.error); } return; }
+
+                var total = (r.segundos || 30) + 1, pasados = 0;
+                w.style.display = 'block';
+                premioTexto('fa-book-open', '#f5b800', 'Leyendo para ganar ' + r.nc + ' NetCoins');
+                // Solo cuenta mientras la pestaña está a la vista.
+                var reloj = setInterval(function () {
+                    if (document.hidden) return;
+                    pasados++;
+                    barra.style.width = Math.min(100, pasados / total * 100) + '%';
+                    if (pasados >= total) { clearInterval(reloj); cobrar(newsId, 0); }
+                }, 1000);
+            }).catch(function () {});
+        }
+
+        function cobrar(newsId, intento) {
+            premioTexto('fa-spinner fa-spin', '#f5b800', 'Acreditando tus NetCoins…');
+            Pulso.llamarRecompensa('cobrar', newsId).then(function (r) {
+                if (r.ok) {
+                    premioTexto('fa-circle-check', '#10b981', '¡+' + r.nc + ' NetCoins acreditadas en tu cuenta de NetGamer!');
+                    document.getElementById('premio-barra').style.background = '#10b981';
+                    premioCerrar(4000);
+                } else if (r.error === 'muy_pronto' && intento < 3) {
+                    premioTexto('fa-book-open', '#f5b800', MENSAJES.muy_pronto);
+                    setTimeout(function () { cobrar(newsId, intento + 1); }, 4000);
+                } else {
+                    premioError(r.error);
+                }
+            }).catch(function () { premioError('red'); });
+        }
+    </script>
+</body>
+</html>
