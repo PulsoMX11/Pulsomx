@@ -12,6 +12,7 @@ import hashlib
 import json
 import os
 import re
+import sys
 import time
 import urllib.parse
 import xml.etree.ElementTree as ET
@@ -26,16 +27,17 @@ NOTICIAS_POR_CORRIDA = 4          # notas nuevas cada vez que corre
 POR_MEDIO = 1                     # máximo por medio en cada corrida (variedad)
 MAXIMO_GUARDADAS = 100            # el archivo guarda solo las últimas 100
 MIN_PALABRAS_FUENTE = 80          # si la nota original trae menos texto, no se publica
+INTENTOS_POR_MEDIO = 6            # notas que revisa de cada medio antes de pasar al siguiente
+FALLAS_IA_SEGUIDAS = 3            # si la IA falla 3 veces seguidas, se detiene (clave o modelo mal)
 
-# Revisados en noviembre de 2026. Si un medio cambia su RSS, el robot lo
-# salta y sigue con los demás; solo hay que corregir la dirección aquí.
+# Revisados en noviembre de 2026. El Universal y La Jornada se quitaron:
+# sus páginas no dejan leer el texto de la nota. Si un medio cambia su RSS,
+# el robot lo salta y sigue con los demás; solo hay que corregir la dirección aquí.
 RSS_FEEDS = [
-    ("El Universal", "https://www.eluniversal.com.mx/arc/outboundfeeds/rss/?outputType=xml"),
     ("Infobae México", "https://www.infobae.com/arc/outboundfeeds/rss/category/mexico/?outputType=xml"),
     ("El Financiero", "https://www.elfinanciero.com.mx/arc/outboundfeeds/rss/?outputType=xml"),
     ("El Economista", "https://www.eleconomista.com.mx/rss/ultimas-noticias"),
     ("Expansión", "https://expansion.mx/rss"),
-    ("La Jornada", "https://www.jornada.com.mx/rss/edicion.xml?v=1"),
 ]
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -216,17 +218,27 @@ def leer_feed(url):
 
 
 def ejecutar():
+    if not GROQ_API_KEY:
+        print("❌ Falta el secreto GROQ_API_KEY en el repositorio.")
+        print("   GitHub → Settings → Secrets and variables → Actions → New repository secret")
+        print("   Nombre: GROQ_API_KEY   Valor: tu clave de https://console.groq.com/keys")
+        sys.exit(1)
+
     guardadas = cargar_noticias()
     ya = {n.get("id") for n in guardadas} | {n.get("titulo_original") for n in guardadas}
     nuevas = 0
+    fallas_ia = 0
 
     for medio, feed in RSS_FEEDS:
-        if nuevas >= NOTICIAS_POR_CORRIDA:
+        if nuevas >= NOTICIAS_POR_CORRIDA or fallas_ia >= FALLAS_IA_SEGUIDAS:
             break
         print(f"\n📡 {medio}: {feed}")
         de_este_medio = 0
+        intentos = 0
         for titulo, enlace in leer_feed(feed):
-            if nuevas >= NOTICIAS_POR_CORRIDA or de_este_medio >= POR_MEDIO:
+            if nuevas >= NOTICIAS_POR_CORRIDA or de_este_medio >= POR_MEDIO or intentos >= INTENTOS_POR_MEDIO:
+                break
+            if fallas_ia >= FALLAS_IA_SEGUIDAS:
                 break
             titulo = limpiar(titulo, 200)
             enlace = (enlace or "").strip()
@@ -236,6 +248,7 @@ def ejecutar():
             if nid in ya or titulo in ya:
                 continue
 
+            intentos += 1
             print(f"\n🔄 {titulo[:70]}")
             imagen, texto = leer_articulo(enlace)
             if len(texto.split()) < MIN_PALABRAS_FUENTE:
@@ -245,7 +258,9 @@ def ejecutar():
 
             resultado = resumir_con_ia(titulo, texto, medio)
             if not resultado:
+                fallas_ia += 1
                 continue
+            fallas_ia = 0
             titulo_ia, resumen, contenido = resultado
 
             guardadas.append({
@@ -270,6 +285,11 @@ def ejecutar():
         print(f"\n💾 {nuevas} noticias nuevas guardadas.")
     else:
         print("\nℹ️ No hay noticias nuevas.")
+
+    if fallas_ia >= FALLAS_IA_SEGUIDAS:
+        print("\n❌ La IA falló varias veces seguidas. Revisa que GROQ_API_KEY sea correcta "
+              "y que el modelo GROQ_MODEL siga existiendo en Groq (mensajes de arriba).")
+        sys.exit(1)
 
 
 if __name__ == "__main__":
