@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PulsoMX | Últimas noticias de México</title>
+    <meta name="description" content="PulsoMX: resúmenes de las noticias más importantes de México, actualizados cada hora, con enlace a la fuente original.">
+    <meta name="robots" content="index, follow">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="PulsoMX">
+    <meta property="og:title" content="PulsoMX | Últimas noticias de México">
+    <meta property="og:description" content="Resúmenes de las noticias más importantes de México, actualizados cada hora.">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E⚡%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/estilos.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2125166334282472" crossorigin="anonymous"></script>
+    <script src="assets/comun.js"></script>
+</head>
+<body>
+    <div id="bloqueo"><div class="caja">
+        <div class="bq-icono"></div><h2 class="bq-titulo"></h2><p class="bq-texto"></p>
+        <button type="button" onclick="location.reload()">Ya lo desactivé — Reintentar</button>
+    </div></div>
+
+    <header>
+        <div class="header-inner">
+            <a href="index.html" class="logo">⚡ PULSO<span>MX</span></a>
+            <nav class="header-nav">
+                <a href="index.html"><i class="fa-solid fa-house"></i> <span class="hide-xs">Inicio</span></a>
+                <a href="acerca.html" class="hide-xs">Acerca de</a>
+                <a href="contacto.html" class="hide-xs">Contacto</a>
+                <a href="clima.html" class="btn-clima"><i class="fa-solid fa-cloud-sun"></i> <span>Clima</span></a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="ahora"><div class="ahora-inner"><b>🔴 Ahora</b><span id="ahora-texto">Cargando titulares...</span></div></div>
+
+    <div class="ad-top"><div data-anuncio="728"></div><div data-anuncio="320"></div></div>
+
+    <div class="contenedor">
+        <main>
+            <p class="titulo-seccion">Titulares de hoy</p>
+            <div id="destacada">
+                <div class="hero-card">
+                    <div class="skeleton" style="height:clamp(180px,35vw,340px);"></div>
+                    <div class="cuerpo">
+                        <div class="skeleton" style="height:18px;width:70px;margin-bottom:10px;"></div>
+                        <div class="skeleton" style="height:32px;margin-bottom:8px;"></div>
+                        <div class="skeleton" style="height:14px;"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="lista" class="news-grid"></div>
+        </main>
+
+        <aside class="sidebar">
+            <div class="widget">
+                <p class="widget-titulo">Lo más reciente</p>
+                <div id="lateral"></div>
+            </div>
+            <div class="ad-sidebar" data-anuncio="320"></div>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Inicio</a>
+            <a href="privacidad.html">Política de privacidad</a>
+            <a href="terminos.html">Términos de uso</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="acerca.html">Acerca de</a>
+        </div>
+        <p>© <span id="anio">2026</span> PulsoMX — Resúmenes de noticias de México.</p>
+        <p style="margin-top:5px;font-size:.72rem;opacity:.6;">Cada nota es un resumen hecho con ayuda de inteligencia artificial a partir de una fuente pública, enlazada en la propia nota.</p>
+    </footer>
+
+    <script>
+        Pulso.cargarNoticias().then(function (lista) {
+            var noticias = lista.slice().reverse();
+            var destacada = document.getElementById('destacada');
+            var cuadricula = document.getElementById('lista');
+            if (!noticias.length) {
+                destacada.innerHTML = '';
+                cuadricula.innerHTML = '<p class="mensaje-vacio">Esperando la primera actualización automática de noticias…</p>';
+                document.getElementById('ahora-texto').textContent = 'Pronto habrá noticias nuevas.';
+                return;
+            }
+            var e = Pulso.esc;
+            var enlace = function (n) { return 'noticia.html?id=' + encodeURIComponent(n.id); };
+
+            document.getElementById('ahora-texto').textContent = noticias[0].titulo;
+
+            var h = noticias[0];
+            destacada.innerHTML =
+                '<a href="' + enlace(h) + '" class="hero-card">' +
+                    '<img src="' + e(Pulso.imagenDe(h)) + '" alt="' + e(h.titulo) + '" referrerpolicy="no-referrer">' +
+                    '<div class="cuerpo"><span class="etiqueta">Destacado</span>' +
+                    '<h2>' + e(h.titulo) + '</h2><p>' + e(Pulso.soloTexto(h.resumen)) + '</p></div></a>';
+
+            cuadricula.innerHTML = noticias.slice(1).map(function (n) {
+                return '<a href="' + enlace(n) + '" class="news-card">' +
+                    '<img src="' + e(Pulso.imagenDe(n)) + '" alt="' + e(n.titulo) + '" loading="lazy" referrerpolicy="no-referrer">' +
+                    '<div class="cuerpo"><span class="fecha">' + e(Pulso.fechaBonita(n.fecha)) + '</span>' +
+                    '<h3>' + e(n.titulo) + '</h3></div></a>';
+            }).join('');
+
+            document.getElementById('lateral').innerHTML = noticias.slice(0, 5).map(function (n) {
+                return '<a href="' + enlace(n) + '" class="item-lateral">' +
+                    '<img src="' + e(Pulso.imagenDe(n)) + '" alt="" loading="lazy" referrerpolicy="no-referrer">' +
+                    '<div><span class="fecha">' + e(Pulso.fechaBonita(n.fecha)) + '</span><h4>' + e(n.titulo) + '</h4></div></a>';
+            }).join('');
+        }).catch(function () {
+            document.getElementById('destacada').innerHTML = '';
+            document.getElementById('lista').innerHTML = '<p class="mensaje-vacio">No se pudieron cargar las noticias. Intenta de nuevo en un momento.</p>';
+        });
+    </script>
+</body>
+</html>
