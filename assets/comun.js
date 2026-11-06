@@ -84,20 +84,38 @@
         f.srcdoc = html;
         return f;
     }
-    function banner(clave, ancho, alto) {
+    // Códigos de la cuenta de Adsterra de PulsoMX (noviembre 2026).
+    var ADSTERRA = 'https://bicea.org/';
+    var BANNERS = {
+        '728': { clave: '44e137e6d33aa4280151f43fd00f1752', ancho: 728, alto: 90 },
+        '320': { clave: 'def4ddf591b20ecedd81f6c879ee3af9', ancho: 320, alto: 50 },
+        '300': { clave: 'a9224cfe05c2fd433ca41cf91284b6e0', ancho: 300, alto: 250 }
+    };
+    var NATIVO = '218cf3d0291e7fe915744383c963ba2f';
+    var SOCIAL_BAR = '4812bf929af118cdeb835f7c0e523b6b';
+
+    function banner(b) {
         return marcoAnuncio(
-            "<html><body style='margin:0;overflow:hidden;'><script>atOptions={'key':'" + clave + "','format':'iframe','height':" + alto + ",'width':" + ancho + ",'params':{}};<\/script><script src='https://www.highperformanceformat.com/" + clave + "/invoke.js'><\/script></body></html>",
-            'width:' + ancho + 'px;height:' + alto + 'px;max-width:100%;');
+            "<html><body style='margin:0;overflow:hidden;'><script>atOptions={'key':'" + b.clave + "','format':'iframe','height':" + b.alto + ",'width':" + b.ancho + ",'params':{}};<\/script><script src='" + ADSTERRA + "22/" + b.clave + "'><\/script></body></html>",
+            'width:' + b.ancho + 'px;height:' + b.alto + 'px;max-width:100%;');
     }
     function ponerAnuncios() {
         document.querySelectorAll('[data-anuncio]').forEach(function (slot) {
             var tipo = slot.getAttribute('data-anuncio');
-            if (tipo === '728') slot.appendChild(banner('a8e7cb655ddcbb7f2cccc17b6ec2d6d5', 728, 90));
-            else if (tipo === '320') slot.appendChild(banner('d81fb80d3a74926f5784b40947a9ab68', 320, 50));
+            if (BANNERS[tipo]) slot.appendChild(banner(BANNERS[tipo]));
             else if (tipo === 'nativo') slot.appendChild(marcoAnuncio(
-                "<html><body style='margin:0;'><div id='container-c242865b5697b34c2e6ac92e118e339e'></div><script async data-cfasync='false' src='https://pl30307316.effectivecpmnetwork.com/c242865b5697b34c2e6ac92e118e339e/invoke.js'><\/script></body></html>",
-                'width:100%;height:250px;'));
+                "<html><body style='margin:0;'><script async data-cfasync='false' src='" + ADSTERRA + "21/" + NATIVO + "'><\/script><div id='container-" + NATIVO + "'></div></body></html>",
+                'width:100%;height:260px;'));
         });
+        // Social Bar: solo en las páginas que lo piden (<body data-social-bar>).
+        // Necesita estar en la página misma (no en un marco) para poder mostrarse.
+        if (document.body.hasAttribute('data-social-bar')) {
+            var s = document.createElement('script');
+            s.src = ADSTERRA + '14/' + SOCIAL_BAR;
+            s.setAttribute('data-cfasync', 'false');
+            s.async = true;
+            document.body.appendChild(s);
+        }
     }
 
     // ---------- Bloqueador de anuncios / VPN ----------
