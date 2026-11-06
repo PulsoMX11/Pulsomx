@@ -43,10 +43,15 @@
     </style>
 </head>
 <body data-social-bar>
-    <div id="bloqueo"><div class="caja">
-        <div class="bq-icono"></div><h2 class="bq-titulo"></h2><p class="bq-texto"></p>
-        <button type="button" onclick="location.reload()">Ya lo desactivé — Reintentar</button>
-    </div></div>
+    <div id="bloqueo-overlay">
+        <div id="bloqueo-card">
+            <div id="bloqueo-icono">🛡️</div>
+            <h2 id="bloqueo-titulo">Acceso bloqueado</h2>
+            <p id="bloqueo-mensaje"></p>
+            <div id="bloqueo-instrucciones-box"><p id="bloqueo-instrucciones"></p></div>
+            <button type="button" id="btn-reintentar">Ya lo desactivé — Reintentar</button>
+        </div>
+    </div>
 
     <header>
         <div class="header-inner">

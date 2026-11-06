@@ -83,11 +83,15 @@ footer a { color:var(--amarillo); text-decoration:none; }
 @keyframes brillo { 0% { background-position:200% 0; } 100% { background-position:-200% 0; } }
 .mensaje-vacio { color:#888; padding:40px 16px; text-align:center; grid-column:1/-1; }
 
-/* Aviso de bloqueador / VPN */
-#bloqueo { display:none; position:fixed; inset:0; background:rgba(15,23,42,.97); z-index:999999; align-items:center; justify-content:center; padding:20px; }
-#bloqueo.activo { display:flex; }
-#bloqueo .caja { background:#1e293b; border:1px solid #334155; border-radius:20px; padding:36px 28px; max-width:440px; width:100%; text-align:center; color:#f1f5f9; }
-#bloqueo .bq-icono { font-size:3rem; margin-bottom:12px; }
-#bloqueo .bq-titulo { font-size:1.4rem; font-weight:800; margin-bottom:10px; }
-#bloqueo .bq-texto { color:#94a3b8; font-size:.9rem; line-height:1.5; margin-bottom:20px; }
-#bloqueo button { width:100%; background:#9333ea; color:#fff; font-weight:700; padding:12px; border-radius:12px; border:none; cursor:pointer; font-size:.9rem; }
+/* Aviso de bloqueador / VPN (diseño original de PulsoMX) */
+#bloqueo-overlay { display:none; position:fixed; inset:0; overflow-y:auto; background:rgba(15,23,42,.98); z-index:999999; align-items:center; justify-content:center; padding:20px; font-family:sans-serif; }
+#bloqueo-overlay.activo { display:flex; }
+#bloqueo-card { margin:auto; background:#1e293b; border:1px solid #334155; border-radius:20px; padding:40px 32px; max-width:460px; width:100%; text-align:center; color:#f1f5f9; box-shadow:0 25px 50px -12px rgba(0,0,0,.5); }
+#bloqueo-icono { font-size:3.5rem; margin-bottom:1.2rem; }
+#bloqueo-titulo { font-size:1.5rem; font-weight:800; color:#fff; margin-bottom:.7rem; }
+#bloqueo-mensaje { color:#94a3b8; font-size:.85rem; line-height:1.5; margin-bottom:1.5rem; }
+#bloqueo-instrucciones-box { background:#0f172a; border:1px solid #334155; border-radius:12px; padding:15px; font-size:.8rem; color:#94a3b8; text-align:left; margin-bottom:1.5rem; line-height:1.6; }
+#bloqueo-instrucciones-box b, #bloqueo-instrucciones-box strong { color:#fff; }
+#btn-reintentar { width:100%; background:#9333ea; color:#fff; font-weight:bold; padding:12px; border-radius:12px; border:none; cursor:pointer; font-size:.9rem; transition:background .2s; }
+#btn-reintentar:hover { background:#7e22ce; }
+#btn-reintentar:disabled { opacity:.6; cursor:wait; }

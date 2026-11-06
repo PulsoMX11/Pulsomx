@@ -124,17 +124,47 @@
 
     // ---------- Bloqueador de anuncios / VPN ----------
     // Solo se revisa la VPN a quien viene de NetGamer (es quien cobra NC).
+    var INSTRUCCIONES = {
+        adblock: '<strong style="display:block;margin-bottom:8px;">Desactiva tu bloqueador para este sitio:</strong>' +
+            '• <b>uBlock / AdBlock:</b> clic en el ícono → desactivar para este sitio<br>' +
+            '• <b>Malwarebytes Browser Guard:</b> clic en el ícono → agregar este sitio a permitidos<br>' +
+            '• <b>Brave Shields:</b> clic en el escudo 🦁 → bajar a "Sin bloqueo"<br>' +
+            '• <b>Firefox:</b> clic en el escudo 🛡️ → desactivar protección mejorada<br>' +
+            '• <b>Opera:</b> Ajustes → Ad Blocker → desactivar',
+        vpn: '<strong style="display:block;margin-bottom:8px;">Desactiva tu VPN/Proxy:</strong>' +
+            '• Desconéctate de cualquier VPN activa<br>' +
+            '• Desactiva extensiones proxy en tu navegador<br>' +
+            '• Cierra Tor Browser o cualquier anonimizador<br>' +
+            '• Conéctate directo a tu red de casa o a tus datos móviles'
+    };
     function avisoBloqueo(tipo) {
-        var caja = document.getElementById('bloqueo');
+        var caja = document.getElementById('bloqueo-overlay');
         if (!caja) return;
         var adb = tipo === 'adblock';
-        caja.querySelector('.bq-icono').textContent = adb ? '🚫' : '🔒';
-        caja.querySelector('.bq-titulo').textContent = adb ? 'Bloqueador de anuncios detectado' : 'VPN o proxy detectado';
-        caja.querySelector('.bq-texto').textContent = adb
-            ? 'PulsoMX se mantiene gracias a los anuncios. Desactiva tu bloqueador para este sitio y vuelve a intentar.'
-            : 'Para proteger las recompensas de NetGamer no se permite usar VPN, proxy o Tor. Desconéctalo y vuelve a intentar.';
+        document.getElementById('bloqueo-icono').textContent = adb ? '🚫' : '🔒';
+        document.getElementById('bloqueo-titulo').textContent = adb ? 'Bloqueador de anuncios detectado' : 'VPN / Proxy / Tor detectado';
+        document.getElementById('bloqueo-mensaje').textContent = adb
+            ? 'PulsoMX se financia con anuncios para poder mantener la plataforma. Con un bloqueador activo no podemos operar.'
+            : 'El uso de VPN, proxies o redes de anonimización está prohibido para prevenir fraudes en el sistema de recompensas.';
+        document.getElementById('bloqueo-instrucciones').innerHTML = INSTRUCCIONES[adb ? 'adblock' : 'vpn'];
+        document.getElementById('bloqueo-instrucciones-box').style.display = 'block';
+        var btn = document.getElementById('btn-reintentar');
+        btn.style.display = '';
+        btn.disabled = false;
         caja.classList.add('activo');
         document.body.style.overflow = 'hidden';
+    }
+    function mostrarVerificando() {
+        document.getElementById('bloqueo-icono').textContent = '⏳';
+        document.getElementById('bloqueo-titulo').textContent = 'Verificando...';
+        document.getElementById('bloqueo-mensaje').textContent = 'Analizando tu conexión, por favor espera unos segundos.';
+        document.getElementById('bloqueo-instrucciones-box').style.display = 'none';
+        document.getElementById('btn-reintentar').disabled = true;
+    }
+    function ocultarBloqueo() {
+        var caja = document.getElementById('bloqueo-overlay');
+        if (caja) caja.classList.remove('activo');
+        document.body.style.overflow = '';
     }
     // Señal 1: un "cebo" con clases de anuncio que los bloqueadores esconden.
     function ceboEscondido() {
@@ -181,14 +211,30 @@
           .then(function (d) { return d.vpn === true; })
           .catch(function () { return false; });
     }
+    // Primero la VPN (a quien viene de NetGamer): muchas VPN también bloquean
+    // anuncios, y así el aviso dice la causa real.
     function revisarBloqueos() {
-        return hayAdblock().then(function (adb) {
-            if (adb) { avisoBloqueo('adblock'); return false; }
-            if (!pase()) return true;
-            return hayVpn().then(function (vpn) { if (vpn) { avisoBloqueo('vpn'); return false; } return true; });
+        var vpnPromesa = pase() ? hayVpn() : Promise.resolve(false);
+        return Promise.all([vpnPromesa, hayAdblock()]).then(function (r) {
+            if (r[0]) { avisoBloqueo('vpn'); return false; }
+            if (r[1]) { avisoBloqueo('adblock'); return false; }
+            ocultarBloqueo();
+            return true;
         });
     }
     var verificacion = null;
+    var revisando = false;
+    function reintentar() {
+        if (revisando) return;
+        revisando = true;
+        mostrarVerificando();
+        verificacion = revisarBloqueos();
+        verificacion.then(function (ok) {
+            revisando = false;
+            // Si ya está limpio, se recarga para que arranquen los anuncios y la barra de NetCoins.
+            if (ok) location.reload();
+        }, function () { revisando = false; });
+    }
 
     window.Pulso = {
         esc: esc, soloTexto: soloTexto, urlSegura: urlSegura, idValido: idValido, fechaBonita: fechaBonita,
@@ -203,6 +249,14 @@
         var a = document.getElementById('anio');
         if (a) a.textContent = new Date().getFullYear();
         ponerAnuncios();
+        var btn = document.getElementById('btn-reintentar');
+        if (btn) btn.addEventListener('click', reintentar);
         verificacion = revisarBloqueos();
+        // Como el original: se vuelve a revisar cada 30 s (por si activan el bloqueador o la VPN después).
+        setInterval(function () {
+            var caja = document.getElementById('bloqueo-overlay');
+            if (revisando || document.hidden || (caja && caja.classList.contains('activo'))) return;
+            revisarBloqueos();
+        }, 30000);
     });
 })();
