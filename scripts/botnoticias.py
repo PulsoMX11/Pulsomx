@@ -43,8 +43,20 @@ RSS_FEEDS = [
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 JSON_PATH = os.path.join(RAIZ, "data", "noticias.json")
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-# Si Groq retira este modelo, cambia GROQ_MODEL en el workflow (no hace falta tocar este archivo).
-GROQ_MODEL = os.getenv("GROQ_MODEL") or "llama-3.3-70b-versatile"
+# Groq retira modelos con el tiempo, así que el robot pregunta cuáles hay y
+# usa el primero de esta lista que siga disponible (o GROQ_MODEL si lo pones
+# en el workflow). Si ninguno existe, toma cualquier modelo de texto activo.
+MODELOS_PREFERIDOS = [
+    "openai/gpt-oss-120b",
+    "llama-3.3-70b-versatile",
+    "meta-llama/llama-4-maverick-17b-128e-instruct",
+    "qwen/qwen3-32b",
+    "openai/gpt-oss-20b",
+    "meta-llama/llama-4-scout-17b-16e-instruct",
+    "llama-3.1-8b-instant",
+]
+NO_SON_DE_TEXTO = ("whisper", "tts", "guard", "playai", "orpheus", "prompt", "distil", "compound", "allam", "embed", "vision")
+GROQ_MODEL = None  # se elige al arrancar (elegir_modelo)
 HORA_MX = timezone(timedelta(hours=-6))
 
 session = requests.Session()
@@ -117,6 +129,40 @@ def leer_articulo(url):
         return None, ""
 
 
+def elegir_modelo():
+    """Pregunta a Groq qué modelos hay y elige uno. Devuelve None si no se pudo."""
+    try:
+        r = requests.get("https://api.groq.com/openai/v1/models",
+                         headers={"Authorization": f"Bearer {GROQ_API_KEY}"}, timeout=20)
+        datos = r.json()
+        if "data" not in datos:
+            print(f"❌ Groq no respondió la lista de modelos: {datos.get('error', {}).get('message', r.status_code)}")
+            return None
+        disponibles = [m["id"] for m in datos["data"] if m.get("active", True)]
+    except Exception as e:
+        print(f"❌ No se pudo consultar Groq: {e}")
+        return None
+
+    pedido = (os.getenv("GROQ_MODEL") or "").strip()
+    for candidato in ([pedido] if pedido else []) + MODELOS_PREFERIDOS:
+        if candidato in disponibles:
+            return candidato
+    de_texto = [m for m in disponibles if not any(x in m.lower() for x in NO_SON_DE_TEXTO)]
+    if de_texto:
+        return de_texto[0]
+    print(f"❌ Ningún modelo de texto disponible. Groq ofrece: {', '.join(disponibles)}")
+    return None
+
+
+def extraer_json(crudo):
+    crudo = re.sub(r"<think>.*?</think>", "", crudo, flags=re.S).strip()   # modelos que "piensan en voz alta"
+    crudo = re.sub(r"^```(?:json)?\s*|\s*```$", "", crudo)
+    inicio, fin = crudo.find("{"), crudo.rfind("}")
+    if inicio == -1 or fin <= inicio:
+        raise ValueError("la respuesta no trae JSON")
+    return json.loads(crudo[inicio:fin + 1])
+
+
 def resumir_con_ia(titulo, texto_fuente, medio):
     """Resumen basado SOLO en el texto de la fuente. Si algo falla, devuelve None
     (la nota no se publica: nunca se publica texto inventado)."""
@@ -142,28 +188,33 @@ def resumir_con_ia(titulo, texto_fuente, medio):
         "Si la fuente es corta, el contenido también puede serlo."
     )
 
-    for intento in range(2):
+    modo_json = True
+    for intento in range(3):
         try:
+            cuerpo = {
+                "model": GROQ_MODEL,
+                "messages": [{"role": "system", "content": instrucciones}, {"role": "user", "content": pedido}],
+                "temperature": 0.3,
+                "max_tokens": 2500,
+            }
+            if modo_json:
+                cuerpo["response_format"] = {"type": "json_object"}
             r = requests.post(
                 "https://api.groq.com/openai/v1/chat/completions",
                 headers={"Authorization": f"Bearer {GROQ_API_KEY}", "Content-Type": "application/json"},
-                json={
-                    "model": GROQ_MODEL,
-                    "messages": [{"role": "system", "content": instrucciones}, {"role": "user", "content": pedido}],
-                    "response_format": {"type": "json_object"},
-                    "temperature": 0.3,
-                    "max_tokens": 1200,
-                },
-                timeout=60,
+                json=cuerpo,
+                timeout=90,
             )
             res = r.json()
             if "choices" not in res:
-                print(f"   ⚠️ Groq respondió: {res.get('error', {}).get('message', r.status_code)}")
+                msg = str(res.get("error", {}).get("message", r.status_code))
+                print(f"   ⚠️ Groq respondió: {msg}")
+                if modo_json and ("response_format" in msg or "json" in msg.lower()):
+                    modo_json = False   # este modelo no acepta el modo JSON; se pide como texto
+                    continue
                 time.sleep(8)
                 continue
-            crudo = res["choices"][0]["message"]["content"].strip()
-            crudo = re.sub(r"^```(?:json)?\s*|\s*```$", "", crudo)
-            data = json.loads(crudo)
+            data = extraer_json(res["choices"][0]["message"].get("content") or "")
             titulo_ia = limpiar(str(data.get("titulo", "")), 140)
             resumen = str(data.get("resumen", "")).strip()
             contenido = str(data.get("contenido", "")).strip()
@@ -223,6 +274,12 @@ def ejecutar():
         print("   GitHub → Settings → Secrets and variables → Actions → New repository secret")
         print("   Nombre: GROQ_API_KEY   Valor: tu clave de https://console.groq.com/keys")
         sys.exit(1)
+
+    global GROQ_MODEL
+    GROQ_MODEL = elegir_modelo()
+    if not GROQ_MODEL:
+        sys.exit(1)
+    print(f"🤖 Modelo de IA: {GROQ_MODEL}")
 
     guardadas = cargar_noticias()
     ya = {n.get("id") for n in guardadas} | {n.get("titulo_original") for n in guardadas}
