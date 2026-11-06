@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="assets/estilos.css">
     <script src="assets/comun.js"></script>
+    <script src="assets/tutorial.js"></script>
 </head>
 <body>
     <div id="bloqueo-overlay">
@@ -144,6 +145,12 @@
                     '<div>' + etiqueta(n) + '<span class="fecha">' + e(Pulso.fechaBonita(n.fecha)) + '</span><h4>' + e(n.titulo) + '</h4></div></a>';
             }).join('');
             pintar();
+            // Tutorial de NetCoins: solo a quien viene de NetGamer y no está bloqueado.
+            if (Pulso.pase()) Pulso.verificado().then(function (ok) {
+                if (!ok) return;
+                PulsoTutorial.portada(false);
+                PulsoTutorial.botonAyuda(function () { PulsoTutorial.portada(true); });
+            });
         }).catch(function () {
             document.getElementById('destacada').innerHTML = '';
             document.getElementById('lista').innerHTML = '<p class="mensaje-vacio">No se pudieron cargar las noticias. Intenta de nuevo en un momento.</p>';

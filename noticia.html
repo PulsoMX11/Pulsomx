@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="assets/estilos.css">
     <script src="assets/comun.js"></script>
+    <script src="assets/tutorial.js"></script>
     <style>
         .migas { font-size:.78rem; color:var(--texto-suave); margin-bottom:14px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
         .migas a { color:var(--rojo); text-decoration:none; }
@@ -188,7 +189,12 @@
                 document.getElementById('contenido').style.display = 'grid';
 
                 // La barra de NetCoins solo arranca si no hay bloqueador ni VPN.
-                if (Pulso.pase()) Pulso.verificado().then(function (ok) { if (ok) iniciarRecompensa(n.id); });
+                // La primera vez se muestra el tutorial y la barra arranca al terminarlo.
+                if (Pulso.pase()) Pulso.verificado().then(function (ok) {
+                    if (!ok) return;
+                    PulsoTutorial.noticia(false, function () { iniciarRecompensa(n.id); });
+                    PulsoTutorial.botonAyuda(function () { PulsoTutorial.noticia(true); });
+                });
             }).catch(function () { sinNoticia('Error al cargar la noticia. Intenta de nuevo en un momento.'); });
         }
 
