@@ -71,9 +71,13 @@
     }
 
     // ---------- Anuncios ----------
-    // Cada anuncio va en su propio marco SIN acceso a la página
-    // (sin allow-same-origin): no puede leer el pase ni cambiar nada.
-    var SANDBOX = 'allow-scripts allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation';
+    // Cada anuncio va en su propio marco. Adsterra necesita cookies y
+    // almacenamiento para servir anuncios, y eso solo funciona con
+    // allow-same-origin. El marco sigue evitando que el anuncio escriba
+    // sobre la página o la mande a otro sitio sin que el lector haga clic.
+    // (Lo más que podría leer es el pase de NetGamer, que solo acredita
+    // NetCoins a su propio dueño.)
+    var SANDBOX = 'allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation';
     function marcoAnuncio(html, css) {
         var f = document.createElement('iframe');
         f.title = 'Publicidad';
