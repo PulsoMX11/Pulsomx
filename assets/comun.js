@@ -104,8 +104,14 @@
             'width:' + b.ancho + 'px;height:' + b.alto + 'px;max-width:100%;');
     }
     function ponerAnuncios() {
+        // El banner de arriba existe en dos tamaños (728 computadora, 320 celular).
+        // Solo se carga el que corresponde a la pantalla: un anuncio escondido con
+        // CSS se descarga igual y cuenta impresiones que nadie ve. Mismo corte que
+        // el CSS (767px).
+        var esCelular = window.matchMedia('(max-width:767px)').matches;
         document.querySelectorAll('[data-anuncio]').forEach(function (slot) {
             var tipo = slot.getAttribute('data-anuncio');
+            if ((tipo === '728' && esCelular) || (tipo === '320' && !esCelular)) return;
             if (BANNERS[tipo]) slot.appendChild(banner(BANNERS[tipo]));
             else if (tipo === 'nativo') slot.appendChild(marcoAnuncio(
                 "<html><body style='margin:0;'><script async data-cfasync='false' src='" + ADSTERRA + "21/" + NATIVO + "'><\/script><div id='container-" + NATIVO + "'></div></body></html>",
