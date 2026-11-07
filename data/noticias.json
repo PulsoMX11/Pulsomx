@@ -1758,5 +1758,57 @@
     "region": "Europa",
     "medio": "DW Español",
     "url_origen": "https://www.dw.com/es/piratas-informáticos-atacan-al-ministro-de-relaciones-exteriores-de-italia/a-79884576?maca=spa-rss-sp-all-1122-xml-mrss"
+  },
+  {
+    "id": "n-1c1d12f05c1c",
+    "titulo_original": "Detienen al expresidente Santiago Peña en su casa mientras avanza la investigación en Paraguay",
+    "titulo": "Detienen al ex presidente paraguayo Santiago Peña tras su destitución",
+    "resumen": "El expresidente Santiago Peña fue detenido en su domicilio el 6 de noviembre, tras ser destituido en un juicio político. La Fiscalía lo investiga por lesión de confianza, tráfico de influencias y administración en provecho propio, mientras el Banco Central inicia la devolución de depósitos afectados por la crisis bancaria.",
+    "contenido": "El expresidente de Paraguay, Santiago Peña, fue detenido el viernes 6 de noviembre en su casa de Asunción, minutos después de ser destituido mediante un juicio político. Su salida del poder se dio en medio de una crisis bancaria que dejó a millones de personas sin acceso a sus ahorros y generó protestas en el país.\n\nLa Fiscalía investiga a Peña por presuntos delitos de lesión de confianza, tráfico de influencias y administración en provecho propio. Deberá comparecer el sábado 7 de noviembre a las 11:00 horas locales (14:00 GMT) para ser interrogado. La fiscal Silvia Margarita González Vester confirmó que el expresidente permanecerá detenido en su domicilio y no será trasladado a un centro penitenciario.\n\nEl vicepresidente Pedro Alliana juró como nuevo mandatario tras la destitución de Peña, que se aprobó con 44 votos a favor y una ausencia en el Senado de 45 miembros. Alliana prometió compensar plenamente a los ahorristas afectados por la crisis financiera que precipitó la caída de su antecesor.\n\nEl conflicto financiero comenzó el 3 de noviembre, cuando el Banco Central intervino a Ueno Bank por problemas de solvencia, dejando sin acceso a su dinero a unos tres millones de clientes. La medida desencadenó tres días de manifestaciones, con alrededor de 250 personas frente al Congreso y pancartas que exigían \"Peña preso\".\n\nAnte la situación, el Banco Central inició la entrega de anticipos del Fondo de Garantía de Depósitos (FGD) el 5 de noviembre por la tarde. La primera etapa beneficia a ahorristas que tengan depósitos de hasta 10 millones de guaraníes (aprox. 1,600 dólares), no tengan préstamos pendientes con Ueno Bank y cuenten con una cuenta en otra institución financiera. Los pagos se acreditan automáticamente en esas cuentas, aunque el Banco Central no ha divulgado cuántos beneficiarios han recibido ya los anticipos.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fcdn-3.expansion.mx%2Fdims4%2Fdefault%2F4e8dbc0%2F2147483647%2Fstrip%2Ftrue%2Fcrop%2F2100x1103%2B0%2B149%2Fresize%2F1200x630%21%2Fformat%2Fjpg%2Fquality%2F80%2F%3Furl%3Dhttps%253A%252F%252Fcdn-3.expansion.mx%252Ffa%252Fdb%252Fe1625ada4270841017f94a0b86d5%252Fsantiago-pena-expresidente-paraguay.jpg",
+    "fecha": "2026-11-07",
+    "seccion": "mexico",
+    "region": "Paraguay",
+    "medio": "Expansión",
+    "url_origen": "https://expansion.mx/mundo/2026/11/06/detienen-santiago-pena-expresidente-paraguay"
+  },
+  {
+    "id": "n-abd9b2b6bd02",
+    "titulo_original": "Tu mango con chile va con IA de la que pica: Así usa Tajín la inteligencia artificial",
+    "titulo": "Tajín implementa IA de Oracle para modernizar sus procesos administrativos",
+    "resumen": "Álvaro Fernández lideró la transformación digital de Tajín, sustituyendo Excel por una plataforma de inteligencia artificial de Oracle. La implementación, iniciada en febrero de 2025, enfrentó retrasos y problemas operativos, pero logró reducir el cierre contable de un mes a quince días.",
+    "contenido": "Álvaro Fernández, hijo del fundador de Tajín, impulsó la sustitución de hojas de Excel por una plataforma de inteligencia artificial para eficientar finanzas, recursos humanos, ventas, compras y producción. Tras evaluar proveedores, eligió a Oracle sobre SAP y dedicó cuatro meses a preparar el negocio, formando un equipo dedicado y consultando a empresas como Bimbo, Alsea, McCormick y Nestlé.\n\nLa implementación formal comenzó en febrero de 2025 y salió a producción en enero de 2026, once meses después. Fernández organizó el trabajo en cinco procesos integrados: order to cash, procure to pay, record to report, hire to retire y planeación, resaltando que \"no hay finanzas, no hay contabilidad, no hay ventas\".\n\nEl uso de IA estaba previsto para iniciar en noviembre de 2025, pero en septiembre se detectó que no sería posible, obligando a más de 100 empleados a trabajar durante las fiestas decembrinas. \"Ese fue mi momento más retador porque impactaba directamente a las personas\", afirmó Fernández.\n\nDurante los primeros meses de caos, la empresa no facturaba y la comunicación constante con directores y gerentes fue clave. Tras la adopción de la IA, el cierre contable, que antes tomaba un mes de forma manual, se realizó en dos meses en enero y luego se redujo a quince días, con la meta de bajarlo a cinco y luego a dos días.\n\nEl ahorro de tiempo no implicó despidos; en cambio, personal de departamentos se reubicó donde realmente se necesitaba, reforzando la promesa de la empresa de no eliminar empleos.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fwww.elfinanciero.com.mx%2Fresizer%2Fv2%2FMUVGNHRUWVHNJCOKDWC3CZV7HY.jpeg%3Fsmart%3Dtrue%26auth%3Db4cb53fb943a3bbb7a285b77f341f8e8ddd2ca3dbd4fa5f6a5f2800489fae92b%26width%3D1200%26height%3D630",
+    "fecha": "2026-11-07",
+    "seccion": "mexico",
+    "region": "México",
+    "medio": "El Financiero",
+    "url_origen": "https://www.elfinanciero.com.mx/empresas/2026/11/07/tu-mango-con-chile-va-con-ia-de-la-que-pica-asi-usa-tajin-la-inteligencia-artificial/"
+  },
+  {
+    "id": "n-7ff5742b7166",
+    "titulo_original": "Qué pasó en la isla noruega que quiso abolir el tiempo",
+    "titulo": "Sommarøy quiso abolir el tiempo en 2019, pero la campaña fue impulsada por Innovation Norway",
+    "resumen": "En 2019 la comunidad isleña de Sommarøy, en el Ártico noruego, anunció una campaña para vivir sin referencia al tiempo durante los 69 días de sol de medianoche. La iniciativa, que incluyó colgar relojes en un puente y presentar una petición al Parlamento, resultó ser organizada por la agencia gubernamental Innovation Norway, lo que provocó disculpas y el fin de la campaña.",
+    "contenido": "En 2019, los habitantes de Sommarøy, un pueblo pesquero de unos 300 habitantes situado 56 km al oeste de Tromsø, llamaron la atención mundial al proponer abolir el tiempo durante los 69 días de verano en que el sol nunca se pone (del 18 de mayo al 26 de julio). Se colgaron relojes de un puente y el propietario de un hotel entregó una petición con firmas a un miembro del Parlamento noruego, lo que generó cobertura internacional.\n\nPosteriormente se descubrió que Innovation Norway, la agencia estatal de turismo, había orquestado la campaña. Aunque algunos residentes participaron, otros no estaban al corriente. Ante la revelación, el director de la agencia emitió una disculpa pública, los relojes fueron retirados y la iniciativa se desvaneció.\n\nEl artículo describe la experiencia de llegar a la isla: el autobús sale a las 11:30 y el trayecto dura una hora y cuarenta minutos. Los visitantes, como la turista polaca Ewa Kaczyński y el viajero holandés Wouter De Wit, comentan la sensación de vivir sin relojes bajo la luz perpetua. Los locales, más reticentes, explican que en verano ya viven de forma relajada, con tiendas que cierran cuando el dueño va a pescar y niños que permanecen despiertos porque no hay colegio. La campaña sigue siendo un tema delicado, pero ha puesto a Sommarøy en el mapa turístico.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fichef.bbci.co.uk%2Fnews%2F1200%2Fbranded_mundo%2F3c3c%2Flive%2Fc0da7db0-d5fe-11f1-b437-279121eb1cd9.jpg",
+    "fecha": "2026-11-07",
+    "seccion": "mundo",
+    "region": "Europa",
+    "medio": "BBC Mundo",
+    "url_origen": "https://www.bbc.com/mundo/articles/cmx2dxe1513jo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "id": "n-3bb945553bdd",
+    "titulo_original": "Bombardeos de Arabia Saudita dejan más de 20 muertos en Yemen, según hutíes",
+    "titulo": "Bombardeos saudíes matan 22 en Sana'a, según los hutíes",
+    "resumen": "Un medio vinculado a los hutíes informó que 22 personas fallecieron en bombardeos saudíes sobre viviendas de Al Shariyah, en la provincia de Sana'a. En la misma semana, un ataque contra un mercado en Taiz dejó decenas de muertos, con ambas partes culpándose mutuamente. La guerra, reactivada en julio, ya ha causado más de 1.600 muertos y 300.000 desplazados según la ONU.",
+    "contenido": "Un medio asociado a los combatientes hutíes de Yemen anunció que 22 personas murieron en bombardeos realizados por Arabia Saudí en la región de Sana'a, atribuidos al movimiento proiraní que lucha contra el gobierno yemení respaldado por Riad. Según la agencia Saba, los ataques se dirigieron contra viviendas en la zona de Al Shariyah, provincia de Sana'a, y mientras se llevaban a cabo operaciones de rescate, la fuerza aérea saudita apuntó \"contra rescatistas en dos ocasiones\".\n\nEl viernes, decenas de personas perdieron la vida en un bombardeo contra un mercado de la provincia de Taiz, en el oeste del país, cuya ciudad homónima está bajo cerco hutí. Las fuerzas gubernamentales y los combatientes proiraníes se han acusado mutuamente del ataque.\n\nDesde que en julio se reanudó el conflicto, los hutíes y las fuerzas saudíes se atacan a diario, abriendo un nuevo frente en la guerra de Oriente Medio después de cuatro años de relativa calma. La guerra civil, iniciada en 2014, enfrenta a los hutíes con las fuerzas gubernamentales respaldadas por Riad. En septiembre, los combatientes proiraníes lanzaron una ofensiva en el oeste que les permitió reforzar su control sobre el estratégico estrecho de Bab el‑Mandeb, ruta clave para el tránsito de buques mercantes de Asia a Europa.\n\nLos combates en Yemen han dejado más de 1.600 muertos y 300.000 desplazados, según cifras de la ONU, sin que se vislumbre una salida diplomática a la crisis.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fstatic.dw.com%2Fimage%2F79884898_6.jpg",
+    "fecha": "2026-11-07",
+    "seccion": "mundo",
+    "region": "Medio Oriente",
+    "medio": "DW Español",
+    "url_origen": "https://www.dw.com/es/bombardeos-de-arabia-saudita-dejan-más-de-20-muertos-en-yemen-según-hutíes/a-79885184?maca=spa-rss-sp-all-1122-xml-mrss"
   }
 ]
