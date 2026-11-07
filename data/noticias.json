@@ -1654,5 +1654,57 @@
     "region": "Paraguay",
     "medio": "Infobae América",
     "url_origen": "https://www.infobae.com/america/america-latina/2026/11/07/crisis-politica-en-paraguay/"
+  },
+  {
+    "id": "n-f11a60a2265d",
+    "titulo_original": "Banxico: ‘una sorpresa no tan sorprendente’",
+    "titulo": "Banxico recorta la tasa de referencia a 6.25% y anuncia pausa prolongada",
+    "resumen": "El Banco de México redujo la tasa de interés de referencia en 0.25 puntos, dejándola en 6.25%, tras una votación de 3 a 2. La medida se calificó como un ajuste puntual y se indicó una pausa prolongada para apoyar la convergencia inflacionaria.",
+    "contenido": "El jueves 5 de noviembre la Junta de Gobierno de Banxico aprobó, por mayoría de 3 a 2, un recorte de un cuarto de punto en la tasa de referencia, situándola en 6.25 %. El comunicado del banco central explicó que el proceso desinflacionario avanza sin presiones de demanda visibles y que la holgura económica limita el traspaso del tipo de cambio a los precios. Asimismo, señaló que mantener la tasa en ese nivel durante un tiempo prolongado apoyará la convergencia de la inflación a la meta y será adecuado para enfrentar retos macroeconómicos externos.\n\nEn la Encuesta Citi de Expectativas publicada un día antes, la mayoría de los 36 analistas encuestados no anticipaba cambios y preveía la tasa en 6.50 % para finales de 2026; solo seis esperaban el recorte de noviembre. En la decisión de septiembre, Banxico había mantenido la tasa en 6.50 % por unanimidad, pero las minutas mostraron discusiones sobre la posibilidad de un recorte adicional y enfatizaron que la política monetaria mexicana no debe reaccionar mecánicamente a los ajustes de la Reserva Federal de EE. UU.\n\nLos miembros que votaron a favor del recorte fueron la gobernadora Victoria Rodríguez y los subgobernadores José Gabriel Cuadra y Omar Mejía, mientras que Galia Borja y Jonathan Heath votaron por mantener la tasa. Analistas de Barclays y Finamex habían anticipado la medida; sus comentarios resaltaron que, aunque la mayoría de analistas se sorprendió, el mercado había descontado el recorte a través de la curva de swaps de la TIIE. Todos coinciden en que se trata de un ajuste puntual y no del inicio de un nuevo ciclo de recortes.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fwww.elfinanciero.com.mx%2Fresizer%2Fv2%2F2WLLHFOOTRGFBHW6KTQR6MDWI4.jpg%3Fsmart%3Dtrue%26auth%3D5cff8a53354c77ddbe7a68c935adfe9985ae10aae68004e45fd99f4ff359ee0d%26width%3D1200%26height%3D630",
+    "fecha": "2026-11-07",
+    "seccion": "mexico",
+    "region": "México",
+    "medio": "El Financiero",
+    "url_origen": "https://www.elfinanciero.com.mx/opinion/victor-piz/2026/11/06/banxico-una-sorpresa-no-tan-sorprendente/"
+  },
+  {
+    "id": "n-f63255f12b42",
+    "titulo_original": "La NBA expande su presencia en México, aunque una franquicia local sigue siendo lejana",
+    "titulo": "NBA refuerza su presencia en México mientras una franquicia local sigue distante",
+    "resumen": "La NBA considera a México una máxima prioridad y amplía su actividad durante todo el año, apoyándose en una base de alrededor de 30 millones de aficionados y programas de base. Aunque la liga ha incrementado eventos y contenido local, la posibilidad de una franquicia en el país sigue sin estar en los planes inmediatos.",
+    "contenido": "Raúl Zarraga, director de operaciones de la liga de baloncesto para Latinoamérica y Canadá, declaró que México se ha convertido en una \"máxima prioridad\" para la NBA debido al crecimiento del deporte. La liga apunta a una base de aproximadamente 30 millones de aficionados, más del doble que hace 12 o 14 años, y busca ampliar su alcance mediante el consumo digital y programas de base.\n\nSegún datos de la NBA, 21.6 millones de aficionados únicos en México vieron partidos en directo por streaming la temporada pasada. Además, la liga cuenta con más de ocho millones de seguidores en sus cuentas de redes sociales dirigidas al mercado mexicano y genera alrededor de 200 millones de interacciones anuales.\n\nEl sábado, los Denver Nuggets y los Indiana Pacers jugarán en la Arena CDMX, el partido número 35 de la NBA en México desde 1992, el mayor número fuera de EE. UU. y Canadá. La NBA quiere mantener la conexión con los aficionados todo el año mediante clínicas para jóvenes, formación de entrenadores, contenido adaptado y eventos como la NBA House en junio.\n\nLos Capitanes de Ciudad de México, el primer equipo de la G League fuera de EE. UU. y Canadá, aportan una presencia permanente. El interés se ha visto impulsado por Karim López, primer mexicano seleccionado en la primera ronda del draft. La NBA y la FIBA también avanzan en una posible liga europea de 16 equipos, prevista para 2027.\n\nAunque México posee la infraestructura y la base de aficionados necesarias, Zarraga confirmó que el país no forma parte de los planes inmediatos de expansión, que actualmente se centran en Las Vegas y Seattle con una decisión esperada a finales de 2026.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fimagenes.eleconomista.com.mx%2Ffiles%2Fimage_1200_600%2Ffiles%2Ffp%2Fuploads%2F2026%2F11%2F06%2F6aee8e8394977.r_d.1752-1340-4000.jpeg",
+    "fecha": "2026-11-07",
+    "seccion": "mexico",
+    "region": "México",
+    "medio": "El Economista",
+    "url_origen": "https://www.eleconomista.com.mx/deportes/nba-expande-presencia-mexico-franquicia-local-sigue-siendo-lejana-20261106-842680.html"
+  },
+  {
+    "id": "n-3746a41257a3",
+    "titulo_original": "Irán ejecuta a un hombre por un ataque armado contra una comisaría",
+    "titulo": "Irán ejecuta a hombre condenado por ataque a comisaría en Sistan y Baluchistán",
+    "resumen": "Irán ejecutó el 7 de noviembre de 2026 a Mohamad Aref Shahbajsh, condenado por su presunta participación en un ataque armado contra una comisaría en Sistan y Baluchistán. La ejecución se produce en un contexto de intensificación de penas de muerte en el país.",
+    "contenido": "Irán ejecutó el sábado 7 de noviembre de 2026 a Mohamad Aref Shahbajsh, condenado por su presunta participación en un ataque armado contra la comisaría de Qaleh Bid, en el condado de Jash, provincia de Sistan y Baluchistán. La agencia judicial Mizan informó que la sentencia de muerte, vinculada al grupo terrorista Yeish al Adl y por los cargos de rebelión armada y guerra contra Dios, fue cumplida esa misma mañana.\n\nSistan y Baluchistán, en el sureste del país, es una zona conflictiva donde se registran enfrentamientos frecuentes entre las fuerzas de seguridad iraníes y grupos armados, entre ellos Yeish al Adl, una organización suní que busca la independencia de la región y que el régimen considera terrorista.\n\nDesde el inicio de la guerra en Oriente Medio el 28 de febrero, las autoridades iraníes han intensificado las ejecuciones, ahorcando a decenas de presos políticos acusados de colaborar con Israel y Estados Unidos o de participar en las protestas antigubernamentales de enero. Según Amnistía Internacional, en 2025 Irán ejecutó al menos 2 159 personas, cifra que duplica la de 2024 y representa el número más alto registrado desde 1981.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fstatic.dw.com%2Fimage%2F77217076_6.jpg",
+    "fecha": "2026-11-07",
+    "seccion": "mundo",
+    "region": "Medio Oriente",
+    "medio": "DW Español",
+    "url_origen": "https://www.dw.com/es/irán-ejecuta-a-un-hombre-por-un-ataque-armado-contra-una-comisaría/a-79884496?maca=spa-rss-sp-all-1122-xml-mrss"
+  },
+  {
+    "id": "n-ce0fa972f17a",
+    "titulo_original": "EN VIVO | El papa León XIV viaja hacia Paysandú para celebrar la primera misa en Uruguay",
+    "titulo": "El papa León XIV inicia gira por Uruguay y se dirige a Paysandú",
+    "resumen": "El pontífice León XIV llegó a Uruguay para iniciar su gira latinoamericana, pronunció un llamado a la salud universal y pidió jornadas de oración y ayuno. El sábado celebrará una misa al aire libre en Paysandú, con una agenda que incluye encuentros sociales y académicos en Montevideo.",
+    "contenido": "El papa León XIV arribó a Uruguay este viernes, marcando el inicio de una gira latinoamericana que también lo llevará a Argentina y Perú. Es el segundo pontífice que visita el país más laico del continente, 38 años después del último viaje de Juan Pablo II.\n\nDurante su primer discurso en la Plaza Independencia de Montevideo, el líder de la Santa Sede pidió que la atención médica sea accesible a todos, diciendo: \" Procurar que la atención sanitaria esté al alcance de cada persona , independientemente de sus recursos, es una responsabilidad que interpela a toda sociedad \".\n\nTras una reunión privada con el presidente uruguayo Yamandú Orsi y otras autoridades, León XIV recibió la llave de la ciudad en el Cabildo de Montevideo y luego presidió las Vísperas en la Catedral Metropolitana. En ese encuentro solicitó a los obispos de todo el mundo convocar jornadas de oración y ayuno para aumentar las vocaciones.\n\nEste sábado viajará en avión desde Montevideo a Paysandú, llegando a las 09:10 horas. La primera misa al aire libre de su gira sudamericana se celebrará a las 10:00 en el Parque Municipal París Londres, con una previsión de asistencia de unas 30.000 personas. Regresará a la capital en un vuelo programado para las 12:45 horas.\n\nEn la tarde participará en un encuentro con la realidad social de Casavalle, en la Parroquia de Nuestra Señora de Guadalupe, y sostendrá una reunión con representantes del mundo de la educación en la Universidad Católica del Uruguay. La jornada concluirá con una vigilia de oración en el Estadio del Centenario a las 19:00 horas.\n\nAl despedirse, el pontífice afirmó que Uruguay es \"un país de jóvenes con fe\" y agradeció al público con el discurso: \"Es un gusto saludarles, espero verlos de nuevo en estos días. El Nuncio dice que quiere dormir, pero canten hasta la hora que quieran... Dios los bendiga a todos y la bendición de Dios Padre, Hijo y Espíritu Santo desciende sobre ustedes siempre Buenas noches\".",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fwww.infobae.com%2Fresizer%2Fv2%2FN6SIXOUZWJFVBNKZVHWKWQCJKU.jpg%3Fauth%3Dd1dde1c9cd9bb6b25ad8300aa801356c2cdc91b5a575a8430f5bd6a217317e16%26smart%3Dtrue%26width%3D1200%26height%3D630%26quality%3D85",
+    "fecha": "2026-11-07",
+    "seccion": "mundo",
+    "region": "Uruguay",
+    "medio": "Infobae América",
+    "url_origen": "https://www.infobae.com/america/america-latina/2026/11/07/papa-leon-xiv-en-uruguay-en-vivo-las-ultimas-noticias-de-su-gira-por-sudamerica-hoy-7-de-noviembre/"
   }
 ]
