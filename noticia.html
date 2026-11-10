@@ -232,7 +232,7 @@
                 if (r.ya_leida) { w.style.display = 'block'; premioError('ya_reclamada'); return; }
                 if (!r.ok) { if (r.error === 'pase_invalido' || r.error === 'cuenta_suspendida') { w.style.display = 'block'; premioError(r.error); } return; }
 
-                var total = (r.segundos || 30) + 1, pasados = 0;
+                var total = (r.segundos || 40) + 1, pasados = 0;
                 w.style.display = 'block';
                 premioTexto('fa-book-open', '#f5b800', 'Leyendo para ganar ' + r.nc + ' NetCoins');
                 // Solo cuenta mientras la pestaña está a la vista.

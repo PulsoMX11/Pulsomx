@@ -270,7 +270,7 @@
     var DATOS = function (nc) {
         return '<div class="tt-datos">' +
             '<div class="tt-dato"><b>' + nc + '</b><span>NetCoins por noticia</span></div>' +
-            '<div class="tt-dato"><b>30 s</b><span>de lectura</span></div>' +
+            '<div class="tt-dato"><b>40 s</b><span>de lectura</span></div>' +
             '<div class="tt-dato"><b>100</b><span>noticias al día</span></div></div>';
     };
 
@@ -355,7 +355,7 @@
                 foco: function () { return premio; },
                 icono: '⏳',
                 titulo: 'Tu barra de recompensa',
-                texto: 'Esta barra de abajo <b>se llena sola en 30 segundos</b> mientras lees. ' +
+                texto: 'Esta barra de abajo <b>se llena sola en 40 segundos</b> mientras lees. ' +
                     '<b>Mantén esta pestaña abierta y a la vista</b>: si cambias de pestaña o de app, la barra se pausa y continúa al volver.',
                 alEntrar: function () { mostrarEjemplo(45, '<i class="fa-solid fa-book-open" style="color:#f5b800;margin-right:6px;"></i>Leyendo para ganar 250 NetCoins'); },
                 alSalir: quitarEjemplo
