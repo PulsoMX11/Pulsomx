@@ -1,57 +1,5 @@
 [
   {
-    "id": "n-f58a3998e92e",
-    "titulo_original": "Los bancos de Anthropic prevén elevar el precio de su salida a bolsa ante la fuerte demanda",
-    "titulo": "Anthropic podría subir su precio de IPO por fuerte demanda",
-    "resumen": "Los bancos que lideran la salida a bolsa de Anthropic esperan elevar el precio de la acción por encima de la franja anunciada, lo que implicaría una valoración de al menos 1,5 billones de dólares. La compañía busca recaudar hasta 64.000 millones de dólares y ha asegurado una colocación privada de 26.000 millones con socios estratégicos.",
-    "contenido": "Los bancos que gestionan la oferta pública inicial de Anthropic prevén elevar el precio de la acción por encima del rango de 70 a 78 dólares anunciado el martes, lo que llevaría la valoración de la empresa de inteligencia artificial a 1,5 billones de dólares o más cuando debutara la próxima semana, según informó el Financial Times.\n\nAnthropic informó ingresos anualizados de 81.000 millones de dólares en octubre y una facturación de 17.000 millones en el tercer trimestre. La compañía busca financiar un gasto previsto de 900.000 millones de dólares en capacidad informática e infraestructura en los próximos años. Para ello, anunció una colocación privada en la que Google, Nvidia y Microsoft invertirían conjuntamente 26.000 millones de dólares al precio de la salida a bolsa.\n\nGoldman Sachs y Morgan Stanley, bancos líderes de la operación, recibieron fuertes señales de demanda al iniciar la ronda de presentaciones a inversores. Los accionistas redujeron recientemente sus expectativas de una valoración de 2 billones de dólares, ante dudas sobre la sostenibilidad del auge de la IA. Morningstar calculó un valor razonable de 1,7 billones de dólares, pero advirtió que el precio podría oscilar entre 500.000 millones y 3 billones, según el ritmo de adopción de sus herramientas.\n\nUn aumento del precio de la acción elevaría la recaudación total de la IPO a más de 100.000 millones de dólares. Anthropic planea recaudar hasta 64.000 millones de dólares, con la posibilidad de ampliar la operación en casi 10.000 millones mediante una opción de sobreasignación si la demanda supera la oferta.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fwww.infobae.com%2Fresizer%2Fv2%2FZ6IBVPNP5JHZBGTNNSNFONHEO4.jpg%3Fauth%3D52974359ab6e9542628ba8950fbb77b9129e71ce8ccbbab26fe4c5fd79016448%26smart%3Dtrue%26width%3D1200%26height%3D630%26quality%3D85",
-    "fecha": "2026-11-11",
-    "seccion": "mundo",
-    "region": "Estados Unidos",
-    "medio": "Infobae América",
-    "url_origen": "https://www.infobae.com/america/mundo/2026/11/11/los-bancos-de-anthropic-preven-elevar-el-precio-de-su-salida-a-bolsa-ante-la-fuerte-demanda/"
-  },
-  {
-    "id": "n-6779640cda2a",
-    "titulo_original": "Por fin hay un tratamiento para la demencia de mi hijo de 5 años, pero tiene un costo de US$4 millones",
-    "titulo": "Tratamiento génico para la demencia infantil cuesta casi US$4 millones",
-    "resumen": "En EE. UU. se aprobó la primera terapia génica para el síndrome de Sanfilippo, una forma rara de demencia infantil, con un precio cercano a los US$4 millones por paciente. La madre de Tate McDaid, de 5 años, busca financiar el tratamiento desde el Reino Unido, donde aún no está disponible.",
-    "contenido": "La madre de Tate McDaid, de Swansea, Gales, recibió el diagnóstico de síndrome de Sanfilippo tipo A cuando su hijo tenía cuatro años. Esta enfermedad neurodegenerativa, también conocida como \"Alzheimer infantil\", afecta a poco más de 100 niños en el Reino Unido, según datos de la Sociedad para las Enfermedades por Mucopolisacáridos, que estima alrededor de 140 casos.\n\nEn septiembre, la Administración de Alimentos y Medicamentos de EE. UU. (FDA) aprobó la primera terapia génica, comercializada como FAYUVI, para tratar esta condición en niños. El precio fijado es de US$3,95 millones por paciente, lo que representa un desafío financiero para familias fuera de Estados Unidos.\n\nTammy, la madre de Tate, ha recaudado más de US$215,000, aproximadamente el 5 % del costo total, y teme que el tiempo sea un factor crítico, ya que la enfermedad progresa rápidamente después de los cinco años. Contactó a Ultragenyx, la empresa desarrolladora, para conocer opciones de acceso internacional, pero la compañía indicó que no puede ofrecer una estimación única del costo total para pacientes fuera de EE. UU., pues depende de las necesidades médicas y la institución que brinde la atención.\n\nUltragenyx señaló que la aprobación de la FDA es un primer paso en su estrategia regulatoria global y recomendó a las familias consultar al proveedor de salud de sus hijos para explorar vías de acceso antes de asumir que viajar a EE. UU. es la única opción.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fichef.bbci.co.uk%2Fnews%2F1200%2Fbranded_mundo%2Fd48b%2Flive%2F91c3e9e0-faac-11f0-91f4-a739ab96be22.jpg",
-    "fecha": "2026-11-11",
-    "seccion": "mundo",
-    "region": "Reino Unido",
-    "medio": "BBC Mundo",
-    "url_origen": "https://www.bbc.com/mundo/articles/cxzd6dej1328o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "id": "n-0e12f9870284",
-    "titulo_original": "Aguinaldo de 40 días por decreto de Sheinbaum: estos son todos los trabajadores que recibirán el pago",
-    "titulo": "Decreto de Sheinbaum otorga aguinaldo de 40 días a ciertos trabajadores públicos",
-    "resumen": "Un decreto firmado por la presidenta Claudia Sheinbaum establece una gratificación de hasta 40 días de salario para varios grupos vinculados a la Administración Pública Federal, con inicio de pagos a partir del 10 de noviembre. El beneficio no afecta a empleados del sector privado, que siguen bajo la LFT con un aguinaldo mínimo de 15 días.",
-    "contenido": "El 10 de noviembre podrá iniciarse el pago de una gratificación equivalente a 40 días de salario para un conjunto de trabajadores, según un decreto firmado por la presidenta Claudia Sheinbaum y publicado en el Diario Oficial de la Federación. La medida se dirige exclusivamente a grupos vinculados a la Administración Pública Federal y no modifica el aguinaldo de los empleados de empresas privadas, quienes continúan bajo el artículo 87 de la Ley Federal del Trabajo, que establece al menos 15 días de salario a pagar antes del 20 de diciembre.\n\nEl decreto incluye a los trabajadores sujetos a la Ley Federal de los Trabajadores al Servicio del Estado, quienes recibirán el aguinaldo completo de 40 días. Otros grupos, como personal de confianza, mandos, militares, trabajadores por honorarios y pensionados, obtendrán una gratificación de hasta 40 días, calculada según la base que establezcan los lineamientos correspondientes. Asimismo, se benefician las personas que perciben retiros, pensiones militares o civiles, pensiones de gracia y determinados deudos con pensión otorgada por el ISSSTE o con cargo al erario federal; en estos casos la gratificación podrá ser de hasta 40 días de las cuotas asignadas y se distribuirá proporcionalmente si hay varios beneficiarios.\n\nQuienes no hayan prestado servicios durante todo 2026 tendrán derecho a una parte proporcional del aguinaldo, de acuerdo con el tiempo trabajado. El documento también especifica los grupos que no recibirán esta gratificación, aunque no se detallan en el texto disponible.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fcdn-3.expansion.mx%2Fdims4%2Fdefault%2Fc162759%2F2147483647%2Fstrip%2Ftrue%2Fcrop%2F1200x630%2B0%2B20%2Fresize%2F1200x630%21%2Fformat%2Fjpg%2Fquality%2F80%2F%3Furl%3Dhttps%253A%252F%252Fcdn-3.expansion.mx%252F8e%252Fe5%252Fe23977bb49b780d9c643e7bee31e%252Faguinaldo-claudia-sheinbaum.jpg",
-    "fecha": "2026-11-11",
-    "seccion": "mexico",
-    "region": "México",
-    "medio": "Expansión",
-    "url_origen": "https://expansion.mx/finanzas-personales/2026/11/09/decreto-presidenta-sheinbaum-personas-40-dias-aguinaldo"
-  },
-  {
-    "id": "n-d75131a64f39",
-    "titulo_original": "¿Le regresó la ofensa? Viralizan video de Ángela Aguilar ignorando a Josi Cuén antes de cantarle un tema sobre infieles",
-    "titulo": "Ángela Aguilar evita saludar a Josi Cuén y canta indirecta en festival de Aguascalientes",
-    "resumen": "Un video viral muestra a Ángela Aguilar volteando la espalda a Josi Cuén cuando la cantante subió al escenario del concierto de Pepe Aguilar el 6 de noviembre de 2026. minutos después Ángela interpretó “¿Qué me vas a dar?” y la letra fue percibida como una indirecta. El episodio generó miles de comentarios y reproducciones en TikTok e Instagram.",
-    "contenido": "El 6 de noviembre, durante el espectáculo \"Sinfónico Hasta los Huesos\" en la Megavelaria de la Isla San Marcos, parte del Festival Cultural de Calaveras 2026, se difundió un video que muestra a Ángela Aguilar girando la cabeza y evitando el contacto visual con Josi Cuén, quien había subido al escenario y saludado a los integrantes de la familia Aguilar. El creador de contenido Mex Escobedo, de Identidad Grupera, señaló que Cuén no insistió en saludar a Ángela y continuó con el resto del espectáculo.\n\nPepe Aguilar reconoció a Cuén entre el público y la invitó a compartir el escenario; ella saludó a Christian Nodal, a Pepe y a Leonardo Aguilar, pero Ángela no le ofreció la mano. Poco después, Ángela interpretó la canción \"¿Qué me vas a dar?\", popularizada por Jenni Rivera y La Arrolladora Banda El Limón, cuyo verso \"No me gustan las mancuernas, ni querer a dos a un tiempo\" fue interrumpido por Cuén, quien preguntó a Nodal si la conocía. Nodal respondió con una sonrisa y negó con la mano, permitiendo que Ángela siguiera cantando. Más adelante, la frase \"El que sirve a dos amores, con alguno queda mal\" fue acompañada por Cuén con el comentario \"Bien portado\" dirigido a Leonardo Aguilar.\n\nLos usuarios de redes sociales relacionaron la letra con el romance anunciado entre Christian Nodal y Ángela Aguilar en mayo de 2024, y los videos alcanzaron millones de reproducciones en TikTok e Instagram, generando comentarios como \"Se las cantó en su cara\" y debates sobre si la elección de la canción fue espontánea o premeditada.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fwww.infobae.com%2Fresizer%2Fv2%2FH5DLHMEZOBBPBKJOQCGD7XHNUA.jpg%3Fauth%3Ddbd6eb5f30c1f545d423920126ed57d418cdc886b285c79ca29e642070452ad8%26smart%3Dtrue%26width%3D1200%26height%3D630%26quality%3D85",
-    "fecha": "2026-11-11",
-    "seccion": "mexico",
-    "region": "México",
-    "medio": "Infobae México",
-    "url_origen": "https://www.infobae.com/mexico/2026/11/11/le-regreso-la-ofensa-viralizan-video-de-angela-aguilar-ignorando-a-josi-cuen-antes-de-cantarle-un-tema-sobre-infieles/"
-  },
-  {
     "id": "n-1619b002d129",
     "titulo_original": "La segunda jornada del diálogo entre EEUU, Rusia y Ucrania en Abu Dhabi concluyó tras menos de dos horas de reunión",
     "titulo": "Segunda jornada de diálogo trilateral entre EE.UU., Rusia y Ucrania concluye en Abu Dabi",
@@ -1948,5 +1896,57 @@
     "region": "Medio Oriente",
     "medio": "Infobae América",
     "url_origen": "https://www.infobae.com/america/mundo/2026/11/13/la-guardia-revolucionaria-de-iran-dijo-que-ataco-un-radar-de-alerta-temprana-del-ejercito-de-estados-unidos-en-bahrein/"
+  },
+  {
+    "id": "n-b71f238951a6",
+    "titulo_original": "A dos años de la muerte de Silvia Pinal, su hija Sylvia Pasquel revela detalles de su próximo homenaje",
+    "titulo": "Sylvia Pasquel planifica homenaje privado a Silvia Pinal en su segundo aniversario",
+    "resumen": "Sylvia Pasquel optó por una conmemoración íntima, colocando ofrendas en la tumba de su madre y evitando ceremonias públicas. Además, la actriz recibió el Premio a la Excelencia Histórica Actoral mientras la sucesión testamentaria de Silvia Pinal sigue sin resolverse.",
+    "contenido": "A pocos días del segundo aniversario luctuoso de Silvia Pinal, su hija Sylvia Pasquel decidió que el recuerdo de su madre se marque con gestos privados y familiares, sin convocar a medios ni seguidores. En una entrevista con Ventaneando explicó que \"Lo más bonito es cuando tú lo haces de una manera sencilla, cercana, que de veras se sienta\" y que la visita a la tumba incluyó calaveritas, adornos de Halloween y referencias del Día de Muertos, sin anunciarlo para preservar la intimidad.\n\nEl proceso de sucesión de la diva sigue abierto. Pasquel comentó en Venga la Alegría que \"Pues esperemos que no lleguemos como la de Joan Sebastian, que ya lleva once años\" y añadió que \"De todas maneras hay muchas cosas que corregir\", señalando que aún existen puntos pendientes antes de cerrar el expediente.\n\nEn el mismo evento, la Organización Líderes de América entregó a Sylvia Pasquel el Premio a la Excelencia Histórica Actoral, reconociendo sus 58 años de trayectoria. La actriz declaró: \"Estoy cumpliendo cincuenta y ocho años, no se dicen fáciles, pero me la he pasado más trabajando que con mi familia\" y afirmó que \"Seguir adelante, pues es lo que sigue\".\n\nPasquel también habló sobre la salud de su hermana Alejandra Guzmán y su relación con Frida Sofía, diciendo: \"Mientras ella esté feliz, eso es lo bonito\". Así, entre el recuerdo de su madre y el respaldo a su familia, la actriz mantuvo el foco en la cercanía y los lazos familiares.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fwww.infobae.com%2Fresizer%2Fv2%2FLXCIYLWVRJASXA2QJ7YRYKUMVI.jpg%3Fauth%3D2a41ee4cb8bb8c8baaa9dccc331743f7003f84a3c1af06272ffc5c052321f265%26smart%3Dtrue%26width%3D1200%26height%3D630%26quality%3D85",
+    "fecha": "2026-11-13",
+    "seccion": "mexico",
+    "region": "México",
+    "medio": "Infobae México",
+    "url_origen": "https://www.infobae.com/mexico/2026/11/13/a-dos-anos-de-la-muerte-de-silvia-pinal-su-hija-sylvia-pasquel-revela-detalles-del-proximo-homenaje/"
+  },
+  {
+    "id": "n-b85f0f45a2f7",
+    "titulo_original": "Detienen a extranjeros por robar a empleados domésticos y narcomenudeo: Usan el modus operandi ‘La Patrona’",
+    "titulo": "Detienen a 10 extranjeros en CDMX por drogas y extorsión bajo La Patrona",
+    "resumen": "Diez hombres extranjeros fueron detenidos en la Ciudad de México por posesión de drogas y su vinculación a un esquema de extorsión llamado La Patrona. La SSC halló más de 400 bolsas con posibles narcóticos y 32 bolsitas de presunta marihuana, y advierte sobre este modus operandi.",
+    "contenido": "Diez hombres de nacionalidad extranjera fueron detenidos por la Secretaría de Seguridad Ciudadana (SSC) en la colonia Observatorio, alcaldía Miguel Hidalgo, Ciudad de México, por posesión de drogas y su vinculación a un esquema de extorsión conocido como La Patrona.\n\nLa detención se dio después de que los agentes observaron a uno de los sospechosos sacar una maleta azul en la vía pública que contenía bolsas similares a las usadas para la distribución y venta de narcóticos. Al intentar entregar supuestas dosis de droga a tres individuos que se desplazaban en motocicleta, los oficiales intervinieron e inspeccionaron el vehículo, hallando 405 bolsas con posibles drogas de distintos tipos y 32 bolsitas con presunta marihuana.\n\nLas investigaciones revelaron que los detenidos formaban parte de una célula delictiva que opera en la CDMX dedicada tanto a la venta y distribución de estupefacientes como a la extorsión bajo el modus operandi llamado La Patrona. Este esquema consiste en contactar a trabajadores domésticos o a familiares de víctimas mediante llamadas, mensajes o correos electrónicos, haciéndose pasar por los patrones y presumiendo una emergencia que supuestamente pone en riesgo la vida de la víctima. Los extorsionadores intimidan a los trabajadores para que recolecten objetos de valor y los entreguen a terceros, facilitando así robos a viviendas.\n\nAnte el aumento de este tipo de robos, la SSC recomienda a la población ignorar las llamadas sospechosas y confirmar la autenticidad de los contactos mediante los números oficiales de los patrones.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fwww.elfinanciero.com.mx%2Fresizer%2Fv2%2FEARYI6LTJVFZFLTSPIHUA3UEDA.jpg%3Fsmart%3Dtrue%26auth%3D3bfd68bb37bcfe6e12ed85a5712681ee7b96aef1b64264cf255509e8fef65eb8%26width%3D1200%26height%3D630",
+    "fecha": "2026-11-13",
+    "seccion": "mexico",
+    "region": "México",
+    "medio": "El Financiero",
+    "url_origen": "https://www.elfinanciero.com.mx/cdmx/2026/11/12/detienen-a-extranjeros-por-robar-a-empleados-domesticos-y-narcomenudeo-usan-el-modus-operandi-la-patrona/"
+  },
+  {
+    "id": "n-5135b030108b",
+    "titulo_original": "Luchamos para poder seguir ejerciendo un periodismo independiente en Egipto",
+    "titulo": "Cierre judicial de Mada Masr y multa tras 13 años de periodismo independiente",
+    "resumen": "El 27 de octubre una jueza en El Cairo ordenó el cierre del medio independiente Mada Masr y una multa de tres millones de libras egipcias. La decisión siguió a años de solicitudes de licencia sin respuesta y a varios interrogatorios de la fiscalía.",
+    "contenido": "El 27 de octubre la periodista responsable de Mada Masr compareció ante un juez en El Cairo, acompañada por ocho abogados. Fue acusada de operar una página web sin licencia, la sexta citación de la fiscalía en años, pero la primera que llegó a juicio. Durante la sesión el juez calificó el caso como \"simple y pequeño\" y rechazó todas las peticiones de la defensa, incluyendo más tiempo para preparar el caso y la citación de testigos. Finalmente desestimó a los ocho abogados y nombró a un defensor de oficio, dictó sentencia mientras la policía la expulsaba de la sala y la periodista no escuchó el veredicto.\n\nTras siete horas bajo custodia, al firmar el documento de libertad se enteró de que el tribunal había ordenado el cierre de Mada Masr y una multa de tres millones de libras egipcias (51.200 euros). La medida puso fin a 13 años de actividad periodística. La publicación había solicitado la licencia exigida por la ley de medios de 2018 sin recibir respuesta; en 2020 volvió a presentar la solicitud tras la publicación de los reglamentos, también sin respuesta. En 2022 descubrieron que la solicitud había sido denegada sin notificación, recurso rechazado por el Consejo de Estado, y en 2023 no obtuvieron respuesta alguna. La periodista concluye que su lucha ha sido mantener un periodismo independiente pese a la supresión estatal.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fimagenes.elpais.com%2Fresizer%2Fv2%2FL3VHCC3WUZHKLJYVMVNN2FKIQA.jpg%3Fauth%3D913730cc84b64fbc008d7e71cefdb4c55fb8b6e666d84066263605db2fd9f7f5%26width%3D1200",
+    "fecha": "2026-11-13",
+    "seccion": "mundo",
+    "region": "Egipto",
+    "medio": "El País",
+    "url_origen": "https://elpais.com/internacional/2026-11-09/luchamos-para-poder-seguir-ejerciendo-un-periodismo-independiente-en-egipto.html"
+  },
+  {
+    "id": "n-0deccb882f6c",
+    "titulo_original": "Irán reivindica ataque a radar de alerta temprana de EE.UU. en Baréin",
+    "titulo": "Irán afirma haber destruido radar estadounidense en Baréin como respuesta a ataque en Sirik",
+    "resumen": "La Guardia Revolucionaria de Irán (IRGC) anunció que la madrugada del viernes 13 de noviembre de 2026 destruyó un radar de alerta temprana de Estados Unidos ubicado en Baréin. Según el comunicado, el ataque es una respuesta al bombardeo estadounidense de una torre de telecomunicaciones en Sirik, Irán, y sirve como advertencia para que cesen las provocaciones aéreas y el contrabando de petróleo en el estrecho de Ormuz.",
+    "contenido": "La Guardia Revolucionaria de Irán (IRGC) emitió un comunicado el viernes 13 de noviembre de 2026 en el que reivindicó el ataque y la destrucción de un radar de alerta temprana de Estados Unidos situado en Baréin, donde operan instalaciones militares estadounidenses. El comunicado indica que la operación se realizó en la madrugada del mismo día, pero no brinda detalles sobre la ubicación exacta del radar ni sobre el alcance del daño causado.\n\nSegún la IRGC, el ataque constituye una respuesta a un bombardeo previo de EE.UU. contra una torre de telecomunicaciones que presta servicios a Teherán en la localidad de Sirik, provincia de Hormozgán, cerca del estrecho de Ormuz, vía por la que transita aproximadamente el 20 % del petróleo y gas licuado mundial. La declaración califica la acción como una “advertencia seria al enemigo agresor” para que ponga fin a sus provocaciones aéreas y al contrabando de petróleo en el estrecho, actividad que Irán ha interrumpido como represalia a la guerra iniciada a finales de febrero por Israel y Estados Unidos contra la nación persa.\n\nLa IRGC también advirtió que, de repetirse una agresión similar a la de Sirik, sus combatientes están en “alerta máxima para una confrontación sin fronteras”. En los ocho meses de conflicto, Irán ha señalado haber atacado varias bases estadounidenses en países de Oriente Medio, entre ellos Qatar, Arabia Saudita y los Emiratos Árabes Unidos, empleando misiles balísticos como los Jorramshahr, Seyil y Qadr, con alcance de 2 000 km, el hipersónico Fattah y drones suicidas, según informes del New York Times. Además, el secretario del Consejo Supremo de Seguridad Nacional, Mohsen Rezaei, amenazó el jueves con atacar bases estadounidenses en Europa si estas se utilizan para agredir a Teherán.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fstatic.dw.com%2Fimage%2F79686021_6.jpg",
+    "fecha": "2026-11-13",
+    "seccion": "mundo",
+    "region": "Medio Oriente",
+    "medio": "DW Español",
+    "url_origen": "https://www.dw.com/es/irán-reivindica-ataque-a-radar-de-alerta-temprana-de-ee-uu-en-baréin/a-79936474?maca=spa-rss-sp-all-1122-xml-mrss"
   }
 ]
