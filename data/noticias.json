@@ -1,57 +1,5 @@
 [
   {
-    "id": "n-4471178b4d6c",
-    "titulo_original": "Microsoft lamenta \"profundamente\" problemas causados por caída global",
-    "titulo": "Microsoft se disculpa por caída global de servicios que afectó a 70 países",
-    "resumen": "Microsoft pidió disculpas el 13 de noviembre de 2026 por una interrupción masiva de Outlook, Teams y Copilot que impactó a millones de usuarios en alrededor de setenta países. La empresa descartó un ataque cibernético o la IA como causa y señaló que la falla se debió a una carga elevada en su infraestructura.",
-    "contenido": "Microsoft emitió una disculpa el viernes 13 de noviembre de 2026 tras una caída global de varios de sus servicios, entre los que se encuentran el correo Outlook, la aplicación de chat Teams y el asistente de inteligencia artificial Copilot. La compañía afirmó que la interrupción, que afectó a unos setenta países según Downdetector, se originó por una \"carga elevada\" en su infraestructura y no tuvo relación con ciberataques ni con la inteligencia artificial.\n\nEn su comunicado en X, Microsoft declaró: \"Lamentamos profundamente las molestias que este incidente ha causado a nuestros clientes y socios\" y señaló que la recuperación del funcionamiento pleno estaba en curso. La empresa informó avances alentadores en Europa, Norteamérica y la región Asia‑Pacífico, aunque advirtió que algunos usuarios podrían seguir experimentando problemas intermitentes.\n\nEl impacto se extendió a entidades públicas, como varios servicios locales del NHS en Reino Unido, donde la sindicalista Rachel Harrison denunció graves efectos en ambulancias y centros de salud. En Nueva Zelanda, el Ministerio de Relaciones Exteriores informó que la capacidad de recibir correos electrónicos se vio afectada, repercutiendo en embajadas y consulados. El ministro de Economía de Japón, Ryosei Akazawa, advirtió un impacto significativo en el país.\n\nEmpresas de diferentes sectores reportaron dificultades: aerolíneas de la India temían no recibir solicitudes de clientes, Workhorse Group pospuso sus resultados del tercer trimestre y Euronext recomendó a sus compañías cotizadas contactar por teléfono si era necesario. Un abogado londinense, Gary Brown, comentó que era la primera vez en veinte años que no recibía correos en su bandeja de entrada, obligándolo a usar SMS y WhatsApp para comunicarse con sus clientes.\n\nMicrosoft confirmó que el problema podía afectar la conectividad de Microsoft 365 en cualquier región, subrayando que la interrupción fue un problema técnico aislado.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fstatic.dw.com%2Fimage%2F79938148_6.jpg",
-    "fecha": "2026-11-13",
-    "seccion": "mundo",
-    "region": "Mundial",
-    "medio": "DW Español",
-    "url_origen": "https://www.dw.com/es/microsoft-lamenta-profundamente-problemas-causados-por-caída-global/a-79946074?maca=spa-rss-sp-all-1122-xml-mrss"
-  },
-  {
-    "id": "n-0f9803492f74",
-    "titulo_original": "Un inflexible Putin eleva sus exigencias para alcanzar la paz con Ucrania",
-    "titulo": "Putin exige nueva arquitectura de seguridad europea para lograr paz en Ucrania",
-    "resumen": "El Kremlin, tras conversaciones con enviados estadounidenses, reiteró que Rusia busca una \"nueva arquitectura a largo plazo de seguridad indivisible y paz\" como condición previa para cualquier acuerdo en Ucrania. Moscú vuelve a presentar los proyectos de 2021 que limitan la expansión de la OTAN y exige que Europa reconfigure su sistema de seguridad. La UE y los líderes occidentales consideran estas demandas una distracción de un alto el fuego inmediato.",
-    "contenido": "El presidente ruso Vladímir Putin ha declarado que desea una \"paz eterna\" en Ucrania, pero sigue rechazando un alto el fuego integral. Tras conversaciones con los enviados estadounidenses Steve Witkoff y Jared Kushner, el Kremlin dejó claro que su requisito previo es una \"nueva arquitectura a largo plazo de seguridad indivisible y paz\", lo que implica modificar el sistema de seguridad europeo en beneficio de Rusia.\n\nMoscú rememora los \"proyectos de acuerdo\" presentados en diciembre de 2021, que proponían frenar la expansión de la OTAN, garantizar que Ucrania y Georgia no se unieran a la Alianza y retirar la infraestructura militar de la OTAN de Europa central y oriental. Estas propuestas fueron rechazadas por los líderes occidentales, calificados como un ultimátum inaceptable, y dos meses después Rusia lanzó su invasión a gran escala.\n\nAhora el Kremlin rescata esas ideas y, según el asesor de política exterior Yuri Ushakov, podría añadir nuevas consideraciones ante los esfuerzos occidentales de infligir una derrota estratégica a Rusia. La representante de la UE, Kaja Kallas, describió la exigencia de una nueva arquitectura de seguridad como una \"trampa\" que desvía la atención del alto el fuego, insistiendo en que la prioridad es lograr un cese de hostilidades antes de discutir la seguridad europea.\n\nEn las conversaciones de paz en Abu Dabi, que involucraron a Ucrania, Rusia y Estados Unidos, el enviado Witkoff señaló que Putin aceptó la posible participación europea en la próxima ronda, aunque el Kremlin aún no ha tomado una decisión definitiva. El portavoz Dmitri Peskov afirmó que se decidirá una vez se comprendan las verdaderas intenciones de los europeos.\n\nA pesar de las pérdidas militares, la presión económica y los ataques a refinerías rusas, Putin no ha mostrado disposición a poner fin a los combates, manteniendo su postura inflexible en la mesa de negociaciones.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fichef.bbci.co.uk%2Fnews%2F1200%2Fbranded_mundo%2F69b4%2Flive%2F54139cb0-df82-11f1-b441-2b33b063138f.jpg",
-    "fecha": "2026-11-13",
-    "seccion": "mundo",
-    "region": "Ucrania",
-    "medio": "BBC Mundo",
-    "url_origen": "https://www.bbc.com/mundo/articles/crn80jqyw993o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "id": "n-8bb3f95f606b",
-    "titulo_original": "Estados Unidos suspende todos los vuelos y deja a su sistema aéreo en crisis: casi 7,000 viajes afectados",
-    "titulo": "EE.UU. suspende todos los vuelos por falla de telecomunicaciones, afecta ~7,000 itinerarios",
-    "resumen": "Una interrupción en las comunicaciones del control aéreo obligó a la FAA a detener todos los despegues en Estados Unidos, generando retrasos y cancelaciones en cerca de 7,000 vuelos. El Aeropuerto Internacional de la Ciudad de México también informó afectaciones y recomendó a los pasajeros confirmar sus itinerarios.",
-    "contenido": "Una falla en las comunicaciones del control aéreo de Estados Unidos obligó a la Administración Federal de Aviación (FAA) a suspender todos los vuelos del país el viernes 13 de noviembre de 2026. La interrupción, originada en los centros de coordinación del tránsito aéreo, provocó que la FAA ordenara detener todas las salidas desde los aeropuertos, aunque los aviones ya en vuelo pudieron aterrizar.\n\nSean Duffy, secretario de Transporte de EE.UU., informó que técnicos de la FAA investigan la avería. La causa no ha sido identificada públicamente y no se ha anunciado cuándo se reanudarán los despegues. Un comunicado de la FAA en Twitter señaló que la suspensión se adoptó por precaución y que todos los vuelos fueron contabilizados, con los internacionales atendidos caso por caso.\n\nEl servicio de seguimiento FlightAware registró cerca de 7,000 vuelos retrasados o cancelados. El problema, que inicialmente afectó a Chicago, se extendió a nivel nacional. En México, el Aeropuerto Internacional de la Ciudad de México (AICM) confirmó afectaciones en los vuelos programados desde y hacia destinos estadounidenses y recomendó a los pasajeros verificar su itinerario con la aerolínea.\n\nEsta es la segunda orden nacional de detener los despegues desde los atentados del 11 de septiembre de 2001; la única anterior ocurrió en enero de 2023 y duró menos de dos horas. La medida se produce en medio de un proceso de modernización del sistema de control aéreo, que incluye una inversión de 12,500 millones de dólares aprobada en 2025 y una solicitud adicional de 30,100 millones de dólares por parte de la FAA y la Casa Blanca.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fcdn-3.expansion.mx%2Fdims4%2Fdefault%2F7c5c947%2F2147483647%2Fstrip%2Ftrue%2Fcrop%2F2124x1115%2B0%2B148%2Fresize%2F1200x630%21%2Fformat%2Fjpg%2Fquality%2F80%2F%3Furl%3Dhttps%253A%252F%252Fcdn-3.expansion.mx%252F5e%252F66%252Fcd90a1994d00ad239fe60b6835ba%252Fvuelos-estados-unidos.jpg",
-    "fecha": "2026-11-13",
-    "seccion": "mexico",
-    "region": "Estados Unidos",
-    "medio": "Expansión",
-    "url_origen": "https://expansion.mx/mundo/2026/11/13/estados-unidos-cancela-todos-los-vuelos-que-esta-pasando"
-  },
-  {
-    "id": "n-8dc244951c25",
-    "titulo_original": "Clima en Mazatlán: temperatura y probabilidad de lluvia para este sábado 14 de noviembre",
-    "titulo": "Clima en Mazatlán para el sábado 14 de noviembre: temperatura, lluvia y viento",
-    "resumen": "Para el sábado 14 de noviembre la probabilidad de lluvia en Mazatlán es del 3 %. Se esperan máximas de 31.1 °C y mínimas de 20.2 °C, con nubosidad del 40 % durante el día y 2 % en la noche. El índice UV alcanzará 4 y las ráfagas de viento serán de 5.6 km/h en el día y 7.4 km/h en la noche.",
-    "contenido": "El reporte meteorológico para Mazatlán, Sinaloa, indica que el 14 de noviembre la probabilidad de lluvia será del 3 % durante el día. La nubosidad se mantendrá en un 40 % en el transcurso del día y descenderá al 2 % durante la noche. La temperatura máxima pronosticada es de 31.1 °C y la mínima de 20.2 °C. Los rayos UV se estiman en un nivel de hasta 4, mientras que las ráfagas de viento alcanzarán 5.6 kilómetros por hora en el día y 7.4 kilómetros por hora en la noche.\n\nMazatlán presenta un clima tropical semi‑húmedo seco‑lluvioso, con una temperatura promedio anual de 26 °C. La zona suele experimentar sensación de bochorno en verano y clima cálido de diciembre a febrero. Las precipitaciones se concentran entre julio y octubre, pudiendo los termómetros registrar hasta 35 °C en ese periodo. Entre junio y noviembre la ciudad puede verse afectada por la temporada de tormentas y huracanes, aunque históricamente solo ha sido azotada en 1943, 1957 y 1975.\n\nEn el contexto nacional, México cuenta con una gran diversidad climática, desde climas templados hasta desérticos, y una temperatura promedio anual de 19 °C según el Servicio Meteorológico Nacional. Sin embargo, el cambio climático está generando reducciones en las aguas pluviales y aumentos de temperatura, afectando a sectores como la agricultura y la salud pública.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fwww.infobae.com%2Fresizer%2Fv2%2F2VYP3KJI6BGJVGWJCFTKQMXERA.png%3Fauth%3Dbf376385f6266df344da972bd79b33ce7f8735c8892903cd25edd8061f7d88b0%26smart%3Dtrue%26width%3D1200%26height%3D630%26quality%3D85",
-    "fecha": "2026-11-13",
-    "seccion": "mexico",
-    "region": "México",
-    "medio": "Infobae México",
-    "url_origen": "https://www.infobae.com/mexico/2026/11/14/clima-en-mazatlan-temperatura-y-probabilidad-de-lluvia-para-este-sabado-14-de-noviembre/"
-  },
-  {
     "id": "n-f4febcea4906",
     "titulo_original": "Las fuerzas de EEUU respondieron a una presunta actividad de drones no autorizada sobre una base en Gran Bretaña",
     "titulo": "EE.UU. responde a presunta actividad no autorizada de drones en base RAF Lakenheath",
@@ -1948,5 +1896,57 @@
     "region": "Europa",
     "medio": "DW Español",
     "url_origen": "https://www.dw.com/es/¿podría-la-renta-básica-universal-ser-parte-de-la-solución-en-una-economía-revolucionada-por-la-ia/a-79951515?maca=spa-rss-sp-all-1122-xml-mrss"
+  },
+  {
+    "id": "n-c747fff84d5b",
+    "titulo_original": "Asesinan al periodista Eduardo Flores Salado en Acapulco; presentaba signos de estrangulamiento",
+    "titulo": "Periodista Eduardo Flores Salado es hallado muerto con signos de estrangulamiento en Acapulco",
+    "resumen": "El periodista Eduardo Flores Salado fue encontrado sin vida en la colonia Canuto Nogueda, en Acapulco, presentando aparentes signos de estrangulamiento. La Fiscalía de Guerrero abrió una investigación por homicidio mientras colegas y familiares exigen esclarecimiento del caso.",
+    "contenido": "El sábado 14 de noviembre, autoridades de Acapulco hallaron el cadáver del periodista Eduardo Flores Salado en la colonia Canuto Nogueda, cerca del poblado de La Sabana. El hallazgo se realizó alrededor de las 21:00 horas y fue confirmado por elementos de los tres órdenes de gobierno. Según los primeros reportes, el cuerpo presentaba aparentes signos de estrangulamiento, por lo que la Fiscalía de Guerrero abrió la carpeta de investigación correspondiente.\n\nFlores Salado colaboraba desde hace varios años con Enfoque Informativo, donde desarrolló parte de su trayectoria y era reconocido entre reporteros y fotógrafos de la ciudad. Inició su carrera en el extinto periódico impreso Novedades Acapulco y, tras su cierre, trabajó como reportero y colaborador del programa de radio Enfoque Informativo, propiedad de Héctor Nájera. Además, fue fundador del colectivo Prensa Rosa, un bloque de comunicadores de Guerrero identificado con la comunidad LGBTIQ+.\n\nTras la noticia, colegas del medio expresaron su pesar y exigieron que se esclarezca el asesinato. Los familiares del periodista acudieron al Servicio Médico Forense (Semefo) para el reconocimiento legal del cuerpo, pero no se ha anunciado públicamente el lugar ni la fecha de los servicios funerarios.\n\nEn el mismo contexto, se menciona el caso de Manuel Alejandro Mora Serna, alias Alex Serna, comunicador que denunció irregularidades ambientales y cuyo cuerpo fue encontrado con signos de violencia en junio de 2024 en la carretera Acapulco‑Zihuatanejo, en el municipio de Petatlán.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fwww.elfinanciero.com.mx%2Fresizer%2Fv2%2FYLGHAJKFZJE6DCTNAWTTPQWF4Q.png%3Fsmart%3Dtrue%26auth%3D75496b32a7b29bca6fd5456fb00512ea7738105b3cc6b3342f4bad2ac5a7fd47%26width%3D1200%26height%3D630",
+    "fecha": "2026-11-15",
+    "seccion": "mexico",
+    "region": "México",
+    "medio": "El Financiero",
+    "url_origen": "https://www.elfinanciero.com.mx/estados/2026/11/15/asesinan-al-periodista-eduardo-flores-salado-en-acapulco-policia-lo-encontro-estrangulado/"
+  },
+  {
+    "id": "n-5db6fe8d243d",
+    "titulo_original": "Sismo de 4.1 de magnitud se registra en Chiapas",
+    "titulo": "Sismo de 4.1 Mw se registra en Cintalapa, Chiapas",
+    "resumen": "El Servicio Sismológico Nacional reportó un sismo de magnitud 4.1 a las 10:57 h del 15 de noviembre, con epicentro a 65 km al noroeste de Cintalapa, Chiapas, y profundidad de 171 km. Hasta el momento no se reportan daños y la información es preliminar.",
+    "contenido": "Un sismo de magnitud 4.1 se registró en el municipio de Cintalapa, Chiapas, según informó el Servicio Sismológico Nacional (SSN). El movimiento telúrico ocurrió a las 10:57 h del 15 de noviembre, a 65 km al noroeste de la ciudad, con una profundidad de 171.0 km y coordenadas 17.21 ° latitud, -94.023 ° longitud. Las autoridades no han informado daños y la información es preliminar, por lo que los datos podrían actualizarse.\n\nEl SSN recuerda que los sismos no se pueden predecir y que México registra decenas de temblores diarios, la mayoría de baja magnitud e imperceptibles. Ante actividad sísmica significativa, el Cenapred insta a no difundir rumores y a consultar fuentes oficiales como Protección Civil.\n\nSe recomiendan medidas después de un sismo: revisar la vivienda, usar el celular solo en emergencias, evitar velas y estar alerta a réplicas. Antes de un sismo, es aconsejable contar con un plan de protección civil, participar en simulacros y tener una mochila de emergencia.\n\nLa alerta sísmica, operada por el Centro de Instrumentación y Registro Sísmico (Cires), cuenta con 96 sensores y cubre ocho ciudades, aunque no se activa si el temblor ocurre fuera de la zona de cobertura. La noticia también recuerda los grandes terremotos de 1985 (8.2), 2017 y el más fuerte registrado en 1787 (8.6).",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fwww.infobae.com%2Fresizer%2Fv2%2FIVAV5TIJM5FS3JVFJ2YGPI2FEQ.jpg%3Fauth%3Dcc126fd72c9b26bf7cab7aa7113d1512c68c51b58e8e2731c2a95f2c6a8cfe6e%26smart%3Dtrue%26width%3D1200%26height%3D630%26quality%3D85",
+    "fecha": "2026-11-15",
+    "seccion": "mexico",
+    "region": "México",
+    "medio": "Infobae México",
+    "url_origen": "https://www.infobae.com/mexico/2026/11/15/sismo-de-41-de-magnitud-se-registra-en-chiapas/"
+  },
+  {
+    "id": "n-08bdbf4301a7",
+    "titulo_original": "De enfermera intensivista en Cuba a asistente de cocina en Panamá, la historia de Yasuris Rivera Herrera",
+    "titulo": "De enfermera intensivista en Cuba a asistente de cocina en Panamá",
+    "resumen": "Yasuris Rivera Herrera, de 27 años, dejó su puesto como enfermera intensivista en Cuba y comenzó de cero como asistente de cocina en Panamá, donde lleva poco más de un año. Su testimonio muestra la pérdida temporal de la profesión y los retos de regularizar títulos y encontrar empleo en el país de destino, a la vez que destaca la escasa remuneración en Cuba que motivó su salida.",
+    "contenido": "Yasuris Rivera Herrera, de 27 años, abandonó su trabajo como enfermera intensivista en Cuba y empezó como asistente de cocina en Panamá. Según su relato en redes sociales, lleva \"un año y piquito\" en el país centroamericano, después de cumplir, junto a su esposo, el objetivo de emigrar en busca de condiciones de vida distintas.\n\nEn la cocina describe jornadas largas de pie frente a una plancha, expuesta al calor y realizando tareas como cortar ajo y cebolla hasta la noche. \"Difícil lo es. Nadie dijo que sería fácil\", afirmó, pero también señaló que el empleo le ha permitido lograr metas materiales que en Cuba le habrían llevado años.\n\nRivera Herrera reconoce que emigrar implicó olvidar por completo su identidad profesional: \"Cuando emigras tienes que olvidarte por completo de lo que eras\". La falta de homologación de títulos, los requisitos de residencia y las barreras económicas obligan a muchos cubanos a aceptar trabajos ajenos a su formación.\n\nExplicó que en Cuba el salario no le alcanzaba para nada y que la emigración busca construir un futuro propio y enviar ayuda limitada a sus familiares. Además, proyecta crear contenido para redes, trabajar con marcas, emprender, viajar y formar una familia, considerando su empleo actual como \"el primer ladrillo del futuro\".\n\nEl testimonio se inserta en un contexto de deterioro del sistema de salud cubano: el Ministerio de Salud Pública de Cuba reportó que el número de médicos registrados cayó de 106,131 en 2021 a 71,635 en 2025, y que más de 77,000 trabajadores sanitarios, entre enfermeros, técnicos y estomatólogos, abandonaron el sector en el mismo periodo. La escasa capacidad de compra de los salarios cubanos frente al aumento de alimentos y productos básicos es uno de los factores que impulsan esta emigración.\n\nRivera Herrera concluye que, aunque el proceso no es una solución automática, su primer empleo le abrió una posibilidad de progreso que no encontraba en Cuba.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fwww.infobae.com%2Fresizer%2Fv2%2FJ2J2NNWQQVBI5KFP6D3YUYFCFA.png%3Fauth%3D24e7386d7ca8f35f94055845af84c8b37b4c2d9e5921ce001e7b7bc5798cc555%26smart%3Dtrue%26width%3D1200%26height%3D630%26quality%3D85",
+    "fecha": "2026-11-15",
+    "seccion": "mundo",
+    "region": "Panamá",
+    "medio": "Infobae América",
+    "url_origen": "https://www.infobae.com/cuba/2026/11/15/de-enfermera-intensivista-en-cuba-a-asistente-de-cocina-en-panama-la-historia-de-yasuris-rivera-herrera/"
+  },
+  {
+    "id": "n-c999148023aa",
+    "titulo_original": "Israel asfixia la esperanza en Gaza tras más de un año de bloqueo a la reconstrucción",
+    "titulo": "Inundaciones y bloqueo impiden la reconstrucción en Gaza",
+    "resumen": "Lluvias intensas han inundado miles de tiendas de campaña en Gaza, dejando a familias como la de Mohammed Al Jalis sin refugio ni recursos. Mientras tanto, Israel mantiene el bloqueo que impide la entrada de más de 150 000 tiendas y la reparación de infraestructuras esenciales, a pesar de la presión internacional.",
+    "contenido": "Mohammed Al Jalis dormía con su esposa y su bebé de dos meses cuando el agua se coló en su tienda de campaña en Deir El Balah, una zona desplazada desde Al Tufah. La familia salió con la ropa empapada y sin saber a dónde ir, mientras otras personas en la misma situación sufrían la pérdida de alimentos, mantas y colchones. Actualmente se encuentran alojados temporalmente en la casa de la hermana, donde faltan mantas y el frío nocturno empeora la situación.\n\nMás de dos millones de gazatíes viven apiñados en menos de la mitad del territorio, sin espacio siquiera para desechar basura, según relata Al Jalis. Sus necesidades son básicas: una tienda resistente al viento y un retrete. La situación es similar a la de hace 13 meses, cuando comenzó el alto el fuego que, según la fuente, solo ha existido en papel.\n\nLas recientes lluvias provocaron que decenas de miles de tiendas se anegaran, mientras en Israel se registraron pocos incidentes. La destrucción de sistemas de alcantarillado y drenaje hizo que el agua de lluvia se mezclara con aguas fecales, creando piscinas que las familias intentan vaciar con cubos. En Deir al Balah, el suelo arcilloso mantiene el agua acumulada alrededor de las jaimas.\n\nMás de 150 000 tiendas, adquiridas por socios humanitarios y países, esperan en el lado egipcio de la frontera, pero las autoridades militares israelíes no autorizan su ingreso, según datos de la ONU. Israel, por su parte, ha respondido a la indignación global con un tuit que afirma que \"no controla el clima\", mientras sigue bloqueando la entrada de refugios móviles, viviendas prefabricadas y materiales de reconstrucción, argumentando riesgos de uso por parte de Hamás.\n\nLa población de Gaza permanece en un limbo de frío, humedad y escasez, a la espera de que las autoridades israelíes permitan la llegada de ayuda humanitaria y la reparación de infraestructuras esenciales.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fimagenes.elpais.com%2Fresizer%2Fv2%2F7C62LL2FSRDQXLC4VBLINIG52A.jpg%3Fauth%3D711ca2ecb87ecfa6d9da9116d5f224f234d79336cefb42b662be5246911bc7e7%26width%3D1200",
+    "fecha": "2026-11-15",
+    "seccion": "mundo",
+    "region": "Medio Oriente",
+    "medio": "El País",
+    "url_origen": "https://elpais.com/internacional/2026-11-15/israel-asfixia-la-esperanza-en-gaza-tras-mas-de-un-ano-bloqueando-la-reconstruccion.html"
   }
 ]
