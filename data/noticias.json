@@ -1,57 +1,5 @@
 [
   {
-    "id": "n-6936bde941f0",
-    "titulo_original": "Autorizan de nuevo el despegue de aviones en EE.UU. tras la falla que obligó a suspender durante horas los vuelos en todo el país",
-    "titulo": "FAA autoriza de nuevo los despegues en EE.UU. tras falla de comunicaciones",
-    "resumen": "La FAA reabrió los despegues en EE.UU. la noche del viernes después de más de cuatro horas de suspensión por una sobrecarga de los enrutadores de la antigua red de telecomunicaciones que generó datos inconsistentes. Los técnicos redujeron la carga y restablecieron el servicio, aunque los retrasos podrían prolongarse varios días y se descarta un ciberataque.",
-    "contenido": "La Administración Federal de Aviación (FAA) de EE.UU. volvió a autorizar los despegues en todo el país la noche del viernes, después de más de cuatro horas de suspensión total. La medida se tomó luego de que los enrutadores de la antigua red de telecomunicaciones del sistema de control aéreo se sobrecargaran y empezaran a transmitir datos inconsistentes, lo que afectó a radares y comunicaciones.\n\nEl secretario de Transporte, Sean Duffy, explicó que la sobrecarga de datos obligó a la FAA a detener los despegues por “circunstancias extraordinarias y por razones de seguridad”. Los técnicos redujeron la carga de la red y restablecieron el servicio, aunque advirtió que los retrasos podrían prolongarse varios días. Duffy declaró: \"Nos va a llevar algún tiempo resolver lo que pasó esta tarde\" y calificó el estado del sistema como \"riesgo para la seguridad nacional\", pidiendo al Congreso US$50.000 millones para su modernización.\n\nEl secretario de Seguridad Nacional, Markwayne Mullin, indicó que la FAA estaba incorporando equipos y tecnología nuevos a la infraestructura antigua y que esas actualizaciones parciales pudieron haber sobrecargado el sistema. Mullin descartó la posibilidad de un ciberataque, afirmando que no ha observado \"ninguna prueba de que se trate de un ciberataque\".\n\nLa suspensión dejó en tierra a decenas de miles de pasajeros en aeropuertos como Atlanta, Miami, Los Ángeles y Nueva York JFK. Pasajeros en Baltimore‑Washington, Denver y Los Ángeles describieron confusión y falta de información. Autoridades mexicanas informaron que los vuelos programados desde México a EE.UU. debían permanecer en tierra, y en Argentina, Chile y Panamá se reportaron demoras y cancelaciones. Eurocontrol confirmó que todo el tráfico aéreo de sus estados miembros con destino a EE.UU. fue suspendido a petición de la FAA.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fichef.bbci.co.uk%2Fnews%2F1200%2Fbranded_mundo%2F951f%2Flive%2F7328a070-dfd0-11f1-a6fe-ebebb8980ad5.png",
-    "fecha": "2026-11-13",
-    "seccion": "mundo",
-    "region": "Estados Unidos",
-    "medio": "BBC Mundo",
-    "url_origen": "https://www.bbc.com/mundo/articles/crgqx8jpw3jvo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "id": "n-00be71b210c5",
-    "titulo_original": "Estados Unidos reanuda despegues de aviones tras fallo que suspendió vuelos",
-    "titulo": "FAA levanta suspensión de despegues tras falla de comunicaciones en EE.UU.",
-    "resumen": "La FAA reanudó los despegues después de una interrupción en el sistema de comunicaciones que provocó una suspensión nacional de cuatro horas. El secretario de Transporte, Sean Duffy, y el de Seguridad Nacional, Markwayne Mullin, descartaron un ataque terrorista y anunciaron medidas para modernizar la infraestructura aérea.",
-    "contenido": "La Administración Federal de Aviación (FAA) levantó la noche del viernes 13 de noviembre de 2026 la suspensión nacional de despegues que había paralizado durante cuatro horas los vuelos en los aeropuertos de Estados Unidos, tras una interrupción en las comunicaciones. La administración de Donald Trump atribuyó el incidente a una caída del sistema de comunicaciones y descartó que se tratara de un ataque terrorista.\n\nEn una rueda de prensa en la Casa Blanca, el secretario de Transporte Sean Duffy confirmó la reapertura del espacio aéreo, aunque advirtió que el tráfico tardará en recuperar la normalidad. \"Vamos a intentar trasladar tantos de esos aviones como podamos esta noche, si contamos con suficientes tripulaciones para realizar esos vuelos. Si no, empezaremos mañana por la mañana\", declaró. Por su parte, el secretario de Seguridad Nacional Markwayne Mullin también negó la existencia de un ataque y señaló que el problema no estaba relacionado con la caída de Microsoft del jueves. \"El público nunca estuvo en peligro durante este proceso. Nunca hubo vidas en riesgo. Todos sus seres queridos están a salvo. Estamos trabajando para resolver el problema, y esperamos tener las operaciones en marcha y funcionando\", aseguró.\n\nDuffy explicó que los sistemas de telecomunicaciones analógicos de la FAA sufrieron una sobrecarga de datos, lo que provocó inconsistencias en la información transmitida por sus enrutadores y obligó a apagar el sistema como medida preventiva. Solicitó al Congreso fondos de emergencia para modernizar la infraestructura de control aéreo.\n\nSegún FlightRadar, la interrupción generó más de 10,000 retrasos y al menos 4,700 cancelaciones de vuelos en todo el país, y podría prolongar las alteraciones durante el fin de semana. Algunos vuelos internacionales con destino a Europa y Asia pudieron despegar al no sobrevolar territorio continental. La interrupción también afectó a FedEx y UPS, y aeropuertos de México, Brasil y Canadá retuvieron en tierra los vuelos con destino a EE.UU. Esta fue la tercera suspensión general de despegues en el siglo, después de los atentados del 11 de septiembre de 2001 y la falla del sistema de avisos a pilotos en enero de 2023.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fstatic.dw.com%2Fimage%2F79946367_6.jpg",
-    "fecha": "2026-11-13",
-    "seccion": "mundo",
-    "region": "Estados Unidos",
-    "medio": "DW Español",
-    "url_origen": "https://www.dw.com/es/estados-unidos-reanuda-despegues-de-aviones-tras-fallo-que-suspendió-vuelos/a-79946394?maca=spa-rss-sp-all-1122-xml-mrss"
-  },
-  {
-    "id": "n-7d9598d28c6b",
-    "titulo_original": "Rafa Márquez refrenda su confianza en Rangel y Giménez previo al duelo ante Jamaica",
-    "titulo": "Rafa Márquez mantiene la fe en Rangel y Giménez antes de enfrentar a Jamaica",
-    "resumen": "El director técnico de México, Rafael Márquez, reiteró su confianza en el portero Raúl Rangel y el delantero Santiago Giménez de cara a la eliminatoria de cuartos de final contra Jamaica. Tras la derrota 3-0 ante Estados Unidos, busca reforzar la ofensiva y presentar un bloque defensivo sólido. El partido de ida se jugará en Kingston y el de vuelta en Monterrey.",
-    "contenido": "Rafael Márquez, director técnico de la selección mexicana, confirmó este viernes su confianza en el guardameta Raúl Rangel y en el delantero Santiago Giménez de cara a la eliminatoria de cuartos de final contra Jamaica en la Liga de Naciones de la CONCACAF.\n\nEn la última fecha FIFA México perdió 3-0 frente a Estados Unidos, partido en el que Rangel fue responsabilizado de dos goles y Giménez recibió críticas por fallar dos oportunidades claras. \"Hoy por hoy Rangel sigue siendo el portero titular de esta selección\", declaró Márquez en rueda de prensa. Rangel, actualmente el portero menos goleado de la liga mexicana con el Guadalajara, recibió el elogio: \"Estamos contentos por cómo se ha recuperado y por el nivel que tiene\".\n\nRespecto a Giménez, delantero del Porto de Portugal, el técnico aseguró tener \"confianza en su trabajo\" y añadió: \"No me disgustó para nada la actuación que tuvo contra Estados Unidos\".\n\nEl Tri buscará incrementar su cuota ofensiva, tras anotar solo dos goles en los cuatro primeros partidos de la era de Márquez. Giménez es una de las cuatro opciones para la posición de centrodelantero; también están Julián Quiñones, Armando González y Armando León. Ante la convocatoria de León, Márquez comentó: \"aunque es un desconocido para muchos, mi equipo de trabajo y yo lo hemos venido siguiendo desde hace dos meses y medio, y nos ha sorprendido\".\n\nAdemás de potenciar el ataque, el entrenador mexicano espera presentar un sólido bloque defensivo, señalando que Jamaica es un rival que se defiende bien y sale a transiciones. El partido de ida se jugará el sábado en Kingston y el de vuelta el martes en Monterrey.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fimagenes.eleconomista.com.mx%2Ffiles%2Fimage_1200_600%2Ffiles%2Ffp%2Fuploads%2F2026%2F11%2F13%2F6af7d6adc2a94.r_d.1119-163-6001.jpeg",
-    "fecha": "2026-11-13",
-    "seccion": "mexico",
-    "region": "México",
-    "medio": "El Economista",
-    "url_origen": "https://www.eleconomista.com.mx/deportes/rafa-marquez-refrenda-confianza-rangel-gimenez-previo-duelo-jamaica-20261113-844023.html"
-  },
-  {
-    "id": "n-151cae552744",
-    "titulo_original": "Vuelos en EU vuelven a operar tras suspensión: ¿Cuántos pasajeros fueron afectados en México?",
-    "titulo": "Vuelos en EE.UU. se reanudan tras falla de telecomunicaciones; 18,002 pasajeros mexicanos afectados",
-    "resumen": "Después de más de cuatro horas de suspensión nacional de vuelos en EE.UU. por una falla en las telecomunicaciones, la FAA levantó la orden. En México, la AFAC reportó ajustes en 193 vuelos que impactaron a 18,002 pasajeros.",
-    "contenido": "La Administración Federal de Aviación de Estados Unidos (FAA) suspendió los despegues a nivel nacional durante más de cuatro horas tras una falla en las telecomunicaciones que paralizó los centros de control de tráfico aéreo. La interrupción, solo la tercera en la historia de EE.UU., se debió a problemas de comunicación y se levantó una vez que la FAA consideró seguras las condiciones de vuelo.\n\nEn México, el Aeropuerto Internacional Benito Juárez (AICM) informó que 40 vuelos y 6,197 pasajeros fueron afectados por las restricciones temporales. Posteriormente, la Agencia Federal de Aviación Civil (AFAC) anunció que, a causa de la suspensión, se realizaron ajustes en 193 vuelos, afectando a 18,002 pasajeros. La AFAC espera que las operaciones hacia distintas ciudades de EE.UU. se restablezcan paulatinamente.\n\nEl secretario de Transporte, Sean Duffy, explicó que la falla impactó a todos los centros de control de tráfico aéreo y que la causa exacta sigue bajo investigación. El FBI descartó un ciberataque, aunque se analiza si una actualización de software pudo desencadenar el problema. La FAA está modernizando su infraestructura con fondos de 12,500 millones de dólares, pero según Duffy se requerirán otros 30,000 millones para completar la obra.\n\nExpertos señalan que la obsolescencia de cables y sistemas de radio contribuye a este tipo de incidentes y que, sin capacidad de comunicación, los aviones deben permanecer en tierra para garantizar la seguridad.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fwww.elfinanciero.com.mx%2Fresizer%2Fv2%2F5AXVM27GNRD6JI4MGH2FR37HTU.jpg%3Fsmart%3Dtrue%26auth%3D1bf4a028cd2db48fa15ba519b29f5055437fa6cea54cf4cbfd78e834a7141b8a%26width%3D1200%26height%3D630",
-    "fecha": "2026-11-13",
-    "seccion": "mexico",
-    "region": "México",
-    "medio": "El Financiero",
-    "url_origen": "https://www.elfinanciero.com.mx/mundo/2026/11/13/permiso-para-despegar-eu-reanuda-despegues-tras-falla-que-afecto-centros-de-control-de-trafico-aereo/"
-  },
-  {
     "id": "n-4471178b4d6c",
     "titulo_original": "Microsoft lamenta \"profundamente\" problemas causados por caída global",
     "titulo": "Microsoft se disculpa por caída global de servicios que afectó a 70 países",
@@ -1948,5 +1896,57 @@
     "region": "Estados Unidos",
     "medio": "El País",
     "url_origen": "https://elpais.com/internacional/2026-11-09/trumpazo-economico-debacle-politica.html"
+  },
+  {
+    "id": "n-ae89857cf0e0",
+    "titulo_original": "Ya no más filas en el cajero del Banco del Bienestar: así puedes hacer transferencias desde la nueva app",
+    "titulo": "Banco del Bienestar lanza app con transferencias y pagos QR sin comisiones",
+    "resumen": "La nueva versión de la app del Banco del Bienestar permite a los beneficiarios de programas sociales enviar dinero a otras cuentas y pagar digitalmente sin acudir a un cajero. Las transferencias se hacen vía SPEI y no generan comisiones.",
+    "contenido": "Los usuarios de los programas sociales ahora pueden realizar operaciones bancarias desde la aplicación del Banco del Bienestar sin necesidad de acudir a un cajero o sucursal. La actualización incorpora herramientas para enviar dinero a otras cuentas y efectuar pagos digitales, todo sin cobrar comisiones, según informó el director general Víctor Manuel Lamoyi Bocanegra durante la Mañanera del Pueblo.\n\nPara efectuar una transferencia, el usuario ingresa a la app con su usuario y contraseña, selecciona el ícono de «Transferencias», captura el número de tarjeta, la CLABE o el número de celular del destinatario, introduce el monto y el concepto, verifica los datos y presiona «Pagar». Cada operación genera un comprobante digital y una notificación.\n\nLa app también permite transferir mediante códigos QR. Después de iniciar sesión y seleccionar «Transferencias», se pulsa el ícono «QR», se escanea el código del destinatario o del comercio, se verifica el monto y se confirma la operación, recibiendo igualmente un comprobante digital.\n\nAdemás de transferencias y pagos QR, la aplicación permite recibir pagos mediante códigos QR, consultar movimientos del mes actual y anterior, y localizar sucursales cercanas, incluso fuera de la localidad habitual del usuario.\n\nEstas funciones están dirigidas a usuarios que reciben depósitos de la Pensión para el Bienestar de las Personas Adultas Mayores, Mujeres Bienestar, becas Rita Cetina, Jóvenes Escribiendo el Futuro y el programa Sembrando Vida. Lamoyi señaló que la app alcanzó 18 millones de usuarios en 2022, registra más de un millón de consultas diarias y busca ampliar su alcance a 43 millones de usuarios.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fcdn-3.expansion.mx%2Fdims4%2Fdefault%2F5f1020e%2F2147483647%2Fstrip%2Ftrue%2Fcrop%2F1672x878%2B0%2B32%2Fresize%2F1200x630%21%2Fformat%2Fjpg%2Fquality%2F80%2F%3Furl%3Dhttps%253A%252F%252Fcdn-3.expansion.mx%252Fae%252F54%252Fc890dd1443598b68be712338db2e%252Fapp-banco-del-bienestar.png",
+    "fecha": "2026-11-15",
+    "seccion": "mexico",
+    "region": "México",
+    "medio": "Expansión",
+    "url_origen": "https://expansion.mx/finazas-personales/2026/11/13/como-hacer-transferencias-app-bienestar"
+  },
+  {
+    "id": "n-230d037ad189",
+    "titulo_original": "Quién fue Óscar “Patroncito” Cortez y qué pasará con el título del campeón mexicano invicto tras su muerte",
+    "titulo": "Fallece Óscar “Patroncito” Cortez, campeón ligero invicto de Fecombox",
+    "resumen": "El boxeador sonorense Óscar “Patroncito” Cortez murió el 13 de noviembre de 2026, dejando pendiente el futuro del título ligero que ganó en febrero del mismo año. La Fecombox y el CMB aún no han anunciado cómo se resolverá la corona que ostentaba.",
+    "contenido": "Óscar “Patroncito” Cortez, nacido en Hermosillo y vinculado al boxeo de Nogales, alcanzó la cima de la división ligera de la Federación de Comisiones de Boxeo de México (Fecombox) a los 20 años, manteniendo un récord invicto.\n\nEl 21 de febrero de 2026, en el Palenque de la Expogan, Cortez derrotó a Luis “Sismo” Corona, ambos sin derrotas, y se alzó con el campeonato ligero de Fecombox. Esa victoria lo posicionó entre los nombres a seguir en el país y consolidó su estatus de campeón invicto.\n\nSu muerte, ocurrida el 13 de noviembre de 2026, detuvo de golpe una carrera prometedora. Entrenadores, promotores, compañeros y gimnasios de la región difundieron mensajes de despedida, mientras su entorno mantuvo reserva sobre las circunstancias del fallecimiento.\n\nCon el fallecimiento del campeón, la Fecombox y el Consejo Mexicano de Boxeo (CMB) deben iniciar un proceso administrativo para definir el destino del cinturón. Hasta el momento, ambas entidades no han anunciado una resolución, por lo que el título permanece ligado a la última victoria de Cortez.\n\nCuando la Fecombox comunique su decisión, el boxeo sonorense sabrá cómo seguirá la división ligera; por ahora, la imagen del campeón invicto levantando el cinturón sigue siendo la última de una carrera que se apagó demasiado pronto.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fwww.infobae.com%2Fresizer%2Fv2%2FQG4VNQMOQBAAPLJPUBZ3LEWOIA.png%3Fauth%3Dcbd03fe709ced483b9bf5540e5b60f5e76bde6232966d931ee62e071cd30d614%26smart%3Dtrue%26width%3D1200%26height%3D630%26quality%3D85",
+    "fecha": "2026-11-15",
+    "seccion": "mexico",
+    "region": "México",
+    "medio": "Infobae México",
+    "url_origen": "https://www.infobae.com/mexico/deportes/2026/11/14/quien-fue-oscar-patroncito-cortez-y-que-pasara-con-el-titulo-del-campeon-mexicano-invicto-tras-su-muerte/"
+  },
+  {
+    "id": "n-fa6550eb4d3a",
+    "titulo_original": "En Chiriquí, Panamá, asesinan a dos mujeres estadounidenses dentro de su vivienda",
+    "titulo": "Dos estadounidenses asesinadas en Chiriquí y otros incidentes violentos en la frontera panameña",
+    "resumen": "Dos mujeres estadounidenses fueron baleadas y murieron dentro de su vivienda en Bugaba, Chiriquí, en un asalto que las autoridades investigan como robo con homicidio. En la misma zona fronteriza, una mujer fue encontrada muerta cerca del parque de Paso Canoas y un hombre de 45 años fue detenido. Además, una adulta mayor falleció en un incendio en una barraca de la ciudad de Panamá.",
+    "contenido": "Dos mujeres de nacionalidad estadounidense fueron baleadas y murieron dentro de su vivienda en Bugaba, Chiriquí. Según los reportes preliminares, cuatro sujetos armados irrumpieron por la fuerza con la intención de sustraer pertenencias y dispararon contra las víctimas, que fallecieron en el lugar. Los vecinos escucharon las detonaciones, alertaron a un trabajador de una finca cercana, quien encontró los cuerpos en la sala. Las autoridades panameñas iniciaron un operativo para localizar a los cuatro atacantes y recuperar los objetos sustraídos, aunque hasta el momento no se han reportado detenciones.\n\nEn otro hecho ocurrido en la zona fronteriza, vecinos encontraron el cuerpo de una mujer en la calle cerca del parque de Paso Canoas, del lado de Costa Rica, con graves lesiones en cráneo y extremidades. Un bloque de cemento habría sido utilizado en el ataque. Gracias a testimonios, la policía aprehendió a un hombre panameño de 45 años, apellido Mojica, alias “Vaca”, quien permanece bajo custodia. Testigos indican que la víctima y el detenido eran personas en situación de calle y que la muerte podría haber surgido de una discusión relacionada con consumo de drogas.\n\nPor último, una adulta mayor falleció en un incendio que afectó una barraca en la ciudad de Panamá. La mujer, con problemas de movilidad, quedó atrapada y no pudo salir. El Cuerpo de Bomberos desplegó alrededor de 75 bomberos de cinco estaciones, junto a equipos de rescate, ambulancias y un tanquero, para controlar las llamas que también amenazaron una construcción cercana.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fwww.infobae.com%2Fresizer%2Fv2%2F234R2K4K2FETJKPPNJTVAVVXQY.png%3Fauth%3D726d7861f44967fa41b7d3ebcab83b1b3fe6496ba8392446d744353106c68c7f%26smart%3Dtrue%26width%3D1200%26height%3D630%26quality%3D85",
+    "fecha": "2026-11-15",
+    "seccion": "mundo",
+    "region": "Panamá",
+    "medio": "Infobae América",
+    "url_origen": "https://www.infobae.com/panama/2026/11/15/en-chiriqui-panama-asesinan-a-dos-mujeres-estadounidenses-dentro-de-su-vivienda/"
+  },
+  {
+    "id": "n-93a420fac2c0",
+    "titulo_original": "¿Podría la renta básica universal ser parte de la solución en una economía revolucionada por la IA?",
+    "titulo": "Merz y políticos alemanes debaten la renta básica ante la IA",
+    "resumen": "En la Cumbre Digital 2026, el canciller Friedrich Merz mostró cautela ante la posibilidad de que la IA elimine cientos de miles de empleos, sin descartar una renta básica universal. Autoridades como Andrea Nahles y Karsten Wildberger advierten sobre la pérdida de puestos y consideran la RBU como posible solución, mientras economistas ortodoxos la rechazan por su costo.",
+    "contenido": "En la Cumbre Digital de 2026, organizada por el gobierno alemán, un periodista preguntó al canciller Friedrich Merz si, ante la posible pérdida de cientos de miles de empleos por la inteligencia artificial, el Estado debería garantizar una renta básica universal. Merz no rechazó la idea y declaró: \"Siempre he sido un poco cauteloso con este tema en los últimos años\" y añadió: \"Sin embargo, también soy plenamente consciente de que la IA transformará nuestro mundo laboral de forma tan radical que, en los próximos años, tendremos que reflexionar seriamente sobre muchas de estas cuestiones; incluida esta: ¿acaso nuestra productividad no es lo suficientemente buena?\".\n\nEstas declaraciones contrastan con políticas anteriores de Merz, que han buscado que los alemanes trabajen más, como el aumento de la edad de jubilación y medidas más estrictas para licencias por enfermedad. La directora de la Agencia Federal de Empleo, Andrea Nahles, advirtió que la IA podría costar hasta 800.000 empleos en los próximos 15 años, aunque también podría crear un número similar de puestos.\n\nEl ministro de Transformación Digital, Karsten Wildberger, también señaló la necesidad de prepararse para las perturbaciones económicas y afirmó que \"una renta básica incondicionada puede ser parte de la solución para amortiguar las convulsiones en el mercado laboral\".\n\nKirsten Herrmann, del consejo de Mein Grundeinkommen, comentó: \"Esto demuestra que, ante la transformación tecnológica, también debemos mirar de forma diferente la cuestión de cómo debemos asegurar la estabilidad económica de las personas\" y añadió que las declaraciones individuales no implican un cambio político, sino la necesidad de un debate serio. Por su parte, el economista Dominik Enste del Instituto Alemán de Economía descartó la RBU como demasiado costosa, señalando que \"Muchos economistas han calculado que implementar esto es, en muchos países, financi\".",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fstatic.dw.com%2Fimage%2F79041536_6.jpg",
+    "fecha": "2026-11-15",
+    "seccion": "mundo",
+    "region": "Europa",
+    "medio": "DW Español",
+    "url_origen": "https://www.dw.com/es/¿podría-la-renta-básica-universal-ser-parte-de-la-solución-en-una-economía-revolucionada-por-la-ia/a-79951515?maca=spa-rss-sp-all-1122-xml-mrss"
   }
 ]
