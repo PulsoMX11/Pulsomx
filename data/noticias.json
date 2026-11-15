@@ -1,57 +1,5 @@
 [
   {
-    "id": "n-72eac8097d05",
-    "titulo_original": "Borussia Dortmund termina asociación con el consorcio armamentista Rheinmetall",
-    "titulo": "Borussia Dortmund pone fin a su patrocinio con Rheinmetall",
-    "resumen": "El Borussia Dortmund anunció que no renovará su contrato con el fabricante de armamento Rheinmetall, que expirará a mediados de 2027. La decisión, tomada de mutuo acuerdo, responde a las críticas de socios y aficionados que no desean que el club promocione una empresa de armas.",
-    "contenido": "El club de la Bundesliga comunicó este viernes que pondrá fin a su asociación con Rheinmetall, la mayor empresa de armamento de Alemania. El contrato, que tiene vigencia hasta mediados de 2027 y comenzó hace tres años, no será renovado. La directiva señaló que la decisión se tomó de mutuo acuerdo, destacando que las constantes críticas de los socios y algunos aficionados fueron el factor determinante.\n\n\"Somos conscientes de las críticas expresadas por nuestros socios y por algunos de nuestros aficionados\", afirmó Carsten Cramer, director gerente del Borussia Dortmund, añadiendo que ese aspecto se consideró en las conversaciones con Rheinmetall. Cuando se anunció el acuerdo de patrocinio en 2024, generó fuertes reacciones de pacifistas, organizaciones de derechos humanos y parte de la afición del club. En la asamblea general del mismo año, los socios votaron en contra de la renovación, aunque esa decisión no era vinculante para la directiva.\n\nRecientemente, el presidente del club, Hans‑Joachim Watzke, declaró en el pódcast \"Ausgerechnet\" que muchos aficionados le dijeron: \"No estamos en contra de Rheinmetall. Simplemente, no queremos que el Borussia Dortmund promocione una empresa que fabrica armas\". Aceptó plenamente ese punto de vista, aunque no lo comparte.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fstatic.dw.com%2Fimage%2F70880725_6.jpg",
-    "fecha": "2026-11-13",
-    "seccion": "mundo",
-    "region": "Europa",
-    "medio": "DW Español",
-    "url_origen": "https://www.dw.com/es/borussia-dortmund-termina-asociación-con-el-consorcio-armamentista-rheinmetall/a-79942431?maca=spa-rss-sp-all-1122-xml-mrss"
-  },
-  {
-    "id": "n-7357d96f14d9",
-    "titulo_original": "Qué se sabe sobre la falla global que afecta Outlook y otros servicios de Microsoft",
-    "titulo": "Falla global de Microsoft afecta Outlook, Teams y Copilot",
-    "resumen": "Una interrupción masiva de los servicios de Microsoft dejó sin acceso o con acceso intermitente a Outlook, Teams y Copilot en varios países. Microsoft atribuye el problema a una \"carga elevada\" en su infraestructura y descarta un ciberataque. La compañía informa mejoras progresivas, aunque algunos usuarios siguen experimentando retrasos.",
-    "contenido": "Una masiva interrupción global del servicio de Microsoft provocó problemas en Outlook, Teams y el software de inteligencia artificial Copilot. Según Downdetector, los informes de fallos en Outlook alcanzaron su punto máximo alrededor de las 18:00 GMT del jueves, con 140.000 usuarios de 74 países reportando dificultades.\n\nMicrosoft ha descartado un incidente de ciberseguridad y ha explicado que la causa fue una \"carga elevada\" que dejó varios servidores \"inesperadamente inaccesibles\", generando tráfico adicional y sobrecargando los restantes. La empresa indicó que está \"observando mejoras en la disponibilidad del servicio, con una reducción significativa de las colas de correo electrónico, que se acercan ya a niveles normales\". Sin embargo, advirtió que algunos usuarios \"podrían seguir experimentando problemas de acceso intermitentes o retrasos en la entrega de correos electrónicos a medida que avanza la recuperación\" y que está \"restaurando la infraestructura restante afectada, al tiempo que investiga problemas residuales en el servicio\".\n\nMás de 430 millones de personas utilizan Microsoft 365, por lo que la interrupción tuvo repercusión en empresas y usuarios de todo el mundo. Mientras algunos pudieron usar Teams con normalidad, otros no pudieron enviar ni recibir correos ni acceder a archivos de calendario. OpenAI, Anthropic, gobiernos de Singapur y Australia, y centros de salud del Reino Unido también reportaron problemas derivados de la falla.\n\nMicrosoft describió su progreso como \"éxito menor\" y señaló que los intentos anteriores \"no estaban dando los resultados esperados\". Expertos como Troy Hunt resaltaron la importancia de Microsoft en la infraestructura de internet, y Paul Spain comentó que la interrupción hizo que \"las empresas prácticamente han perdido un día laboral\".",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fichef.bbci.co.uk%2Fnews%2F1200%2Fbranded_mundo%2Feaad%2Flive%2F73b2c830-df45-11f1-a48c-75dd2efdacb5.jpg",
-    "fecha": "2026-11-13",
-    "seccion": "mundo",
-    "region": "Mundial",
-    "medio": "BBC Mundo",
-    "url_origen": "https://www.bbc.com/mundo/articles/c8dx192g5pn5o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "id": "n-06cfa73c7152",
-    "titulo_original": "Libros de Amazon México: estos son los títulos más populares este día",
-    "titulo": "Libros populares en Amazon México y estadísticas de lectura en el país",
-    "resumen": "Amazon México destaca varios títulos entre los más vendidos, mientras que el INEGI reporta una caída en la población lectora del 68.5% en 2023, con diferencias por sexo y edad. Los libros siguen siendo el material de lectura preferido entre los adultos mayores.",
-    "contenido": "Amazon se ha convertido en una herramienta clave para los lectores que buscan adquirir libros de forma rápida. Entre los títulos más populares en la plataforma se encuentran \"Deja de ser tú (latino): La mente crea la realidad\", \"La psicología del dinero: Cómo piensan los ricos: 18 claves imperecederas sobre riqueza y felicidad\", \"Hábitos atómicos (Español neutro): Un método sencillo y comprobado para desarrollar buenos hábitos y eliminar los malos\", \"Quiúbole con la Adultez. Manual de supervivencia para cuando ya no eres chav\" y la colección infantil \"Baby Einstein - Mi Primera Biblioteca - 12 Libros de Carton - PI Kids\". Algunos libros pueden aparecer sin autor cuando la plataforma no lo indica. Para comprar, basta con una cuenta, buscar el título y proceder al pago.\n\nSegún el módulo de lectura (MOLEC) del INEGI, la población lectora en México en 2023 fue del 68.5%, equivalente a 3.4 libros por persona al año, la cifra más baja desde 2016. La tasa de lectores de 18 años y más disminuyó 3.3 puntos porcentuales respecto a 2022, y comparada con el 80.8% de 2016, representa una caída de 12.3 puntos. Los hombres lideran con 71.7% frente al 65.7% de las mujeres. El tiempo promedio de una sesión continua de lectura fue de 42 minutos.\n\nEl hábito lector varía por edad: en los grupos de 18‑24 y 25‑34 años ocho de cada diez personas leen, mientras que en mayores de 65 años la proporción baja a cinco mujeres y seis hombres por cada diez. Los libros representan el 40.8% del material de lectura, seguidos por páginas de internet (37.7%), revistas (23.6%), periódicos (18.5%) y historietas (6.1%). Los jóvenes prefieren contenido digital, mientras que los mayores de 35 años, especialmente los de 65+, optan por los libros. Los principales motivos para leer fueron entretenimiento (44.6%), trabajo o estudios (26.5%), cultura general (19.2%), religión (9.4%) y otros (0.3%).",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fwww.infobae.com%2Fresizer%2Fv2%2F5BNSM7MDFVCHZOODICC4TSOR5Q.jpg%3Fauth%3Dd37fa791672b8f33819fbf80ce21ee9601a1254606ba19cf70cdb6f9676f9874%26smart%3Dtrue%26width%3D1200%26height%3D630%26quality%3D85",
-    "fecha": "2026-11-13",
-    "seccion": "mexico",
-    "region": "México",
-    "medio": "Infobae México",
-    "url_origen": "https://www.infobae.com/mexico/2026/11/13/libros-de-amazon-mexico-estos-son-los-titulos-mas-populares-este-dia/"
-  },
-  {
-    "id": "n-17b24abbdeb0",
-    "titulo_original": "‘Tony Montana’, hermano de ‘El Mencho’, recibe sentencia de EU: ¿A cuántos años fue condenado a prisión?",
-    "titulo": "Antonio Oseguera \"Tony Montana\" recibe 22 años y medio de prisión en EE. UU.",
-    "resumen": "Antonio Oseguera Cervantes, alias \"Tony Montana\" y hermano de \"El Mencho\", fue sentenciado a 22 años y medio de prisión en Estados Unidos por conspiración para distribuir narcóticos y posesión de armas. La jueza Beryl A. Howell redujo la pena solicitada por la Fiscalía, tomando en cuenta su edad (68 años) y sus problemas de salud crónicos. Oseguera se declaró culpable, ofreció una disculpa pública y pidió que la condena le permitiera no morir lejos de su familia.",
-    "contenido": "Antonio Oseguera Cervantes, conocido como \"Tony Montana\" y hermano del fundador del Cártel Jalisco Nueva Generación (CJNG), Nemesio Oseguera Cervantes \"El Mencho\", fue condenado a 22 años y medio de prisión en Estados Unidos. La sentencia, dictada por la jueza de distrito Beryl A. Howell en Washington, incluye 17 años y medio por conspiración para distribuir narcóticos y cinco años por posesión de armas de fuego. La magistrada redujo la pena solicitada por la Fiscalía, que pedía 30 años, al considerar la edad del condenado (68 años) y sus condiciones médicas crónicas, entre ellas problemas cardiovasculares y una afección del sistema inmune que le produce confusión.\n\nEl 31 de julio, \"Tony Montana\" se declaró culpable de los cargos y, antes de la lectura de la sentencia, ofreció una disculpa en español por sus \"acciones graves\" y el daño causado. En una carta solicitó clemencia, pidiendo que la condena no lo obligara a \"morir lejos\" de su familia. Según documentos judiciales, participó durante más de dos décadas en el tráfico de drogas hacia EE. UU. para el CJNG y el Cártel del Milenio (2002‑2010), supervisó la venta de drogas, protegió territorios, coordinó laboratorios clandestinos de metanfetamina y manejó el suministro de precursores químicos y el lavado de dinero.\n\nOtros miembros de la familia Oseguera también han sido juzgados: Rubén Oseguera González \"El Menchito\" recibió cadena perpetua, mientras que Christian Fernando Martínez Castro \"El Guacho\", yerno de \"El Mencho\", fue condenado a 11 años por tráfico de drogas y lavado de dinero. En 2023, el cuñado de \"El Mencho\", Gerardo González Valencia, líder de Los Cuinis, también recibió cadena perpetua.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fwww.elfinanciero.com.mx%2Fresizer%2Fv2%2FDK4M7CUAGZCUZAJBIADUD5RUUM.png%3Fsmart%3Dtrue%26auth%3D06a10535b50fb98bf83c7ec766cf39238fd4ad53911bd7e7f4f52fc84bcd5b2f%26width%3D1200%26height%3D630",
-    "fecha": "2026-11-13",
-    "seccion": "mexico",
-    "region": "México",
-    "medio": "El Financiero",
-    "url_origen": "https://www.elfinanciero.com.mx/mundo/2026/11/13/tony-montana-hermano-de-el-mencho-recibe-sentencia-de-eu-a-cuantos-anos-fue-condenado-a-prision/"
-  },
-  {
     "id": "n-4da4b3caed1e",
     "titulo_original": "La frontera de 391 kilómetros que República Dominicana vigila con drones, artillería y una verja que aún no termina de construirse",
     "titulo": "República Dominicana refuerza frontera con Haití mediante drones, artillería y verja en construcción",
@@ -1948,5 +1896,57 @@
     "region": "América Latina",
     "medio": "BBC Mundo",
     "url_origen": "https://www.bbc.com/mundo/articles/cmy493l9xx1zo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "id": "n-f961e826d94e",
+    "titulo_original": "Suman más de 16 mil vuelos cancelados en Estados Unidos por fallas en comunicaciones",
+    "titulo": "Más de 16 mil vuelos cancelados en EE.UU. por falla de comunicaciones",
+    "resumen": "El gobierno de EE.UU. aseguró que es seguro volar tras la suspensión de despegues provocada por una falla de comunicaciones, aunque informó de más de 3,800 vuelos cancelados y 2,100 retrasados. Las autoridades descartaron un ciberataque y atribuyeron el problema a hardware obsoleto, mientras que el AICM informó la reanudación de sus operaciones y recomendó a los pasajeros consultar a sus aerolíneas.",
+    "contenido": "El sábado el gobierno de Estados Unidos declaró que \"es seguro\" viajar en avión, un día después de que se suspendieran todos los despegues durante varias horas por una falla en las comunicaciones. Según FlightAware, más de 3,800 vuelos estaban cancelados y más de 2,100 sufrían retrasos esa mañana, lo que eleva el total de cancelaciones a más de 16 mil.\n\nEl secretario de Transporte, Sean Duffy, informó en X que las operaciones estaban regresando lentamente a la normalidad, que los aviones ya salían de las puertas y que era seguro volar, aunque advirtió que seguirían viéndose demoras y cancelaciones mientras las aerolíneas reprograman vuelos y reposicionan aeronaves y tripulaciones. Duffy, designado por el presidente Donald Trump, agradeció a controladores, pilotos y tripulaciones por su trabajo y señaló que la máxima prioridad es garantizar que los viajeros lleguen sanos y salvos a sus familias.\n\nEl secretario de Seguridad Nacional, Markwayne Mullin, rechazó las especulaciones sobre un ciberataque coordinado o cualquier vínculo con la caída de Microsoft, afirmando que la interrupción se debió a un importante corte de comunicaciones y a \"hardware viejo\".\n\nEl Aeropuerto Internacional de la Ciudad de México (AICM) comunicó que sus operaciones se restablecieron y recomendó a los pasajeros consultar directamente con sus aerolíneas para conocer el estatus de sus vuelos, especialmente en los itinerarios hacia y desde EE.UU. La paralización ocurrió a menos de dos semanas del feriado de Acción de Gracias, el periodo de mayor tráfico aéreo del año.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fcdn-3.expansion.mx%2Fdims4%2Fdefault%2Faf004a6%2F2147483647%2Fstrip%2Ftrue%2Fcrop%2F1196x628%2B2%2B0%2Fresize%2F1200x630%21%2Fformat%2Fjpg%2Fquality%2F80%2F%3Furl%3Dhttps%253A%252F%252Fcdn-3.expansion.mx%252F6e%252F44%252Fc189d9234ab7a572417229955a94%252Fvuelos-cancelados-estados-unidos.jpg",
+    "fecha": "2026-11-15",
+    "seccion": "mexico",
+    "region": "Estados Unidos",
+    "medio": "Expansión",
+    "url_origen": "https://expansion.mx/empresas/2026/11/14/vuelos-estados-unidos-se-restablecen-paulatimente-caos"
+  },
+  {
+    "id": "n-280c94ffd9de",
+    "titulo_original": "Caos aéreo en EU persiste tras suspensión masiva de vuelos por falla técnica",
+    "titulo": "Caos aéreo en EE.UU. tras suspensión masiva de vuelos por falla técnica",
+    "resumen": "La suspensión de despegues el viernes por una falla en la modernización de la infraestructura de control provocó cientos de miles de cancelaciones y retrasos el sábado. Autoridades estadounidenses atribuyen el problema al reemplazo defectuoso de cables de cobre por fibra óptica y solicitan fondos para actualizar el sistema.",
+    "contenido": "El viernes se suspendieron todos los despegues en el espacio aéreo de Estados Unidos tras una falla que el gobierno de Donald Trump vinculó a la modernización de infraestructura obsoleta. La paralización provocó filas interminables, campamentos improvisados y paneles de información en rojo en los aeropuertos, generando un caos generalizado.\n\nEl sábado, cientos de miles de pasajeros siguieron enfrentando cancelaciones y retrasos. Según el sitio FlightAware, se registraron más de 6,200 vuelos cancelados ese día y se pronosticó la restitución completa de los itinerarios al cierre de la jornada del domingo. El jefe de la FAA, Bryan Bedford, informó que 12,000 vuelos fueron cancelados el viernes y que entre 4,000 y 5,000 de los 41,000 programados para el sábado probablemente no despegarían. Bedford ofreció una \"sincera disculpa al público viajero estadounidense\".\n\nEl secretario de Transporte, Sean Duffy, explicó que la orden de suspensión de cuatro horas se emitió después de que trabajos de mantenimiento para cambiar un viejo cable de cobre por uno de fibra óptica provocaran problemas de comunicación y radar. Señaló que un error del contratista o una pieza defectuosa saturó equipos de enrutamiento del sistema de control de tráfico aéreo.\n\nLa interrupción, la segunda suspensión nacional desde los atentados del 11 de septiembre de 2001, se levantó a las 20:15 hora del este. Duffy pidió 50,000 millones de dólares al Congreso para modernizar el sistema y, mientras tanto, advirtió que seguirían viéndose demoras mientras las aerolíneas reprograman vuelos y reposicionan aeronaves y tripulaciones.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fimagenes.eleconomista.com.mx%2Ffiles%2Fimage_1200_600%2Fuploads%2F2026%2F11%2F14%2F6af923ed15887.jpeg",
+    "fecha": "2026-11-15",
+    "seccion": "mexico",
+    "region": "Estados Unidos",
+    "medio": "El Economista",
+    "url_origen": "https://www.eleconomista.com.mx/internacionales/caos-aereo-eu-persiste-suspension-masiva-vuelos-falla-tecnica-20261114-844081.html"
+  },
+  {
+    "id": "n-70d72ec77bd7",
+    "titulo_original": "Cómo operaba alias Raúl, uno de los sucesores del capo narco Fito en la estructura de poder de Los Choneros en Ecuador",
+    "titulo": "Detienen a alias Raúl, sucesor de Fito en Los Choneros, en operación en Ecuador",
+    "resumen": "Heráclito Sánchez Zambrano, alias Raúl, fue capturado el 12 de noviembre en la operación Gran Fénix‑Palmar, tras asumir el mando de Los Choneros luego del asesinato de David Macías Villamar. Las autoridades incautaron media tonelada de cocaína y realizaron decenas de allanamientos en Manabí y Pichincha.",
+    "contenido": "La Policía Nacional y la Fiscalía ecuatoriana detuvieron a Heráclito Sánchez Zambrano, alias Raúl, el 12 de noviembre durante la operación Gran Fénix‑Palmar, tras aproximadamente un año de investigaciones. Sánchez Zambrano es señalado como uno de los sucesores operativos de José Adolfo Macías Villamar, alias Fito, dentro de la organización criminal Los Choneros.\n\nSegún el Ministerio del Interior, el detenido dirigía actividades de narcotráfico, tráfico de armas y extorsiones, y coordinaba operaciones territoriales y logísticas en la provincia costera de Manabí. Ecuavisa informó que mantenía un perfil discreto, residía en una vivienda modesta y evitaba llamar la atención, pero su importancia radicaba en su conocimiento de las rutas de cocaína y sus contactos con proveedores colombianos.\n\nSu ascenso se produjo después del asesinato de David Macías Villamar, hermano de Fito, en julio de 2026 en Santa Elena. Sánchez Zambrano habría heredado parte de la estructura que administraba su hermano, incluyendo las conexiones para adquirir, almacenar y transportar cargamentos de droga hacia Centroamérica y, desde allí, a Estados Unidos.\n\nDurante el operativo se descubrió un varadero clandestino en manglares, utilizado para ocultar embarcaciones rápidas destinadas al tráfico de drogas. Las autoridades incautaron aproximadamente media tonelada de cocaína y detuvieron a varios sospechosos, entre ellos al hijo de Sánchez Zambrano, quien ya cumplía una condena de 40 años por otros delitos.\n\nEl ministro del Interior, John Reimberg, comunicó inicialmente 14 detenidos y 15 allanamientos; la Fiscalía posteriormente informó de 15 detenidos y 23 allanamientos en Pichincha y Manabí, además de intervenciones en centros penitenciarios. La captura se produce en medio de una reconfiguración del liderazgo de Los Choneros, organización que ha experimentado sucesivas pérdidas de dirigentes y fragmentación desde la muerte de Jorge Luis Zambrano, alias Rasquiña, en diciembre de 2020.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fwww.infobae.com%2Fresizer%2Fv2%2F455JYSI3MNCMPCLQVNTSW3IZUU.png%3Fauth%3D2968a8f54c5df87bfcfcf9a7fa13080effad2b169ac24cd2db99ffb4e08e0373%26smart%3Dtrue%26width%3D1200%26height%3D630%26quality%3D85",
+    "fecha": "2026-11-15",
+    "seccion": "mundo",
+    "region": "Ecuador",
+    "medio": "Infobae América",
+    "url_origen": "https://www.infobae.com/america/america-latina/2026/11/15/como-operaba-alias-raul-uno-de-los-sucesores-del-capo-narco-fito-en-la-estructura-de-poder-de-los-choneros-en-ecuador/"
+  },
+  {
+    "id": "n-c09b850fb75d",
+    "titulo_original": "\"Seguí a 5 familias durante 14 años para retratar cómo se vive la pobreza extrema en Colombia y por qué solo algunos logramos salir de ella\"",
+    "titulo": "Documental \"El juego de la vida\" muestra 14 años de pobreza extrema en Colombia",
+    "resumen": "El documental \"El juego de la vida\", dirigido por Andrés Ruiz, siguió durante 14 años a familias rurales y urbanas para retratar la pobreza extrema en Colombia, un país con el mayor índice de desigualdad de América Latina. El proyecto parte de una investigación de la Universidad de los Andes que encuestó a 10.000 familias y cuyos datos fueron incorporados al DANE. Ruiz, quien también es caso de movilidad social, relata su propia experiencia de superación y los retos de contar su historia en la película.",
+    "contenido": "Colombia es el país más desigual de América Latina y uno de los más desiguales del mundo, según el índice de Gini del Banco Mundial. Un estudio de la OCDE indica que se requieren 11 generaciones para que un niño salga de la pobreza, en parte por la falta de garantía de acceso a la educación y la gran brecha entre la oferta urbana y la rural.\n\nEn este contexto, el documental \"El juego de la vida\", dirigido por Andrés Ruiz, aborda cómo viven las familias colombianas la condición de su clase social y su movilidad social. La película, que fue un éxito de taquilla nacional, recibió dos premios Macondo: mejor documental y mejor película elegida por el público.\n\nEl proyecto surgió de una investigación de la Universidad de los Andes que siguió, en intervalos de tres años, a 10.000 familias para entender por qué salir de la pobreza sigue siendo excepcional en Colombia. Los datos de esa encuesta longitudinal fueron incorporados al Departamento Administrativo Nacional de Estadística (DANE).\n\nRuiz y su equipo grabaron durante 14 años a varias de esas familias, documentando el paso de los niños a la adultez, la llegada de los abuelos y los cambios de vida en medio de circunstancias adversas. En el proceso, Ruiz descubrió que él mismo era un caso raro de movilidad social: creció en una familia de siete hijos en extrema pobreza, enfrentó la precariedad de la educación rural y el clasismo en la educación superior, y fue el primero en ingresar a la universidad sin recursos para pagar la matrícula.\n\nEn la entrevista, Ruiz relata cómo ocultó su origen para evitar el bullying y cómo, tras la presión de una profesora, decidió incluir su historia en el documental, superando el miedo a la condescendencia y al síndrome del impostor.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fichef.bbci.co.uk%2Fnews%2F1200%2Fbranded_mundo%2F81d5%2Flive%2Fb3a0c640-df72-11f1-b844-3146c4983677.jpg",
+    "fecha": "2026-11-15",
+    "seccion": "mundo",
+    "region": "Colombia",
+    "medio": "BBC Mundo",
+    "url_origen": "https://www.bbc.com/mundo/articles/cwe8rpg5mr9po?at_medium=RSS&at_campaign=rss"
   }
 ]
