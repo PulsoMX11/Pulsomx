@@ -1,57 +1,5 @@
 [
   {
-    "id": "n-ae5badd76310",
-    "titulo_original": "Asere, corillo o chuchaqui: las \"sopotocientas\" palabras nuevas que incorporó el Diccionario de la lengua española (y el enorme aporte de América Latina)",
-    "titulo": "Diccionario 24ª edición incorpora más de 6.000 palabras nuevas, muchas de América Latina",
-    "resumen": "La Real Academia Española publica la 24ª edición del Diccionario de la lengua española, la primera versión digital nativa, con más de 6.000 entradas nuevas. Entre los nuevos vocablos destacan términos de tecnología, salud, medio ambiente, gastronomía y un amplio conjunto de voces latinoamericanas, además de 1.490 gentilicios y 1.570 palabras de uso exclusivo en distintos países.",
-    "contenido": "La nueva edición 24 del Diccionario de la lengua española, elaborada por la Real Academia Española en colaboración con la Asociación de Academias de la Lengua Española (Asale), es la primera versión \"nativo digital\" y también contará con una edición impresa. La edición anterior data de 2014 y, aunque hubo actualizaciones, esta es una renovación completa con más de 6.000 nuevas entradas.\n\nLos nuevos vocablos reflejan los cambios de la sociedad: palabras vinculadas a la tecnología y redes sociales como \"inteligencia artificial\", \"renderizar\" o \"app\"; términos de salud como \"cardiosaludable\", \"superbacteria\" y \"bioindicador\"; conceptos medioambientales como \"basuraleza\" y \"ecoansiedad\"; y expresiones gastronómicas como \"burrata\", \"poke\" o \"ramen\".\n\nUna de las novedades más relevantes es la mayor presencia de voces latinoamericanas. Las marcas geográficas supranacionales fueron sustituidas por los nombres de los países concretos, y se incorporaron 1.490 gentilicios y 1.570 voces de uso exclusivo en los distintos países hispanohablantes, alcanzando 20.672 acepciones con marcas de países americanos. Cada academia de la Asale eligió una palabra favorita, entre ellas \"asere\" (Cuba), \"amartelo\" (Bolivia), \"sopotocientas\" (Panamá) y \"chepibe\" (Argentina), entre otras.\n\nEl diccionario también incluye definiciones de términos coloquiales de la región, como \"acitronar\" (México) o \"cangrimán\" (Puerto Rico), mostrando la riqueza y diversidad del español en América Latina.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fichef.bbci.co.uk%2Fnews%2F1200%2Fbranded_mundo%2F62d6%2Flive%2F7c125360-df8b-11f1-a5d4-0b20a170e974.jpg",
-    "fecha": "2026-11-14",
-    "seccion": "mundo",
-    "region": "Latinoamérica",
-    "medio": "BBC Mundo",
-    "url_origen": "https://www.bbc.com/mundo/articles/crpdwq559d4qo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "id": "n-89afa25a7288",
-    "titulo_original": "Nuevas protestas en Francia por el costo de la vida y los servicios públicos",
-    "titulo": "Protestas en Francia contra el costo de vida y la ley de defensa policial",
-    "resumen": "Miles de personas protestaron en Francia el 14 de noviembre de 2026 contra el alto costo de la vida, la defensa de los servicios públicos y un proyecto de ley que refuerza la protección a policías. Según el Ministerio del Interior, participaron 106.000 manifestantes, cifra que la oposición sindical eleva a 200.000. Las protestas fueron mayormente pacíficas, con incidentes menores en Nantes y Lyon.",
-    "contenido": "El sábado 14 de noviembre de 2026 miles de personas volvieron a las calles de Francia para manifestarse contra el elevado costo de la vida, en defensa de los servicios públicos y en oposición a un proyecto de ley que refuerza la protección de los policías que hacen uso de sus armas. El Ministerio del Interior informó que 106.000 personas se concentraron en todo el país, de las cuales 24.000 lo hicieron en París, la cifra más baja de las últimas semanas. Por su parte, las organizaciones sindicales y estudiantiles estiman la participación en 200.000 manifestantes a nivel nacional, con 100.000 en la capital. Las autoridades registraron 146.000 personas en las protestas, número inferior a los 320.000 del 31 de octubre, 410.000 del 24 de octubre y 550.000 del 17 de octubre. \n\nEl portavoz de los \"chalecos amarillos\", Benjamin Ball, declaró desde la plaza de la República: \"Hay todo un pueblo que se está levantando y que les dice a los gobiernos y a los multimillonarios a los que sirven: ¡basta ya!\" Las manifestaciones transcurrieron en general con calma, aunque se reportaron incidentes menores en Nantes y Lyon, donde la policía utilizó material antidisturbios. El ministro del Interior, Laurent Nuñez, mantuvo el despliegue de 70.000 agentes policiales que había establecido el 24 de octubre tras los saqueos del 17 de octubre. En la misma jornada se realizaron dos protestas adicionales: una contra el proyecto de ley sobre la presunción de legítima defensa de las fuerzas del orden, calificado por sus detractores como \"un derecho a matar\", y otra contra toda forma de violencia contra la infancia y la adolescencia, que se extendió a catorce ciudades, incluida París.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fstatic.dw.com%2Fimage%2F79927299_6.jpg",
-    "fecha": "2026-11-14",
-    "seccion": "mundo",
-    "region": "Europa",
-    "medio": "DW Español",
-    "url_origen": "https://www.dw.com/es/nuevas-protestas-en-francia-por-el-costo-de-la-vida-y-los-servicios-públicos/a-79949791?maca=spa-rss-sp-all-1122-xml-mrss"
-  },
-  {
-    "id": "n-afba7263381a",
-    "titulo_original": "Empresa de Alice Huang tenía chips Nvidia prohibidos en China: Revelan red de contrabando de servidores",
-    "titulo": "Empresa de Alice Huang usó chips Nvidia prohibidos en China mediante contrabando",
-    "resumen": "Una empresa china fundada por Alice Huang obtuvo chips de inteligencia artificial Nvidia H800, H100 y H200 de forma ilícita y los instaló en un centro de datos de Shanghái vinculado a Megaspeed International. Los servidores fueron comprados originalmente por Aperia Cloud Services en Singapur y luego ofrecidos como garantía por Shanghai Longteng Intelligent Computing, con un valor de 485 millones de yuanes.",
-    "contenido": "Una empresa china fundada por Alice Huang adquirió chips de inteligencia artificial de Nvidia mediante contrabando y los instaló en un centro de datos de Shanghái asociado a Megaspeed International, según documentos revisados por Bloomberg News.\n\nLos servidores, que contenían chips Nvidia H800, H100 y H200, fueron comprados inicialmente por Aperia Cloud Services, socio oficial de Nvidia Cloud con sede en Singapur. Aperia adquirió 22 servidores a Dell Technologies que incluían chips H800, cuya venta a China estaba restringida desde 2023. Dell suspendió en febrero de 2025 todas las ventas y el soporte a Aperia por sospechas de desvío no autorizado, y en ese mismo mes Singapur arrestó al director ejecutivo de Aperia bajo cargos de fraude.\n\nLos equipos comprados por Aperia aparecen en documentos de Shanghai Longteng Intelligent Computing, empresa creada por Alice hace una década. En enero de 2025 la compañía ofreció 193 servidores como garantía para obtener financiamiento, con un valor total de 485 millones de yuanes (73 millones de dólares). Además de los servidores Dell, se incluyeron 52 unidades de Super Micro con chips H100 o H200, también sujetos a restricciones de exportación.\n\nSuper Micro afirmó que vendió los servidores cumpliendo con todas las leyes estadounidenses y que no suministró chips Nvidia a ninguna empresa china vinculada al proyecto del Delta del Río Yangtsé, que también está asociado a Alice Huang. Jensen Huang, exdirector ejecutivo de Nvidia, declaró en mayo que no había evidencia de desvío de chips.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fwww.elfinanciero.com.mx%2Fresizer%2Fv2%2FLNQYHZ76KFFQXFI45O4LDDGQSE.jpg%3Fsmart%3Dtrue%26auth%3D16444425bd9ab708638a05eabcea29226190c937f0a6d4daf48abd4301fbe37b%26width%3D1200%26height%3D630",
-    "fecha": "2026-11-14",
-    "seccion": "mexico",
-    "region": "China",
-    "medio": "El Financiero",
-    "url_origen": "https://www.elfinanciero.com.mx/mundo/2026/11/14/empresa-de-alice-huang-tenia-chips-nvidia-prohibidos-en-china-revelan-red-de-contrabando-de-servidores/"
-  },
-  {
-    "id": "n-2e625b4a5f1c",
-    "titulo_original": "Microsoft restablece por completo sus servicios pero advierte a usuarios por aumento de 'phishing'",
-    "titulo": "Microsoft restablece sus servicios tras interrupción global y alerta de phishing",
-    "resumen": "Microsoft confirmó que ha restablecido por completo sus servicios tras la interrupción que afectó a millones de usuarios en más de 70 países. La compañía señaló que la causa fue una carga elevada en sus infraestructuras y advirtió una campaña activa de phishing que aprovecha la situación.",
-    "contenido": "Microsoft anunció que \"restableció por completo el servicio\", poniendo fin a la interrupción que desde el jueves afectó a millones de usuarios y organizaciones en todo el mundo. La compañía indicó en X que había completado los esfuerzos para resolver el problema y que el servicio ya estaba disponible para los usuarios y regiones aún afectados.\n\nLa avería, que se extendió a al menos 74 países y territorios de América, Europa, Asia y África, se originó por una \"carga elevada\" en sus infraestructuras y afectó Outlook, Teams y el asistente de IA Copilot. Microsoft aclaró que se debió a un problema técnico y no a un ciberataque ni a la IA, y prometió un informe completo tras concluir la investigación.\n\nLa empresa advirtió una campaña activa de 'phishing' que utiliza correos falsos que imitan notificaciones oficiales, indicando que los mensajes bloqueados serán eliminados en 24 horas si el destinatario no hace clic para recuperarlos. En varios países, el paro dificultó el funcionamiento de administraciones, hospitales y empresas, y se reportaron suspensiones de vuelos en EE. UU., aunque las autoridades descartaron que la caída de Microsoft influyera en ello.\n\nIncidentes previos incluyen una avería en julio de 2024 vinculada a una actualización defectuosa que paralizó aeropuertos y hospitales. Microsoft inicialmente investigó interrupciones \"en las Américas\" y luego confirmó que el problema podía afectar la conectividad de Microsoft 365 para usuarios de cualquier región.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fcdn-3.expansion.mx%2Fdims4%2Fdefault%2Fddba933%2F2147483647%2Fstrip%2Ftrue%2Fcrop%2F1196x628%2B2%2B0%2Fresize%2F1200x630%21%2Fformat%2Fjpg%2Fquality%2F80%2F%3Furl%3Dhttps%253A%252F%252Fcdn-3.expansion.mx%252Ff0%252F64%252Fb43edc5a4379815808a02039f031%252Fmicroft-funciona-tras-fallas-mundo.jpg",
-    "fecha": "2026-11-14",
-    "seccion": "mexico",
-    "region": "Estados Unidos",
-    "medio": "Expansión",
-    "url_origen": "https://expansion.mx/tecnologia/2026/11/14/microsoft-restablece-servicios-advierte-usuarios-phishing"
-  },
-  {
     "id": "n-268a84baaed1",
     "titulo_original": "Los restos del escritor Miguel Ángel Asturias regresan a Guatemala más de medio siglo después de su muerte",
     "titulo": "Restos de Miguel Ángel Asturias regresan a Guatemala tras 52 años",
@@ -1948,5 +1896,57 @@
     "region": "Nicaragua",
     "medio": "Infobae América",
     "url_origen": "https://www.infobae.com/nicaragua/2026/11/16/prestamos-intimidacion-y-homicidios-las-sospechas-detras-de-dos-crimenes-en-nicaragua/"
+  },
+  {
+    "id": "n-0fc59533ce48",
+    "titulo_original": "Gobierno Trump propone imponer nuevas restricciones al programa Green Card",
+    "titulo": "EE.UU. propone nuevas restricciones al programa PERM de Green Card",
+    "resumen": "El Departamento del Trabajo de EE.UU. presentó una propuesta que endurece los requisitos del programa PERM para la obtención de la residencia permanente. La reforma amplía las profesiones sujetas a prueba y exige métodos de contratación más modernos. La norma será publicada en el Registro Federal y tendrá 60 días de consulta pública antes de entrar en vigor.",
+    "contenido": "El Departamento del Trabajo de Estados Unidos presentó el lunes una propuesta de reforma al programa de Certificación Laboral Permanente (PERM), que permite a trabajadores extranjeros cualificados obtener la residencia permanente mediante una tarjeta verde basada en el empleo.\n\nLa medida exigiría a los empleadores un mayor esfuerzo para demostrar que la contratación de un extranjero no perjudica a los trabajadores estadounidenses, ampliando el requisito a profesiones que antes estaban exentas, como el personal de enfermería y los científicos con “capacidad excepcional”.\n\nAsimismo, la reforma obligaría a modernizar los métodos de reclutamiento, por ejemplo, mediante anuncios de empleo electrónicos en lugar de impresos, y prohibiría solicitar la certificación PERM para trabajadores extranjeros durante los dos años siguientes al despido de empleados estadounidenses que ocuparan puestos similares.\n\nEsta iniciativa representa el último intento del presidente Donald Trump de restringir la inmigración legal, en el marco de un esfuerzo más amplio de su administración por reducir el número de nacidos en el extranjero que acceden a la residencia y la ciudadanía. En octubre, el Gobierno impidió que grandes empresas tecnológicas, entre ellas Adobe, utilizaran el sistema PERM.\n\nLa propuesta será publicada en el Registro Federal el martes y quedará sujeta a un periodo de 60 días de consulta pública antes de que pueda entrar en vigor.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fimagenes.eleconomista.com.mx%2Ffiles%2Fimage_1200_600%2Fuploads%2F2026%2F10%2F08%2F6ac82ec6aa7fa.png",
+    "fecha": "2026-11-16",
+    "seccion": "mexico",
+    "region": "Estados Unidos",
+    "medio": "El Economista",
+    "url_origen": "https://www.eleconomista.com.mx/internacionales/gobierno-trump-propone-imponer-nuevas-restricciones-programa-green-card-20261116-844204.html"
+  },
+  {
+    "id": "n-8f8d698ff2fb",
+    "titulo_original": "Con tacos al estilo Califa: Así es Tequila Coyote’s, el restaurante donde Sheinbaum comió en su visita a China",
+    "titulo": "Tequila Coyote’s, el restaurante mexicano en Shenzhen visitado por Sheinbaum",
+    "resumen": "Claudia Sheinbaum, presidenta de México, entregó el distintivo Hecho en México al restaurante Tequila Coyote’s durante su visita a China por el foro APEC. El local, dirigido por Ernesto \"Neto\" Treviño, ofrece clásicos de la cocina mexicana adaptados con ingredientes chinos y destaca por su tecnología digital y decoración con arte mexicano.",
+    "contenido": "Claudia Sheinbaum, presidenta de México, estuvo en Shenzhen, China, como parte de su participación en el Foro de Cooperación Económica Asia‑Pacífico (APEC). En esa ocasión compartió mesa con la comunidad mexicana y entregó el distintivo Hecho en México al restaurante Tequila Coyote’s, propiedad de Ernesto Humberto Treviño Amezcua, originario de Colima.\n\nNeto, quien estudió Ciencias de la Comunicación en el ITESO y llegó a China en 2006 con una beca, se convirtió en cliente habitual del local antes de asumir la gerencia y, durante la pandemia, adquirir una participación societaria. Según sus palabras, el proyecto busca ser un embajador de la gastronomía mexicana, desarrollando platillos con ingredientes 100 % chinos, como tortillas de maíz azul provenientes de Xinjiang.\n\nEl menú incluye tacos al pastor, discada, pozole, molcajetes y una variedad de tacos premium en tortillas de maíz azul, con precios que van de ¥88 a ¥380 (entre $245 y $1,056 MXN). El restaurante también ofrece coctelería de autor con mezcal y margaritas, y ha incorporado tecnología de realidad aumentada en su carta, además de operar sin efectivo.\n\nCon una calificación de 4.6 / 5 en Tripadvisor basada en 475 opiniones, Tequila Coyote’s ocupa el quinto lugar entre 1,099 restaurantes de Shenzhen. Según Google Maps, el gasto promedio por comensal se sitúa entre 100 y 400 yuanes chinos (aproximadamente 279‑1,116 pesos mexicanos).",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fwww.elfinanciero.com.mx%2Fresizer%2Fv2%2FGLOBVL2NPBEHRGQ5WJZMP6RT6M.jpg%3Fsmart%3Dtrue%26auth%3D719b0c5f5f0c923f308754055e5912aa3108c758e9bcc4f883351cb436e09230%26width%3D1200%26height%3D630",
+    "fecha": "2026-11-16",
+    "seccion": "mexico",
+    "region": "China",
+    "medio": "El Financiero",
+    "url_origen": "https://www.elfinanciero.com.mx/food-and-drink/2026/11/16/con-tacos-al-estilo-califa-asi-es-tequila-coyotes-el-restaurante-donde-sheinbaum-comio-en-su-visita-a-china/"
+  },
+  {
+    "id": "n-6702e7f2d406",
+    "titulo_original": "Pan con excrementos de rata en Cuba: la denuncia que expone la crisis sanitaria y el silencio de las autoridades",
+    "titulo": "Denuncian venta de pan francés contaminado con heces de rata en Camagüey, Cuba",
+    "resumen": "Un usuario denunció en redes sociales la compra de pan francés con supuestas heces de rata en un local de la avenida de la Libertad en Camagüey. La publicación, hecha por el periodista José Luis Tan Estrada, generó reclamos para que se inspeccione el establecimiento, sin que hasta el sábado haya respuesta oficial.",
+    "contenido": "Una denuncia difundida en redes sociales alertó sobre la presunta venta de pan francés con excrementos de rata en Camagüey, Cuba. Según el testimonio, una persona adquirió diez panes en un establecimiento ubicado en la avenida de la Libertad número 23 (antes número 25), pagando 35 pesos por unidad, lo que sumó 350 pesos (aproximadamente $14.50). Al abrir uno de los panes en su vivienda, encontró restos que identificó como heces de roedor y, al revisar otros dos productos, halló elementos similares.\n\nLa denuncia fue publicada en Facebook por el periodista José Luis Tan Estrada y provocó reclamos de usuarios que solicitaron una inspección del local y medidas sanitarias. Hasta el sábado, no se conocía una respuesta pública de las autoridades sanitarias ni de la administración del establecimiento.\n\nEl caso pone de relieve la alta demanda del pan en Cuba y las dificultades de acceso vinculadas a la disponibilidad, las colas, las restricciones de producción y los problemas de distribución. En los últimos meses se reportaron otras irregularidades en productos de panadería, como escasez, peso inexacto y contaminación.\n\nLa presencia de roedores, asociada a la falta de recolección de basura y a una plaga denunciada por medios locales, representa un riesgo sanitario, ya que sus heces y orina pueden contaminar alimentos. La Organización Panamericana de la Salud advirtió en junio sobre los riesgos de la falta de rodenticidas y el deterioro del saneamiento en Cuba, y en noviembre la sede provincial de Higiene y Epidemiología de Camagüey apareció rodeada de desechos acumulados.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fwww.infobae.com%2Fresizer%2Fv2%2FI57QH3FUZVALJKAN35XV5UJL4A.jpg%3Fauth%3Dd91e96dd5d372bca6008449342772bd22e3346916028ab22fb9639d59412a4cc%26smart%3Dtrue%26width%3D1200%26height%3D630%26quality%3D85",
+    "fecha": "2026-11-16",
+    "seccion": "mundo",
+    "region": "Cuba",
+    "medio": "Infobae América",
+    "url_origen": "https://www.infobae.com/cuba/2026/11/16/pan-con-excrementos-de-rata-en-cuba-la-denuncia-que-expone-la-crisis-sanitaria-y-el-silencio-de-las-autoridades/"
+  },
+  {
+    "id": "n-5800165a675f",
+    "titulo_original": "Qué tan poderosas son las pandillas a las que se enfrenta Bukele en Haití",
+    "titulo": "Bukele envía tropas a Haití para combatir a las pandillas",
+    "resumen": "El presidente de El Salvador, Nayib Bukele, ha enviado al menos 2 000 militares de fuerzas especiales a Haití para buscar a cuatro compatriotas secuestrados. Desde su llegada se han realizado al menos dos operaciones contra bandas que actúan como guerrillas urbanas y superan en armamento a la policía haitiana.",
+    "contenido": "En un mensaje dirigido a las bandas que operan en Haití, el presidente salvadoreño Nayib Bukele declaró: “Ya acabamos con las pandillas en El Salvador, y también podemos acabar con ustedes”. La advertencia se produce mientras Bukele ha enviado al menos 2 000 militares de fuerzas especiales al país caribeño, con el objetivo de reforzar la búsqueda de cuatro ciudadanos salvadoreños que se presume fueron secuestrados por organizaciones criminales locales.\n\nDesde la llegada de las tropas, las fuerzas salvadoreñas han llevado a cabo al menos dos operaciones en la capital, Puerto Príncipe, y en sus alrededores. Las acciones buscan desarticular a grupos que, según la ONU, actúan como guerrillas urbanas, controlan territorios y rutas estratégicas, y disponen de armamento que supera al de la policía haitiana.\n\nEl análisis de la situación de las pandillas haitianas es presentado en un video de Jorge Pérez Valery, quien explica el alcance y la peligrosidad de estas organizaciones en el país más pobre de América. El informe destaca la complejidad del conflicto y la capacidad de las bandas para ejercer control territorial, lo que plantea un desafío significativo para las autoridades locales y la intervención extranjera.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fichef.bbci.co.uk%2Fnews%2F1200%2Fbranded_mundo%2F4abe%2Flive%2F14b32e40-e1ea-11f1-99a1-253766e7ad8b.jpg",
+    "fecha": "2026-11-16",
+    "seccion": "mundo",
+    "region": "Haití",
+    "medio": "BBC Mundo",
+    "url_origen": "https://www.bbc.com/mundo/watch/cxj05r723gpjo?at_medium=RSS&at_campaign=rss"
   }
 ]
