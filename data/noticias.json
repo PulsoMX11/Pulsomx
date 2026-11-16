@@ -1,57 +1,5 @@
 [
   {
-    "id": "n-2e25e7772eee",
-    "titulo_original": "Italia multa a Meta con 887 millones de dólares por el acceso no autorizado a datos en dispositivos Android",
-    "titulo": "Italia multa a Meta 805 millones de euros por acceso no autorizado a fotos en Android",
-    "resumen": "La Autoridad de Protección de Datos de Italia impuso una multa de 805 millones de euros (887 millones de dólares) a Meta Platforms Ireland Limited. La sanción se debe a que la aplicación de Facebook para Android accedió sin consentimiento a fotos, videos y metadatos de unos 20 millones de usuarios mediante la función “Obtener sugerencias de la galería mientras navegas por Facebook”. La multa, que representa alrededor del 0,47 % de la facturación mundial de la compañía, se basó en el número de afectados, la duración de la infracción y la escasa colaboración de Meta durante la investigación iniciada en julio de 2025.",
-    "contenido": "La Autoridad de Protección de Datos de Italia multó a Meta Platforms Ireland Limited con 805 millones de euros (887 millones de dólares) por permitir que la aplicación de Facebook en dispositivos Android accediera a fotografías, vídeos y metadatos almacenados en los teléfonos de aproximadamente 20 millones de usuarios sin su consentimiento específico.\n\nLa práctica se vinculó a la función denominada \"Obtener sugerencias de la galería mientras navegas por Facebook\", disponible desde 2023. Dicha función utilizaba el contenido guardado en la galería del teléfono para proponer al usuario publicaciones en la red social, pero la aplicación solicitaba un único permiso genérico de acceso a la galería, activado por defecto y descrito como \"habilitar otras funciones\", sin explicar que también autorizaba las sugerencias de publicación.\n\nLa investigación comenzó en julio de 2025 tras una denuncia del Centro de Protección de los Consumidores y Usuarios de Bolzano. Un análisis técnico mostró que el sistema concedía a Facebook acceso permanente a todo el archivo fotográfico del dispositivo, vulnerando el artículo 122 del Código italiano de Privacidad, que incorpora la normativa europea ePrivacy y protege los dispositivos electrónicos como parte de la esfera privada.\n\nPara fijar la cuantía de la sanción, el regulador consideró el elevado número de afectados, la prolongada duración de la infracción, un procedimiento previo contra la compañía en 2019 y la \"escasa colaboración\" de Meta durante la investigación. Como único atenuante se valoraron las modificaciones introducidas tras la denuncia, aunque fueron calificadas como \"tardías y limitadas a los usuarios que actualizan la aplicación\".",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fstatic.dw.com%2Fimage%2F79726595_6.jpg",
-    "fecha": "2026-11-14",
-    "seccion": "mundo",
-    "region": "Italia",
-    "medio": "DW Español",
-    "url_origen": "https://www.dw.com/es/italia-multa-a-meta-con-887-millones-de-dólares-por-el-acceso-no-autorizado-a-datos-en-dispositivos-android/a-79948385?maca=spa-rss-sp-all-1122-xml-mrss"
-  },
-  {
-    "id": "n-cfd463a36e03",
-    "titulo_original": "Zelensky asegura que EE.UU. propuso a Ucrania ceder el Donbás a Rusia a cambio de ingresar en la OTAN",
-    "titulo": "Zelensky dice que EE.UU. propuso ceder Donbás a cambio de ingreso a la OTAN",
-    "resumen": "Zelensky afirmó que negociadores estadounidenses plantearon retirar las tropas ucranianas del Donbás a cambio de la adhesión a la OTAN. Indicó que consideraría un referendo si la propuesta incluye garantías de seguridad, capacidad militar y recursos de reconstrucción.",
-    "contenido": "Zelensky afirmó que negociadores estadounidenses le plantearon la posibilidad de retirar las tropas ucranianas del Donbás a cambio de la adhesión de Ucrania a la OTAN. La declaración, hecha el sábado, se produce tras la visita de enviados de EE. UU. a Moscú y la cumbre de la UE en Dublín, donde se debatió el fin del conflicto.\n\nKyiv persigue la membresía en la alianza como condición para cualquier acuerdo de paz, mientras que Rusia considera inaceptable que un nuevo miembro de la OTAN quede en su frontera. Zelensky reiteró que Ucrania no renunciará a su territorio soberano, pero señaló que estaría dispuesto a someter la propuesta a referendo si incluye garantías de seguridad, la libertad de mantener sus capacidades militares y recursos para la reconstrucción.\n\nLos enviados estadounidenses Jared Kushner y Steve Witkoff se reunieron con Zelensky en Dublín después de conversaciones con el presidente ruso Vladimir Putin en Moscú. Rusia, por su parte, sigue exigiendo concesiones territoriales, limitación del tamaño del ejército ucraniano y neutralidad, demandas que Ucrania ha rechazado por considerarlas un obstáculo para repeler futuras invasiones.\n\nEn el contexto de tensiones recientes entre Kyiv y Washington, se menciona que la primera dama de EE. UU., Melania Trump, logró un alto el fuego temporal en Jersón para evacuaciones y ayuda. Zelensky comentó que la propuesta estadounidense le hizo creer que “la OTAN vuelve a estar sobre la mesa”, aunque advirtió que la conversación es extremadamente difícil.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fichef.bbci.co.uk%2Fnews%2F1200%2Fbranded_mundo%2Fd028%2Flive%2F47c10ab0-e013-11f1-b441-2b33b063138f.jpg",
-    "fecha": "2026-11-14",
-    "seccion": "mundo",
-    "region": "Ucrania",
-    "medio": "BBC Mundo",
-    "url_origen": "https://www.bbc.com/mundo/articles/cm70244lv8e1o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "id": "n-2729d939d452",
-    "titulo_original": "Microsoft explica por qué se cayó Outlook, Copilot y otros servicios por más de 12 horas",
-    "titulo": "Microsoft explica la caída global de Outlook, Teams y Copilot por más de 12 horas",
-    "resumen": "El 12 de noviembre Microsoft sufrió una interrupción de más de 12 horas en todos sus servicios, entre ellos Outlook, Teams y Copilot. La empresa atribuyó el incidente a un problema surgido durante una actualización de capacidad de red y descartó cualquier actividad maliciosa. La restauración se realizó de forma gradual para validar la estabilidad de cada servicio.",
-    "contenido": "Ayer, 12 de noviembre, Microsoft registró una caída global en todos sus servicios que se prolongó por más de 12 horas. El problema afectó principalmente al correo Outlook, a la aplicación de chat Teams y al asistente de inteligencia artificial Copilot, los cuales dejaron de operar durante gran parte de la tarde.\n\nEn un comunicado, la compañía explicó que “el incidente fue introducido por un problema durante una actualización anterior de capacidad de red que surgió tras un cambio reciente en la red”. Añadió que el problema ya fue solucionado, pero debido a la escala de la demanda, los servicios se han restaurado de forma gradual para validar la estabilidad en cada etapa.\n\nMicrosoft se disculpó, indicando: “Lamentamos profundamente las interrupciones que este incidente ha causado a nuestros clientes y socios”. También afirmó que no se detectó “ninguna actividad maliciosa que esté provocando este incidente”, descartando un ciberataque.\n\nUn mapa de Downdetector en 𝕏 mostró que la caída impactó a usuarios de América, Europa, Asia y África, incluso afectando infraestructura crítica. En el Reino Unido, varias entidades locales del NHS reportaron dificultades por los fallos en el sistema de Microsoft.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fcdn-3.expansion.mx%2Fdims4%2Fdefault%2F11e1827%2F2147483647%2Fstrip%2Ftrue%2Fcrop%2F1200x630%2B0%2B136%2Fresize%2F1200x630%21%2Fformat%2Fjpg%2Fquality%2F80%2F%3Furl%3Dhttps%253A%252F%252Fcdn-3.expansion.mx%252Fd0%252F9c%252Feec8fae94458a6462e4765d264ed%252Fmicrosoft-outlook-caida.jpeg",
-    "fecha": "2026-11-14",
-    "seccion": "mexico",
-    "region": "México",
-    "medio": "Expansión",
-    "url_origen": "https://expansion.mx/tecnologia/2026/11/13/microsoft-explica-caida-outlook"
-  },
-  {
-    "id": "n-26b77ac3f985",
-    "titulo_original": "Horarios de areolíneas tardarán días en ajustarse: Analistas",
-    "titulo": "FAA levanta suspensión de vuelos tras falla de control; horarios se ajustarán días",
-    "resumen": "Casi 10,000 vuelos fueron cancelados tras una falla en los centros de control del tráfico aéreo de EE. UU. La FAA reabrió el espacio aéreo a las 20:15 (01:15 GMT) y, según el secretario de Transporte Sean Duffy, la recuperación será lenta y los horarios de aerolíneas podrían tardar días en normalizarse.",
-    "contenido": "Casi 10,000 vuelos se cancelaron después de que un fallo en las comunicaciones de los centros de control del tráfico aéreo provocara el cierre más prolongado desde los atentados del 11 de septiembre de 2001. La Administración Federal de Aviación (FAA) levantó la suspensión de vuelos a nivel nacional a las 20:15 hora del Este (01:15 GMT) y, según el secretario de Transporte Sean Duffy, las salidas se reanudarían de forma gradual.\n\nA las 23:30 se habían cancelado más de 2,200 vuelos de Delta Air Lines y American Airlines, y 1,800 de United Airlines, según Flightradar24. Algunas aeronaves esperaron más de cinco horas para acceder a una puerta de embarque. Los analistas del sector advierten que la suspensión de cuatro horas podría alterar los horarios de las aerolíneas durante varios días.\n\nDuffy explicó que el problema comenzó a las 15:36 cuando los centros de control experimentaron inestabilidad en los sistemas de radar y comunicaciones, lo que sobrecargó conmutadores y enrutadores. Aseguró que el radar y las comunicaciones no se perdieron por completo y que miles de aviones pudieron aterrizar con seguridad. Señaló la necesidad de una revisión amplia del sistema, culpó al Congreso de no financiar su modernización y solicitó 50,000 millones de dólares para ello, tras una petición anterior de 30,100 millones.\n\nEl secretario de Seguridad Nacional, Markwayne Mullin, descartó hasta el momento un ciberataque, indicando que parecía un fallo mecánico. Investigaciones apuntan a una red de telecomunicaciones gestionada por L3Harris Technologies, aunque la empresa no respondió a comentarios.\n\nLos pasajeros quedaron varados en aeropuertos de todo el país; las aerolíneas no están obligadas a indemnizarlos. Las acciones de American, United y Delta cayeron entre 1% y 2%, mientras que JetBlue bajó alrededor de 3%. American Airlines prioriza vuelos internacionales y a ciudades pequeñas para acelerar la recuperación.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fimagenes.eleconomista.com.mx%2Ffiles%2Fimage_1200_600%2Fuploads%2F2026%2F11%2F13%2F6af7a97dd1731.jpeg",
-    "fecha": "2026-11-14",
-    "seccion": "mexico",
-    "region": "Estados Unidos",
-    "medio": "El Economista",
-    "url_origen": "https://www.eleconomista.com.mx/empresas/horarios-areolineas-tardaran-dias-ajustarse-analistas-20261114-844033.html"
-  },
-  {
     "id": "n-e9f7f6845234",
     "titulo_original": "Vietnam quiere abrir sus puertas a los turistas que más tiempo se quedan y más gastan",
     "titulo": "Vietnam propone ampliar y flexibilizar visas turísticos para estancias largas y de alto gasto",
@@ -1948,5 +1896,57 @@
     "region": "Medio Oriente",
     "medio": "DW Español",
     "url_origen": "https://www.dw.com/es/hutíes-reivindican-ataques-contra-riad-y-posiciones-saudíes-en-yemen/a-79954134?maca=spa-rss-sp-all-1122-xml-mrss"
+  },
+  {
+    "id": "n-c36076cd00bf",
+    "titulo_original": "\"Jefe de Jefes\" de Los Tigres del Norte: la verdad detrás de la canción que el público ligó a Miguel Ángel Félix Gallardo",
+    "titulo": "El origen del corrido 'Jefe de Jefes' y su vínculo con Miguel Ángel Félix Gallardo",
+    "resumen": "El tema 'Jefe de Jefes' de Los Tigres del Norte, creado en 1997 por Teodoro Bello a pedido de Jorge Hernández, no fue escrito para un narcotraficante, según el propio compositor. Sin embargo, la canción se asoció durante casi tres décadas con Miguel Ángel Félix Gallardo, fundador del Cártel de Guadalajara, cuya muerte se anunció el 15 de noviembre de 2026. La asociación se reforzó por la cultura popular y por la decisión del grupo de dejar de interpretarla en algunos escenarios por su carga simbólica.",
+    "contenido": "Cuando Los Tigres del Norte lanzaron el álbum *Jefe de Jefes* en 1997, la canción que le da nombre se convirtió en su carta de presentación y el disco fue el primero de la agrupación en alcanzar el primer lugar en la lista Billboard de álbumes latinos, además de recibir una nominación al Grammy.\n\nSegún el documental *Los Tigres del Norte: Historias que Contar* (2022), Jorge Hernández encargó a Teodoro Bello una canción que superara el éxito de “Pacas de a kilo”. Bello explicó en el programa *El Arte de la Canción* que el corrido “no nace para un narcotraficante, nace para una persona grandiosa que se dedica a su trabajo y a producir talento, fortaleza, grandeza”. Enumeró ejemplos como el mejor dibujante, doctor, bombero, presidente o taxista, todos “jefes de jefes”.\n\nEn una entrevista con RadioCuatla tras la muerte de Félix Gallardo, Bello matizó diciendo que respeta a cada quien y que la gente puede interpretar la canción como quiera, aunque ha escrito corridos explícitos para narcotraficantes como Amado Carrillo Fuentes y Joaquín “El Chapo” Guzmán, pero aseguró que “Jefe de Jefes” no pertenece a esa categoría.\n\nLa letra describe a un hombre respetado, sin fotografía oficial y que opera “debajo del agua”, lo que facilitó su identificación con el capo de los años ochenta. A lo largo de los años se le atribuyó también a Arturo Beltrán Leyva y a Amado Carrillo Fuentes, sin respaldo de los autores. Los Tigres nunca confirmaron ni desmintieron la dedicación a Félix Gallardo; su silencio alimentó el mito.\n\nEn 2014, tras una solicitud en Chihuahua de no tocar corridos por la violencia en la ciudad, el grupo dejó fuera “Jefe de Jefes” y “La granja” de su repertorio, y posteriormente dejó de interpretarla para cumplir disposiciones legales que multan la presentación de narcocorridos. La asociación entre la canción y Félix Gallardo se consolidó también en la serie *Narcos: México* (2018), que utilizó el corrido para el personaje interpretado por Diego Luna, reforzando la conexión en la cultura popular.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fwww.infobae.com%2Fresizer%2Fv2%2FXTCERXN5ARHA5L332BTUPV3A5E.jpg%3Fauth%3D726617a70f475bd659ef0d99394d925691755e9bb492ee517ab98361b9a5ae51%26smart%3Dtrue%26width%3D1200%26height%3D630%26quality%3D85",
+    "fecha": "2026-11-16",
+    "seccion": "mexico",
+    "region": "México",
+    "medio": "Infobae México",
+    "url_origen": "https://www.infobae.com/mexico/2026/11/16/jefe-de-jefes-de-los-tigres-del-norte-la-verdad-detras-de-la-cancion-que-el-publico-ligo-a-miguel-angel-felix-gallardo/"
+  },
+  {
+    "id": "n-e22cc2e4f988",
+    "titulo_original": "El PAN urgió a blindar los comicios del 2027",
+    "titulo": "PAN pide blindar elecciones de 2027 y vigilar renovación del INE",
+    "resumen": "El presidente del PAN, Jorge Romero Herrera, advirtió que las elecciones del próximo año podrían ser una simulación y solicitó blindar los comicios. También pidió esclarecer irregularidades en la gestión de Guadalupe Taddei y evitar que Morena imponga su candidato a la presidencia del INE. El partido mantendrá vigilancia y recurrirá a movilizaciones si se vulnera la independencia del instituto.",
+    "contenido": "Jorge Romero Herrera, presidente del Partido Acción Nacional (PAN), expresó preocupación porque las elecciones del próximo año podrían ser una simulación y urgió a blindar los comicios que organizará el Instituto Nacional Electoral (INE) para renovar la Cámara de Diputados y 17 gubernaturas, entre miles de cargos.\n\nSeñaló que la salida de Guadalupe Taddei no elimina la crisis de confianza en el INE y pidió esclarecer las presuntas irregularidades de su administración, evitando que el partido Morena imponga a una persona afín al gobierno en la nueva presidencia del instituto.\n\nEl PAN advirtió que se mantendrá vigilante del proceso de renovación de la presidencia del INE que realizará la Cámara de Diputados y que recurrirá a movilizaciones si Morena intenta colocar una presidencia subordinada a sus intereses, reiterando su compromiso con un INE libre y sin influencias de ningún partido.\n\nRomero Herrera también demandó que continúen las investigaciones sobre presuntos actos de corrupción, adjudicaciones irregulares y conflictos de intereses durante la gestión de Taddei, y que se sigan indagando posibles responsabilidades administrativas y penales.\n\nA nombre del PAN, recordó que presentó una denuncia ante la Fiscalía General de la República para investigar posibles delitos relacionados con el manejo de recursos públicos y las contrataciones electorales, tanto del INE como de los Organismos Públicos Locales Electorales, y concluyó que no basta con sustituir al titular del INE sin abordar lo sucedido.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fimagenes.eleconomista.com.mx%2Ffiles%2Fimage_1200_600%2Fuploads%2F2026%2F02%2F22%2F699b890b5481e.jpeg",
+    "fecha": "2026-11-16",
+    "seccion": "mexico",
+    "region": "México",
+    "medio": "El Economista",
+    "url_origen": "https://www.eleconomista.com.mx/politica/pan-urgio-blindar-comicios-20261115-844140.html"
+  },
+  {
+    "id": "n-c459fa46ab96",
+    "titulo_original": "Xi Jinping acoge la cumbre de Asia-Pacífico en la cima de su poder en China y con creciente peso global",
+    "titulo": "Xi Jinping lidera la cumbre de APEC 2026 en Shenzhen con mayor peso global",
+    "resumen": "Doce años después de acoger la APEC en 2014, Xi Jinping preside la reunión de líderes en Shenzhen, donde se reunirán Donald Trump y Vladimir Putin. Analistas señalan que el presidente chino cuenta con más poder que nunca y busca reforzar la influencia de China en la gobernanza mundial y en la zona de libre comercio del Asia‑Pacífico.",
+    "contenido": "El presidente chino, Xi Jinping, volvió a presidir la cumbre de líderes del Foro de Cooperación Económica Asia‑Pacífico (APEC) los días 18 y 19 de noviembre en Shenzhen, la misma ciudad que acogió el encuentro en 2014. Entre los invitados se esperan el presidente de Estados Unidos, Donald Trump, y el presidente de Rusia, Vladímir Putin, quienes mantendrán una reunión a tres bandas al margen del foro, algo sin precedentes que ha sido comparado con la conferencia de Yalta de 1945.\n\nSegún Steve Tsang, director del Instituto de China de la Universidad SOAS, \"Con la ayuda involuntaria de Trump, Xi proyectará con mayor firmeza el peso de China en la escena internacional\" y que el mandatario \"aprovechará la cumbre para mostrar hasta qué punto sus socios en la APEC respetan y admiran a China\". Tsang también afirma que Xi tiene ahora más poder que en ningún otro momento desde que se convirtió en máximo dirigente en 2012.\n\nEl Comité Central del Partido Comunista de China reforzó recientemente la disciplina interna de cara al congreso de 2027, en el que Xi, de 73 años, se perfila para un cuarto mandato como secretario general, una situación sin precedentes desde Mao Zedong. El \"Pensamiento de Xi Jinping sobre el socialismo con características chinas para una nueva era\" sigue vigente en los estatutos del PCCh y la Constitución, y plantea que China participe activamente en la reforma de la gobernanza mundial y que los países en desarrollo tengan mayor peso en decisiones internacionales.\n\nEn la agenda de la APEC, Pekín busca impulsar un nuevo texto que revitalice el proyecto de una zona de libre comercio en Asia‑Pacífico, adaptado al contexto actual de fragmentación, reconfiguración de cadenas de suministro y rivalidad con Estados Unidos, cuyas políticas arancelarias han encarecido el acceso al mercado estadounidense para muchos exportadores de la región.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fimagenes.elpais.com%2Fresizer%2Fv2%2F4MJZGL4NHVBOLHRGVWTU7K37WQ.jpg%3Fauth%3D135cc917fe8b013b9ff58194ee0f798758f7e32ab8ad66714ce84278ca52f181%26width%3D1200",
+    "fecha": "2026-11-16",
+    "seccion": "mundo",
+    "region": "China",
+    "medio": "El País",
+    "url_origen": "https://elpais.com/internacional/2026-11-16/xi-jinping-acoge-la-cumbre-de-asia-pacifico-en-la-cima-de-su-poder-en-china-y-con-creciente-peso-global.html"
+  },
+  {
+    "id": "n-d24aa1eabe6a",
+    "titulo_original": "Once muertos en un incendio en isla turística en Tailandia",
+    "titulo": "Incendio en Phuket deja 11 muertos y 16 heridos",
+    "resumen": "Un incendio destruyó una tienda de cuatro plantas en la isla de Phuket la madrugada del 16 de noviembre, provocando 11 fallecidos y 16 personas hospitalizadas. El fuego, que se originó alrededor de las 03:30, afectó un edificio con restaurante y alojamientos; la causa está bajo investigación.",
+    "contenido": "Un incendio arrasó una tienda de cuatro plantas en la isla turística de Phuket, en Tailandia, la madrugada del lunes 16 de noviembre de 2026. El fuego se inició alrededor de las 03:30 (20:30 GMT del domingo) en un edificio comercial que albergaba un restaurante y alojamientos en alquiler, según informó un agente de la policía de la comunidad de Patong.\n\nLos bomberos tardaron dos horas en controlar el incendio y, al lograrlo, encontraron 11 personas muertas, entre ellas ciudadanos tailandeses y birmanos. Otras 16 personas fueron atendidas en hospitales por inhalación de humo y heridas causadas por cristales rotos.\n\nLa causa del incendio sigue bajo investigación. El agente que dio la información pidió no ser identificado porque no estaba autorizado a hablar con los medios.\n\nEste hecho reaviva la preocupación por las normativas de salud y seguridad en bares y clubes nocturnos de Tailandia. En julio, un bar abarrotado de Bangkok se incendió tras un cortocircuito, provocando la muerte de unas 40 personas. Asimismo, en las celebraciones de Año Nuevo de 2009, el club Santika de la capital fue escenario de un incendio que dejó 67 muertos y más de 200 heridos.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fstatic.dw.com%2Fimage%2F77928180_6.jpg",
+    "fecha": "2026-11-16",
+    "seccion": "mundo",
+    "region": "Tailandia",
+    "medio": "DW Español",
+    "url_origen": "https://www.dw.com/es/once-muertos-en-un-incendio-en-isla-turística-en-tailandia/a-79954395?maca=spa-rss-sp-all-1122-xml-mrss"
   }
 ]
