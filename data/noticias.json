@@ -1,57 +1,5 @@
 [
   {
-    "id": "n-aaf1e43709c6",
-    "titulo_original": "Putin y Trump buscan un cambio de régimen en Europa",
-    "titulo": "Putin y Trump proponen reconfigurar la seguridad europea en lugar de centrarse en Ucrania",
-    "resumen": "Ambos líderes, sin haber logrado cambiar el régimen en Kiev ni detener la ayuda a Ucrania, buscan que las negociaciones de paz empiecen con una nueva arquitectura de seguridad continental favorecida por Moscú. La iniciativa, basada en una propuesta rusa de hace más de treinta años y retomada por Jared Kushner, pretende desplazar el foco de la guerra de Ucrania al marco europeo de seguridad.",
-    "contenido": "Putin no ha conseguido cambiar el régimen de Kiev en casi cinco años de guerra, y Trump tampoco lo ha logrado pese a retirar suministros militares, cortar ayuda financiera y criticar al presidente ucraniano Volodímir Zelenski. Ahora ambos proponen que las negociaciones de paz se inicien con una renovación de la arquitectura de seguridad europea al gusto de Moscú, dejando de lado a Ucrania como objeto principal del acuerdo.\n\nLa propuesta original es rusa y data de al menos treinta años, vinculada a las pretensiones no atendidas de Boris Yeltsin en sus tratos con Bill Clinton frente a las sucesivas expansiones de la OTAN. El Kremlin buscaba una relación especial que le otorgara veto sobre la acción de la Alianza, especialmente la admisión de nuevos socios, algo que no había sido considerado hasta la elección de Trump. La Casa Blanca incorporó la idea mediante un breve texto de Jared Kushner, yerno de Trump, interpretado por la revista francesa Le Grand Continent como una propuesta de cambio de régimen en Europa.\n\nKushner se inspiró en el Acta Fundacional de 1997 entre la OTAN y Rusia, que creó un Consejo Permanente consultivo sin capacidad vinculante y que se reunió hasta el 22 de enero de 2022. La iniciativa busca incluir a los europeos excluidos hasta ahora en conversaciones centradas en un nuevo sistema de seguridad continental, con representación coral de Francia, Alemania, Italia, Polonia y Reino Unido, en lugar de depender del secretario general de la OTAN o de altos cargos de la Comisión y del Consejo.\n\nSegún la fuente, la maniobra de Putin y Trump pretende priorizar el orden continental sobre la guerra en Ucrania, manteniendo la presión bélica y la guerra híbrida contra socios europeos, mientras los europeos exigen un cese definitivo de hostilidades antes de cualquier diálogo de paz.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fimagenes.elpais.com%2Fresizer%2Fv2%2FLNCYNGP5SZD3HD5MS3ZX2LDAR4.jpg%3Fauth%3Df9ae55f3cd23be1e26348c8213733f28c6882edb4a563a79cd529aa9e3601e71%26width%3D1200",
-    "fecha": "2026-11-14",
-    "seccion": "mundo",
-    "region": "Europa",
-    "medio": "El País",
-    "url_origen": "https://elpais.com/internacional/2026-11-15/putin-y-trump-buscan-un-cambio-de-regimen-en-europa.html"
-  },
-  {
-    "id": "n-9fc5eb89345f",
-    "titulo_original": "\"Quizás veamos el 25 de octubre de este año como el comienzo del fin de la recesión democrática mundial\"",
-    "titulo": "Larry Diamond señala al 25 de octubre como posible inicio del fin de la recesión democrática mundial",
-    "resumen": "El politólogo Larry Diamond, de Stanford, afirma que los acontecimientos del 25 de octubre en Serbia, Brasil y Venezuela podrían marcar el comienzo del fin de la recesión democrática global que se inició alrededor de 2006. Destaca que, aunque aún es temprano para confirmarlo, existen indicios de una nueva ola democratizadora.",
-    "contenido": "Larry Diamond, sociólogo político de la Universidad de Stanford, explicó a BBC Mundo que la democracia avanza en \"olas\" y que el 25 de octubre de este año se produjeron tres hechos simultáneos que podrían indicar un cambio de dirección. Según Diamond, la primera ola democratizadora comenzó con las revoluciones de Estados Unidos y Francia en el siglo XVIII y se extendió hasta los años 1920; la segunda surgió después de la Segunda Guerra Mundial y se debilitó con los golpes militares de los años 60 en Sudamérica; la tercera se inició en 1974 con la caída de la dictadura en Portugal y concluyó alrededor de 2006.\n\nDesde 2006, el número de democracias ha disminuido y se ha observado un avance de regímenes autoritarios competitivos en países como Hungría, Turquía, Polonia, India, México e Indonesia. Diamond describió este proceso como una \"recesión democrática\" que ha afectado también a Europa Central, Oriente y Estados Unidos.\n\nEl 25 de octubre, en Serbia, los estudiantes opositores lograron una victoria electoral que obligó al primer ministro Aleksandar Vučić a reconocer su derrota, un hecho que Diamond calificó como \"no es habitual que estas cosas ocurran el mismo día\". En Brasil, Luiz inácio Lula da Silva ganó la segunda vuelta presidencial frente a Flávio Bolsonaro, derrotando a una opción populista de derecha. En Venezuela, la líder de la oposición democrática María Corina Machado ingresó al país para organizar una transición democrática. Diamond también menciona que las elecciones de medio mandato en EE. UU., donde Donald Trump fue reprimido, representan un elemento simbólico adicional de posible reversión de la ola autoritaria.\n\nAunque advierte que aún es pronto para afirmar con certeza el fin de la recesión, Diamond considera que estos eventos podrían ser el inicio de una nueva ola democratizadora a nivel mundial.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fichef.bbci.co.uk%2Fnews%2F1200%2Fbranded_mundo%2F8e39%2Flive%2F25a4c7f0-dfa5-11f1-ab35-8541e0a03fdd.jpg",
-    "fecha": "2026-11-14",
-    "seccion": "mundo",
-    "region": "América Latina",
-    "medio": "BBC Mundo",
-    "url_origen": "https://www.bbc.com/mundo/articles/cmy493l9xx1zo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "id": "n-f961e826d94e",
-    "titulo_original": "Suman más de 16 mil vuelos cancelados en Estados Unidos por fallas en comunicaciones",
-    "titulo": "Más de 16 mil vuelos cancelados en EE.UU. por falla de comunicaciones",
-    "resumen": "El gobierno de EE.UU. aseguró que es seguro volar tras la suspensión de despegues provocada por una falla de comunicaciones, aunque informó de más de 3,800 vuelos cancelados y 2,100 retrasados. Las autoridades descartaron un ciberataque y atribuyeron el problema a hardware obsoleto, mientras que el AICM informó la reanudación de sus operaciones y recomendó a los pasajeros consultar a sus aerolíneas.",
-    "contenido": "El sábado el gobierno de Estados Unidos declaró que \"es seguro\" viajar en avión, un día después de que se suspendieran todos los despegues durante varias horas por una falla en las comunicaciones. Según FlightAware, más de 3,800 vuelos estaban cancelados y más de 2,100 sufrían retrasos esa mañana, lo que eleva el total de cancelaciones a más de 16 mil.\n\nEl secretario de Transporte, Sean Duffy, informó en X que las operaciones estaban regresando lentamente a la normalidad, que los aviones ya salían de las puertas y que era seguro volar, aunque advirtió que seguirían viéndose demoras y cancelaciones mientras las aerolíneas reprograman vuelos y reposicionan aeronaves y tripulaciones. Duffy, designado por el presidente Donald Trump, agradeció a controladores, pilotos y tripulaciones por su trabajo y señaló que la máxima prioridad es garantizar que los viajeros lleguen sanos y salvos a sus familias.\n\nEl secretario de Seguridad Nacional, Markwayne Mullin, rechazó las especulaciones sobre un ciberataque coordinado o cualquier vínculo con la caída de Microsoft, afirmando que la interrupción se debió a un importante corte de comunicaciones y a \"hardware viejo\".\n\nEl Aeropuerto Internacional de la Ciudad de México (AICM) comunicó que sus operaciones se restablecieron y recomendó a los pasajeros consultar directamente con sus aerolíneas para conocer el estatus de sus vuelos, especialmente en los itinerarios hacia y desde EE.UU. La paralización ocurrió a menos de dos semanas del feriado de Acción de Gracias, el periodo de mayor tráfico aéreo del año.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fcdn-3.expansion.mx%2Fdims4%2Fdefault%2Faf004a6%2F2147483647%2Fstrip%2Ftrue%2Fcrop%2F1196x628%2B2%2B0%2Fresize%2F1200x630%21%2Fformat%2Fjpg%2Fquality%2F80%2F%3Furl%3Dhttps%253A%252F%252Fcdn-3.expansion.mx%252F6e%252F44%252Fc189d9234ab7a572417229955a94%252Fvuelos-cancelados-estados-unidos.jpg",
-    "fecha": "2026-11-15",
-    "seccion": "mexico",
-    "region": "Estados Unidos",
-    "medio": "Expansión",
-    "url_origen": "https://expansion.mx/empresas/2026/11/14/vuelos-estados-unidos-se-restablecen-paulatimente-caos"
-  },
-  {
-    "id": "n-280c94ffd9de",
-    "titulo_original": "Caos aéreo en EU persiste tras suspensión masiva de vuelos por falla técnica",
-    "titulo": "Caos aéreo en EE.UU. tras suspensión masiva de vuelos por falla técnica",
-    "resumen": "La suspensión de despegues el viernes por una falla en la modernización de la infraestructura de control provocó cientos de miles de cancelaciones y retrasos el sábado. Autoridades estadounidenses atribuyen el problema al reemplazo defectuoso de cables de cobre por fibra óptica y solicitan fondos para actualizar el sistema.",
-    "contenido": "El viernes se suspendieron todos los despegues en el espacio aéreo de Estados Unidos tras una falla que el gobierno de Donald Trump vinculó a la modernización de infraestructura obsoleta. La paralización provocó filas interminables, campamentos improvisados y paneles de información en rojo en los aeropuertos, generando un caos generalizado.\n\nEl sábado, cientos de miles de pasajeros siguieron enfrentando cancelaciones y retrasos. Según el sitio FlightAware, se registraron más de 6,200 vuelos cancelados ese día y se pronosticó la restitución completa de los itinerarios al cierre de la jornada del domingo. El jefe de la FAA, Bryan Bedford, informó que 12,000 vuelos fueron cancelados el viernes y que entre 4,000 y 5,000 de los 41,000 programados para el sábado probablemente no despegarían. Bedford ofreció una \"sincera disculpa al público viajero estadounidense\".\n\nEl secretario de Transporte, Sean Duffy, explicó que la orden de suspensión de cuatro horas se emitió después de que trabajos de mantenimiento para cambiar un viejo cable de cobre por uno de fibra óptica provocaran problemas de comunicación y radar. Señaló que un error del contratista o una pieza defectuosa saturó equipos de enrutamiento del sistema de control de tráfico aéreo.\n\nLa interrupción, la segunda suspensión nacional desde los atentados del 11 de septiembre de 2001, se levantó a las 20:15 hora del este. Duffy pidió 50,000 millones de dólares al Congreso para modernizar el sistema y, mientras tanto, advirtió que seguirían viéndose demoras mientras las aerolíneas reprograman vuelos y reposicionan aeronaves y tripulaciones.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fimagenes.eleconomista.com.mx%2Ffiles%2Fimage_1200_600%2Fuploads%2F2026%2F11%2F14%2F6af923ed15887.jpeg",
-    "fecha": "2026-11-15",
-    "seccion": "mexico",
-    "region": "Estados Unidos",
-    "medio": "El Economista",
-    "url_origen": "https://www.eleconomista.com.mx/internacionales/caos-aereo-eu-persiste-suspension-masiva-vuelos-falla-tecnica-20261114-844081.html"
-  },
-  {
     "id": "n-70d72ec77bd7",
     "titulo_original": "Cómo operaba alias Raúl, uno de los sucesores del capo narco Fito en la estructura de poder de Los Choneros en Ecuador",
     "titulo": "Detienen a alias Raúl, sucesor de Fito en Los Choneros, en operación en Ecuador",
@@ -1948,5 +1896,57 @@
     "region": "Japón",
     "medio": "DW Español",
     "url_origen": "https://www.dw.com/es/japón-denuncia-que-dos-aviones-rusos-violaron-su-espacio-aéreo-y-protesta-ante-moscú/a-79964544?maca=spa-rss-sp-all-1122-xml-mrss"
+  },
+  {
+    "id": "n-491a8b5a816e",
+    "titulo_original": "‘La economía al servicio de las personas’: Sheinbaum defiende el Plan México ante empresarios del APEC 2026",
+    "titulo": "Sheinbaum presenta el Plan México ante empresarios del APEC en Shenzhen",
+    "resumen": "Claudia Sheinbaum defendió el Plan México ante más de mil empresarios en la Cumbre APEC 2026, resaltando un modelo económico centrado en el bienestar, la soberanía y la prosperidad compartida. Destacó aumentos del salario mínimo real y la asignación de un billón de pesos en becas y apoyos sociales, y anunció una reunión bilateral con Xi Jinping.",
+    "contenido": "La presidenta de México, Claudia Sheinbaum, presentó el Plan México ante más de mil empresarios que participan en el APEC CEO Summit 2026, celebrado en Shenzhen, China. En su discurso de apertura, sostuvo que el desarrollo de un país no debe medirse únicamente por su producción económica, sino también por las condiciones de vida que genera para sus habitantes.\n\nSheinbaum afirmó: “Estamos construyendo un modelo propio que tiene sus raíces en nuestra propia historia. Empezó con el Plan México, que es la decisión de convertir nuestras capacidades, recursos, posición estratégica y talento en motores de desarrollo con soberanía y justicia social”. El modelo contempla la prosperidad compartida, la soberanía energética y alimentaria, la inversión pública, privada y mixta en infraestructura, y la responsabilidad ambiental frente al cambio climático.\n\nComo resultados, la mandataria señaló un incremento del 154 por ciento del salario mínimo en términos reales y la distribución de becas y apoyos sociales con un presupuesto de un billón de pesos a través del Banco del Bienestar. “Estamos estableciendo un verdadero estado de bienestar en el que la economía debe estar al servicio de las personas y no las personas al servicio de la economía”, declaró.\n\nSheinbaum fue la oradora principal del encuentro en el Shenzhen Qianhai International Convention Center, donde fue recibida por Ren Hongbin, presidente del Consejo Chino para el Fomento del Comercio Internacional. Entre sus objetivos, buscó presentar el modelo mexicano para atraer inversiones de las 21 economías que integran el APEC. Además, anunció que sostendrá un encuentro bilateral con el presidente de China, Xi Jinping.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fwww.elfinanciero.com.mx%2Fresizer%2Fv2%2FL4ABPTQ7MJBWBNIOBV5CZZE37I.jpg%3Fsmart%3Dtrue%26auth%3D4d3afdb69e1c8c71341157bae63969dd16f425a180f3328f7420631b05b64410%26width%3D1200%26height%3D630",
+    "fecha": "2026-11-17",
+    "seccion": "mexico",
+    "region": "México",
+    "medio": "El Financiero",
+    "url_origen": "https://www.elfinanciero.com.mx/nacional/2026/11/16/la-economia-al-servicio-de-las-personas-sheinbaum-defiende-el-plan-mexico-ante-empresarios-del-apec-2026/"
+  },
+  {
+    "id": "n-31f0944eae36",
+    "titulo_original": "“El nudge no basta”",
+    "titulo": "David Laibson advierte que el nudge no basta para garantizar pensiones dignas",
+    "resumen": "El economista de Harvard, David Laibson, señaló que los nudges aumentan la inscripción al ahorro para el retiro, pero no aseguran aportaciones suficientes ni sustituyen reformas estructurales. En el Encuentro 2026 de la AMAFORE, destacó limitaciones como la inercia y la posible fijación de un techo de ahorro.",
+    "contenido": "David Laibson, catedrático de Harvard, participó en el \"Encuentro 2026\" organizado por la AMAFORE, donde expuso sobre la economía conductual aplicada a los esquemas de retiro. Su ponencia, titulada \"El nudge no basta\", subrayó que, aunque los nudges –como la inscripción automática (opt‑out) o los aportes equiparados de la empresa– incrementan la participación inicial, no garantizan que los trabajadores ahorren lo necesario para financiar su jubilación.\n\nLaibson explicó que la inercia que favorece la adopción del nudge también puede mantener a los afiliados en niveles de ahorro bajos, convirtiendo el porcentaje inicial en un techo de facto aun cuando sus ingresos aumenten. Además, advirtió que la mayor tasa de inscripción puede crear una falsa sensación de seguridad, pues las instituciones podrían interpretar que el sistema ha mejorado sin que la suficiencia de recursos en la vejez se haya resuelto.\n\nSegún el conferencista, los nudges no deben eliminarse, pero es crucial reconocer sus limitaciones y complementarlos con políticas estructurales que aborden salarios insuficientes, formalización laboral, bajas tasas de aportación y diseños institucionales deficientes. Solo así se podrá avanzar hacia pensiones dignas y sostenibles.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fimagenes.eleconomista.com.mx%2Ffiles%2Fimage_1200_600%2Ffiles%2Ffp%2Fuploads%2F2025%2F05%2F14%2F682565d0c4a4d.r_d.271-205-0.png",
+    "fecha": "2026-11-17",
+    "seccion": "mexico",
+    "region": "México",
+    "medio": "El Economista",
+    "url_origen": "https://www.eleconomista.com.mx/opinion/nudge-basta-20261116-844290.html"
+  },
+  {
+    "id": "n-7caa90b222f6",
+    "titulo_original": "Cómo lo megamillonarios en Rusia se preparan para un futuro sin Putin",
+    "titulo": "Los multimillonarios rusos se preparan para un futuro sin Putin",
+    "resumen": "Tras la invasión a Ucrania en febrero de 2022, Putin reunió a más de treinta de los hombres más ricos de Rusia, quienes mantuvieron silencio mientras él les pedía apoyo a la guerra. Desde entonces, la élite empresarial ha sido recompensada o castigada según su lealtad, y algunos empiezan a contemplar un escenario sin Putin.",
+    "contenido": "Horas después de lanzar la invasión a gran escala de Ucrania el 24 de febrero de 2022, Vladimir Putin reunió a los hombres más ricos de Rusia en el salón Yekaterininsky del Kremlin. Más de treinta personas, con mascarillas por la pandemia, fueron descritas por un periodista ruso como \"pálidas y con aspecto cansado\". Putin, sin mascarilla, se sentó al otro extremo del salón y, con su lenguaje críptico, dijo: \"Me gustaría pedirles que demuestren comprensión ante lo que está sucediendo\" y que trabajen con el gobierno para apoyar la producción, la economía y el empleo. Ninguno de los multimillonarios habló, manteniendo el silencio que se ha convertido en una característica de los superricos rusos.\n\nDurante la década de 1990 surgieron los \"oligarcas\", personas que se enriquecieron tras el colapso de la Unión Soviética. Tras su elección en 2000, Putin sometió a esa élite; el financiero Bill Browder recuerda haber visto a los oligarcas \"paseándose como si fueran dueños del lugar\" antes de que Putin los convirtiera en \"niños sumisos, casi desesperados\". Desde el inicio de la guerra, el Kremlin ha aplicado una política de premios y castigos: los críticos han visto confiscados sus bienes, mientras que los leales reciben contratos lucrativos. Según Forbes, ahora hay 155 multimillonarios rusos, con una riqueza colectiva cercana a US$700.000 millones.\n\nAun los leales no están satisfechos; el analista Dmitry Nekrasov afirma que \"en este juego no tienen cartas\" y que su dinero ya no compra influencia política. Las sanciones occidentales los marginan en el exterior, como señala Browder: \"Los tratan como a delincuentes de poca monta. No pueden volar en sus aviones privados. Sus yates no pueden atracar en los mejores puertos de Europa\".\n\nAnte la larga permanencia de Putin, que cumplió 74 años el mes pasado, algunos magnates empiezan a preguntarse cómo sería Rusia sin él, imaginando un retorno a la dinámica de los años noventa o una política más saludable, aunque no hay indicios de una salida inmediata del presidente.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fichef.bbci.co.uk%2Fnews%2F1200%2Fbranded_mundo%2F383f%2Flive%2F1c981d20-e22e-11f1-a930-0d0ddd22a84e.jpg",
+    "fecha": "2026-11-17",
+    "seccion": "mundo",
+    "region": "Rusia",
+    "medio": "BBC Mundo",
+    "url_origen": "https://www.bbc.com/mundo/articles/c91430j35n5ro?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "id": "n-39675969ff2b",
+    "titulo_original": "Burnham reconoció el fracaso del Brexit y anunció un debate nacional para redefinir la relación del Reino Unido con la UE",
+    "titulo": "Burnham admite fracaso del Brexit y propone debate nacional sobre futuro con la UE",
+    "resumen": "El primer ministro británico Andy Burnham reconoció que el Brexit no cumplió sus promesas y pidió una relación más estrecha con la Unión Europea. Anunció que, tras la cumbre bilateral en Bruselas, iniciará un debate nacional para redefinir el vínculo del Reino Unido con la UE.",
+    "contenido": "El primer ministro británico Andy Burnham declaró que el Brexit no cumplió lo prometido y solicitó una relación más estrecha con la UE para contrarrestar el aislacionismo y proteccionismo globales. Anunció que, después de la cumbre bilateral prevista para el viernes en Bruselas, abrirá un debate nacional sobre el vínculo a largo plazo del Reino Unido con el bloque.\n\nEn su discurso en el banquete del Lord Mayor, Burnham afirmó: \"El Brexit que nos dieron no ha funcionado. Hemos perdido más de lo que ganamos\". Comparó la salida con el cuento \"El traje nuevo del emperador\" y sostuvo que la ruptura, decidida en el referéndum de 2016 y concretada cuatro años después, ha sido \"la primera ficha de dominó en caer en un movimiento global hacia más aislacionismo y proteccionismo\", beneficiando a \"nuestros enemigos\", entre ellos Rusia.\n\nEl mandatario indicó que el comercio con la UE se ha reducido significativamente y que las estimaciones del daño económico varían entre el 4 % y el 8 % del PIB británico. Añadió que el Reino Unido recuperó su posición internacional y que ahora tiene una oportunidad de liderazgo en una etapa que requiere mayor cooperación.\n\nLa cumbre de Bruselas buscará cerrar acuerdos comerciales en alimentos, energía y emisiones, así como un programa de movilidad juvenil. Tras la reunión, Burnham impulsará la conversación nacional, y su portavoz Tom Wells aseguró que \"no se está partiendo de ninguna suposición\" y que \"el pueblo británico será quien dicte cualquier resultado\". No obstante, el gobierno sigue comprometido a no reincorporarse a la unión aduanera ni al mercado único, según el compromiso de su predecesor Keir Starmer.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fwww.infobae.com%2Fresizer%2Fv2%2F6VP3Y4CLENAGLOUWNXNGILSGTI.jpg%3Fauth%3Deca9ac060f7f74657c902fed468d2b3bd9e9a75e2bfdfb1181fc5002d9767551%26smart%3Dtrue%26width%3D1200%26height%3D630%26quality%3D85",
+    "fecha": "2026-11-17",
+    "seccion": "mundo",
+    "region": "Reino Unido",
+    "medio": "Infobae América",
+    "url_origen": "https://www.infobae.com/america/mundo/2026/11/17/burnham-reconocio-el-fracaso-del-brexit-y-anuncio-un-debate-nacional-para-redefinir-la-relacion-del-reino-unido-con-la-ue/"
   }
 ]
