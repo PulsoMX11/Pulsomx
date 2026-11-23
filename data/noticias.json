@@ -1,57 +1,5 @@
 [
   {
-    "id": "n-242beac5efa4",
-    "titulo_original": "Cómo una taza de té mal servida transformó la estadística y abrió el camino a la ciencia de los datos",
-    "titulo": "El experimento del té de Muriel Bristol impulsa la estadística moderna",
-    "resumen": "En la década de 1920, Ronald Fisher y William Roach probaron la capacidad de Muriel Bristol para distinguir el orden de leche y té, usando ocho tazas. El éxito del experimento sentó las bases de los métodos estadísticos que hoy sustentan la ciencia de datos.",
-    "contenido": "En 1906 el centro agrícola británico Rothamsted Research incorporó a la botánica Winifred Brenchley, la primera mujer en su personal. Para integrarla, el director Sir John Russell instauró una pausa de té a las cuatro de la tarde para todo el equipo científico. Décadas después, a principios de los años veinte, el matemático y biólogo Ronald A. Fisher ofreció una taza de té a la algóloga Muriel Bristol, quien afirmó que percibía una diferencia cuando la leche se añadía antes del té. Fisher consideró la afirmación una tontería, pero el químico William Roach propuso ponerla a prueba.\n\nEl experimento consistió en presentar a Bristol ocho tazas de té, cuatro con la leche servida primero y cuatro con el té primero, en orden aleatorio. Debía identificar el grupo de cuatro que contenía la leche antes del té. Existen 70 combinaciones posibles; elegir al azar le habría dado una probabilidad de acierto de 1,4 %. Bristol identificó correctamente (o casi todas) las tazas, lo que convenció a Fisher y Roach de que el resultado no era casual.\n\nEste sencillo desafío sirvió de inspiración para que Fisher desarrollara principios de diseño experimental y análisis estadístico, sentando las bases de la estadística moderna que hoy respalda la investigación agrícola, la medicina, la aprobación de vacunas y los algoritmos de inteligencia artificial.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fichef.bbci.co.uk%2Fnews%2F1200%2Fbranded_mundo%2Fd0bc%2Flive%2Fbbe894e0-a6fb-11f1-b109-879e35c24276.jpg",
-    "fecha": "2026-11-21",
-    "seccion": "mundo",
-    "region": "Reino Unido",
-    "medio": "BBC Mundo",
-    "url_origen": "https://www.bbc.com/mundo/articles/cpq0lv5p5vqo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "id": "n-7405f0d4d2f0",
-    "titulo_original": "Rusia lanzó un ataque con misiles balísticos contra la ciudad natal de Zelensky: dos muertos y 60 heridos",
-    "titulo": "Ataque ruso con misiles balísticos en Krivói Rog deja 2 muertos y 60 heridos",
-    "resumen": "Un ataque con misiles balísticos ruso sobre Krivói Rog, ciudad natal del presidente Zelensky, mató a un niño de siete años y a una paramédica de 20 años, y dejó 60 heridos. El bombardeo dañó edificios residenciales, un hospital y otras infraestructuras, y fue seguido por ataques con drones contra equipos de rescate. En respuesta, la UE aprobó una ayuda militar de 1.000 millones de euros para Ucrania.",
-    "contenido": "Un ataque ruso con misiles balísticos alcanzó el centro de Krivói Rog, la ciudad natal del presidente ucraniano Volodimir Zelensky, durante la noche del viernes y la madrugada del sábado. El jefe del Consejo de Defensa de la ciudad, Oleksandr Vilkul, informó que fallecieron dos personas: un niño de siete años que jugaba cerca de un restaurante y una paramédica de 20 años que acudió a atender a las víctimas. El número de heridos ascendió a 60, entre ellos varios niños y dos paramédicos, y 27 permanecieron en estado grave.\n\nEl impacto dañó 23 edificios de apartamentos, un hospital, instituciones educativas, comercios, ambulancias, garajes y vehículos, y provocó varios incendios, dos de los cuales fueron extinguidos. La zona afectada estaba próxima a edificios residenciales y a un restaurante de alta circulación. La Policía de Dnipropetrovsk señaló que fuerzas rusas lanzaron dos ataques con drones sobre el área de rescate, hiriendo a dos agentes de desactivación de explosivos y a dos integrantes del Servicio Estatal de Emergencias. Además, tres granadas propulsadas por cohete impactaron contra personal sanitario y de servicios públicos.\n\nEn otro ataque, Rusia alcanzó el distrito de Dnipro, incendiando una vivienda en la comunidad de Obukhiv y hiriendo a tres personas mayores. Ante los bombardeos, el Consejo de la Unión Europea aprobó una ayuda militar de 1.000 millones de euros para Ucrania, destinada a la compra de drones, sistemas de defensa aérea, guerra electrónica, municiones, radares y explosivos, con entrega prevista antes de finales de 2027. La alta representante de la UE para Asuntos Exteriores, Kaja Kallas, reiteró el respaldo del bloque a Ucrania tanto en el campo militar como diplomático, señalando que los actos de Moscú no muestran voluntad de paz. En el ámbito diplomático, el presidente de Estados Unidos, Donald Trump, expresó frustración por la falta de avances en las negociaciones para terminar la guerra, describiendo la relación entre Putin y Zelensky como \"dos hombres atascados en el barro\" y calificando el conflicto como una \"guerra de relaciones públicas\".",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fwww.infobae.com%2Fresizer%2Fv2%2FQWG3RHZ3MFCIVDGAGETPJ6YG2I.jpg%3Fauth%3Dbb77a61435e0c3f91a105e688573bcd49b658a90235cba394f6a39de9008bfde%26smart%3Dtrue%26width%3D1200%26height%3D630%26quality%3D85",
-    "fecha": "2026-11-21",
-    "seccion": "mundo",
-    "region": "Ucrania",
-    "medio": "Infobae América",
-    "url_origen": "https://www.infobae.com/america/mundo/2026/11/21/rusia-lanzo-un-ataque-con-misiles-balisticos-contra-la-ciudad-natal-de-zelensky-al-menos-dos-muertos-y-47-heridos/"
-  },
-  {
-    "id": "n-6e7538f2fae1",
-    "titulo_original": "LA Galaxy decide no comprar al 'Chucky' Lozano; regresará al San Diego FC",
-    "titulo": "LA Galaxy no compra a Hirving Lozano y regresa al San Diego FC",
-    "resumen": "LA Galaxy decidió no ejercer la opción de compra sobre el delantero mexicano Hirving “Chucky” Lozano, por lo que el jugador vuelve a su club de origen, San Diego FC. Lozano, de 31 años, había llegado al Galaxy en agosto bajo un préstamo con opción de compra.",
-    "contenido": "LA Galaxy informó que no hizo efectiva la opción de compra sobre el delantero mexicano Hirving “Chucky” Lozano, por lo que el jugador regresará a San Diego FC, club al que pertenece. El club estadounidense comunicó que Lozano ha finalizado su cesión y vuelve a su club de origen, anunciando también la conformación de su plantel para la próxima temporada.\n\nLozano llegó al Galaxy en agosto, cedido a préstamo desde San Diego FC por el resto de la temporada, con opción de compra que finalmente no se ejerció. El futbolista de 31 años cuenta con una trayectoria internacional: jugó en PSV Eindhoven, donde ganó la Eredivisie en 2017‑2018, 2023‑2024 y 2024‑2025, y en Napoli, con la que conquistó la Serie A 2022‑2023 y la Copa de Italia.\n\nEn su país, fue parte de la selección mexicana que participó en los Mundiales de 2018 y 2022. Inició su carrera profesional en Pachuca en 2014, anotando 43 goles en 149 partidos y logrando los títulos del Clausura 2016 y de la Liga de Campeones de la Concacaf 2016‑2017. En 2018, la Concacaf lo nombró mejor futbolista del año.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fimagenes.eleconomista.com.mx%2Ffiles%2Fimage_1200_600%2Fuploads%2F2026%2F11%2F20%2F6b00ff79d6b49.jpeg",
-    "fecha": "2026-11-21",
-    "seccion": "mexico",
-    "region": "México",
-    "medio": "El Economista",
-    "url_origen": "https://www.eleconomista.com.mx/deportes/galaxy-decide-comprar-chucky-lozano-regresara-san-diego-fc-20261120-845103.html"
-  },
-  {
-    "id": "n-e69d77d8922a",
-    "titulo_original": "Fiscalía tiene ‘datos de prueba sólidos’ vs. Vadhir Derbez; pide que comparezca y presente los suyos",
-    "titulo": "Fiscalía CDMX afirma contar con pruebas sólidas contra Vadhir Derbez y mantiene investigaciones por presunta violación y extorsión",
-    "resumen": "La Fiscalía de la Ciudad de México indica que posee datos de prueba sólidos en la acusación de violación contra Vadhir Derbez y que la investigación sigue activa, a pesar del amparo que anuló la orden de aprehensión. Asimismo, la autoridad señala que la denuncia de extorsión de 350 mil dólares no ha sido corroborada con pruebas aportadas por la defensa. Ambas causas continúan y la Fiscalía se reserva el derecho de citar al actor ante un juez.",
-    "contenido": "La Fiscalía de la CDMX declaró que cuenta con datos de prueba sólidos que sustentan la acusación de presunta violación contra Vadhir Derbez, a pesar de que el actor obtuvo un amparo que dejó sin efectos la orden de aprehensión. La institución informó que ha intentado citar al actor en más de diez domicilios y lugares, incluido el despacho de sus abogados, pero que Derbez no compareció ante el Ministerio Público.\n\nLa defensa tampoco entregó los dictámenes ni los elementos de prueba que había mencionado públicamente. En cuanto a la denuncia de extorsión por 350 mil dólares, la Fiscalía explicó que el expediente remitido por la FGR solo contiene la denuncia inicial y que ni Derbez ni sus abogados aportaron mensajes, registros de llamadas u otros documentos para esclarecer los hechos.\n\nLa primera denuncia, presentada en abril, proviene de una modelo estadounidense de 19 años que acusa al actor de una agresión sexual durante la grabación de un videoclip en la Casa Volopapilio, Coyoacán. Derbez negó los señalamientos, alegando que nunca estuvo a solas con la joven y que estaba rodeado de su equipo y testigos. Su abogado señaló que el lugar contaba con más de 50 cámaras, aproximadamente 500 tomas de video y entre 50 y 60 testigos que podrían respaldar la versión del actor.\n\nDerbez también enfrenta una segunda denuncia de presunta violación presentada por una adolescente de 15 años ante la FEVIMTRA de la FGR, que relata una agresión en el crucero Icon of the Seas en aguas internacionales y una posterior amenaza. El actor afirmó no haber recibido notificación oficial y expresó su deseo de que los procesos judiciales aclaren los hechos.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fwww.elfinanciero.com.mx%2Fresizer%2Fv2%2FTANMKFC6NNHQVGVHQIQJHNMZPA.jpg%3Fsmart%3Dtrue%26auth%3D5cfa9616fda579eadd492c61bbfe8b01d110474e9e78a205861d2da4bf5ad354%26width%3D1200%26height%3D630",
-    "fecha": "2026-11-21",
-    "seccion": "mexico",
-    "region": "México",
-    "medio": "El Financiero",
-    "url_origen": "https://www.elfinanciero.com.mx/espectaculos/2026/11/20/fiscalia-de-cdmx-asegura-que-tiene-datos-solidos-contra-vadhir-derbez/"
-  },
-  {
     "id": "n-64adf81ee798",
     "titulo_original": "La COP31 busca acuerdos en el tiempo en cumbre de Turquía",
     "titulo": "COP31 en Turquía busca acuerdo mínimo pese a tensiones sobre fósiles y financiación",
@@ -1948,5 +1896,57 @@
     "region": "El Salvador",
     "medio": "Infobae América",
     "url_origen": "https://www.infobae.com/el-salvador/2026/11/23/el-salvadoreno-marcelo-arevalo-conquista-el-subcampeonato-de-las-nitto-atp-finals-2026-y-le-dice-adios-a-una-dupla-historica/"
+  },
+  {
+    "id": "n-e9f2b72376a4",
+    "titulo_original": "49ers vs Vikings EN VIVO HOY: Jugada a jugada del partido de la NFL en México",
+    "titulo": "NFL regresa a México: 49ers vencen a Vikings 21-10 en el Estadio Banorte",
+    "resumen": "El partido de la Semana 11 de la temporada 2026 de la NFL se jugó en el Estadio Banorte de la Ciudad de México, marcando el regreso del fútbol americano profesional al país después de 2022. San Francisco 49ers derrotó a Minnesota Vikings con un marcador de 21-10. El evento contó con la presencia de la bandera mexicana, el himno interpretado por Majo Aguilar y actividades de los aficionados locales.",
+    "contenido": "El domingo 22 de noviembre, a partir de las 19:20 h del tiempo del centro del país, el Estadio Banorte recibió su sexto encuentro de la NFL, en la Semana 11 de la temporada regular 2026. San Francisco 49ers y Minnesota Vikings se enfrentaron en la primera visita oficial de la liga a México desde 2022, cuando los 49ers jugaron en el ‘Coloso de Santa Úrsula’ antes de sus remodelaciones.\n\nEl partido inició con varias jugadas de intercambio de balones; los 49ers lograron una intercepción y touchdown de Brown, y posteriormente un pase de Brock Purdy a George Kittle que amplió su ventaja. A lo largo del encuentro, San Francisco anotó varios touchdowns, entre ellos uno de Mike Evans y otro de Kittle, mientras que los Vikings respondieron con un gol de campo de Will Reichard y un touchdown de Aaron Jones. El marcador se mantuvo en favor de los 49ers, que al final del juego registraron una victoria de 21‑10.\n\nEl evento destacó la participación de Warner, de ascendencia mexicana, quien ondeó la bandera del país, y el himno nacional interpretado por Majo Aguilar. Además, los aficionados disfrutaron de un vocho dorado decorado por un seguidor local, Rafa, y de una celebración especial de touchdowns anunciada por el quarterback Brock Purdy. La NFL volvió a conectar con su público mexicano tras la pausa de varios años, ofreciendo una experiencia deportiva y cultural única.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fwww.elfinanciero.com.mx%2Fresizer%2Fv2%2FKQCH3CUOMJAFRMHYSBWZR5IRZI.jpg%3Fsmart%3Dtrue%26auth%3Dcf05d1f2b8d95022780d6446efe8633defbfea944524dce191caf91891790785%26width%3D1200%26height%3D630",
+    "fecha": "2026-11-22",
+    "seccion": "mexico",
+    "region": "México",
+    "medio": "El Financiero",
+    "url_origen": "https://www.elfinanciero.com.mx/deportes/2026/11/22/49ers-vs-vikings-en-vivo-resultado-de-semana-11-de-nfl-en-cdmx-2026/"
+  },
+  {
+    "id": "n-625d17e4e808",
+    "titulo_original": "Marjorie de Sousa responde a Julián Gil y Valeria Marín sobre la pensión de su hijo: “No recibo absolutamente nada”",
+    "titulo": "Marjorie de Sousa niega recibir pensión de Julián Gil y dice no percibe apoyo",
+    "resumen": "Marjorie de Sousa afirmó que no recibe pensión alimenticia para su hijo Matías, respondiendo a las acusaciones de Julián Gil y su esposa Valeria Marín. La actriz recordó que la pensión fue establecida en 2018 y que, según ella, su sustento proviene de su trabajo profesional.",
+    "contenido": "Marjorie de Sousa negó haber recibido pensión alimenticia para su hijo Matías, declarando ante la prensa: \"No recibo absolutamente nada, hace muchísimos años no recibo absolutamente nada\". La actriz venezolana respondió a los señalamientos de Julián Gil y su esposa Valeria Marín, quienes la acusaron de victimizarse al presentarse como madre soltera pese a una supuesta manutención vigente.\n\nEl 18 de noviembre, De Sousa participó en el programa Despierta América para promocionar la telenovela Infinito amor y habló de los retos de criar a su hijo de casi diez años, sin abordar el conflicto legal con Gil. En esa entrevista comentó: \"Una saca fuerzas de donde no te imaginas y espacio de donde no lo tienes porque, a veces, dejo de dormir para poder estar con mi hijo y poder cumplir como mamá\".\n\nJulián Gil reaccionó en Instagram del programa, cuestionando por qué él no puede convivir con Matías y acusando a la actriz de decidir la crianza sin su presencia. Valeria Marín calificó de \"falta de respeto\" que De Sousa se presente como madre soltera y afirmó que la pensión existe.\n\nEn 2018, una prueba de ADN confirmó la paternidad de Gil y un juez fijó una pensión equivalente al 20 % de sus ingresos, además de establecer la custodia a favor de De Sousa y un régimen de visitas. En octubre de 2020, el Tribunal Superior de Justicia de la Ciudad de México determinó que De Sousa será la única responsable de las decisiones sobre el futuro del menor, fallo que sigue vigente.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fwww.infobae.com%2Fresizer%2Fv2%2FAD5APQYQEFCNPDJBXQUPRBWU2I.jpg%3Fauth%3D1b361eeec713506c55c28b6806a280c1ff756e397f3853ed47d044e81d96c9f8%26smart%3Dtrue%26width%3D1200%26height%3D630%26quality%3D85",
+    "fecha": "2026-11-22",
+    "seccion": "mexico",
+    "region": "México",
+    "medio": "Infobae México",
+    "url_origen": "https://www.infobae.com/mexico/2026/11/23/marjorie-de-sousa-responde-a-julian-gil-y-valeria-marin-sobre-la-pension-de-su-hijo-no-recibo-absolutamente-nada/"
+  },
+  {
+    "id": "n-b270ec07169c",
+    "titulo_original": "Kim dice que Corea del Norte no busca \"supremacía ni expansión\", sino seguridad",
+    "titulo": "Kim Jong-un afirma que Corea del Norte busca seguridad, no supremacía",
+    "resumen": "El líder norcoreano declaró que su país persigue poder y capacidad para garantizar su seguridad y paz, pero que no busca la supremacía ni la expansión. Las palabras se pronunciaron en una ceremonia de presentación de credenciales de nuevos embajadores, rompiendo el protocolo tradicional. Además, reiteró el objetivo de ampliar relaciones exteriores basadas en independencia, paz y amistad.",
+    "contenido": "El mandatario de la República Popular Democrática de Corea, Kim Jong-un, afirmó que su país se esforzará por alcanzar \"poder y capacidad\" para garantizar su seguridad y paz, pero que no buscará la supremacía ni la expansión, según informó la prensa estatal el lunes 23 de noviembre de 2026.\n\nKim hizo estas declaraciones durante una ceremonia para recibir las cartas credenciales de embajadores recién nombrados, una ruptura inusual del protocolo que habitualmente corresponde a un alto funcionario. En el acto, citó a la Agencia Central de Noticias de Corea (KCNA) diciendo: \"La situación internacional actual está provocando un cambio significativo en nuestra comprensión de la soberanía nacional y la seguridad\".\n\nEl objetivo diplomático de Pyongyang, según el discurso, es \"ampliar y desarrollar las relaciones exteriores bajo los ideales de independencia, paz y amistad, sobre el principio de defender la soberanía y la seguridad nacionales\". Asimismo, reiteró que \"La RPDC no busca ni la supremacía ni la expansión\".\n\nLa ceremonia se realizó después de que Kim desairara los acercamientos del presidente estadounidense Donald Trump la semana anterior, durante la visita de este a China para la cumbre del Foro de Cooperación Económica Asia‑Pacífico (APEC). Trump abandonó Asia tras una histórica cumbre trilateral con los presidentes de China y Rusia, sin reunirse con Kim como se había insinuado. Las anteriores cumbres entre ambos mandatarios, durante el primer mandato de Trump, intentaron frenar el programa nuclear norcoreano pero no lograron acuerdos concretos. A pesar de años de sanciones de la ONU, Corea del Norte ha continuado con su programa nuclear, consagrando su condición nuclear en la legislación y declarando su arsenal permanente e irreversible.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fstatic.dw.com%2Fimage%2F79965795_6.jpg",
+    "fecha": "2026-11-22",
+    "seccion": "mundo",
+    "region": "Asia",
+    "medio": "DW Español",
+    "url_origen": "https://www.dw.com/es/kim-dice-que-corea-del-norte-no-busca-supremacía-ni-expansión-sino-seguridad/a-80015541?maca=spa-rss-sp-all-1122-xml-mrss"
+  },
+  {
+    "id": "n-bd1e09d52cc6",
+    "titulo_original": "Lo que podemos aprender de una antigua ciudad subterránea de Turquía sobre cómo escapar del calor y el frío extremos",
+    "titulo": "Derinkuyu, la ciudad subterránea turca que ofrece refugio climático",
+    "resumen": "Derinkuyu, una antigua ciudad bajo tierra en Capadocia, mantiene una temperatura constante de 15‑17 °C y pudo albergar a 20 000 personas. Investigadores consideran su arquitectura como modelo para refugios ante el calor y el frío extremos provocados por el cambio climático.",
+    "contenido": "Las formaciones rocosas de la Capadocia, talladas por el viento y la lluvia, esconden bajo su superficie la ciudad subterránea de Derinkuyu. Construida como refugio durante las incursiones de los ejércitos árabes entre mediados del siglo VII y comienzos del XI, la estructura cuenta con entre seis y doce pisos, según algunas fuentes, y otras estiman hasta 18 niveles y una profundidad de 85 metros. Con una extensión de unos 2,5 kilómetros, podía acoger a unas 20 000 personas y disponía de alrededor de 53 pozos de agua y conductos de ventilación. Lo más notable es que su interior mantiene una temperatura estable de 15‑17 °C durante todo el año, lo que la hacía un alivio frente a los extremos climáticos de la superficie.\n\nEl grupo de investigación de Cuevas Obruk, liderado por el espeleólogo Ali Yamaç, lleva 15 años estudiando estas cavidades. Yamaç afirma que \"en todas las cuevas, tanto naturales como artificiales, la temperatura se mantiene relativamente estable durante todo el año. En verano hace fresco y en invierno hace más calor, lo que supone una gran ventaja\". Ante el aumento de 2,1 °C de la temperatura en Turquía desde la era preindustrial, que ha intensificado olas de calor, sequías e inundaciones, investigadores como Francesco La Vigna del ISPRA proponen considerar el subsuelo como recurso habitacional. En Roma ya se han cartografiado más de 7 000 estructuras subterráneas para posibles refugios climáticos, una iniciativa que podría replicarse en otras regiones.\n\nAunque Derinkuyu no se usa hoy como refugio climático, su ejemplo histórico abre la discusión sobre la adaptación urbana al cambio climático mediante la reutilización de espacios subterráneos.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fichef.bbci.co.uk%2Fnews%2F1200%2Fbranded_mundo%2F33bb%2Flive%2Ff5f951e0-e2a3-11f1-8226-87dfa5049e9a.jpg",
+    "fecha": "2026-11-22",
+    "seccion": "mundo",
+    "region": "Turquía",
+    "medio": "BBC Mundo",
+    "url_origen": "https://www.bbc.com/mundo/articles/cq074g7x8915o?at_medium=RSS&at_campaign=rss"
   }
 ]
