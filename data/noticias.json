@@ -1,57 +1,5 @@
 [
   {
-    "id": "n-b26882397201",
-    "titulo_original": "¿Qué pasaría si explotara un arma nuclear en el espacio?",
-    "titulo": "Una explosión nuclear en el espacio: riesgos para satélites y servicios críticos",
-    "resumen": "Una detonación nuclear en el espacio tendría poco efecto directo sobre la Tierra, pero podría inutilizar satélites que sustentan comunicaciones, navegación y sistemas financieros. El ensayo Starfish Prime de 1962 mostró que el pulso electromagnético y la radiación atrapada en un cinturón artificial pueden dañar componentes electrónicos y solares de los satélites durante meses. La pérdida de estos servicios podría afectar emergencias, GPS y generar más desechos espaciales.",
-    "contenido": "Una explosión nuclear en el espacio es poco probable que cause daños directos a la superficie terrestre, ya que la atmósfera es demasiado tenue para producir una bola de fuego o una onda expansiva que alcance el suelo. Sin embargo, el pulso electromagnético (PEM) y la radiación generada pueden afectar a los satélites que orbitan por encima de la mayor parte de la atmósfera protectora.\n\nEl experimento estadounidense Starfish Prime, realizado el 8 de julio de 1962 a unos 400 km de altura sobre el Pacífico, produjo un PEM que dejó fuera de servicio algunas farolas en Hawái y provocó interrupciones breves en las comunicaciones por radio. Además, varios satélites dejaron de operar meses después de la prueba. La explosión creó una aurora artificial al hacer brillar las capas densas de la atmósfera y la atmósfera absorbió gran parte de la radiación inicial.\n\nLos satélites son vulnerables porque la emisión inicial de rayos X puede dañar sus componentes y el campo magnético terrestre atrapa electrones, formando un cinturón de radiación artificial. Cada vez que un satélite atraviesa ese cinturón recibe una dosis adicional que, con el tiempo, degrada sus circuitos y paneles solares. La pérdida de satélites de órbita baja podría dificultar comunicaciones de emergencia, navegación GPS y la sincronización horaria de redes financieras. Los satélites GPS, situados a 20 200 km, podrían seguir operando aunque otros fallaran.\n\nLos tratados internacionales, como el Tratado del Espacio Ultraterrestre de 1967 y el Tratado de Prohibición Parcial de Ensayos Nucleares de 1963, prohíben colocar armas nucleares en órbita y realizar explosiones nucleares en el espacio, aunque no disponen de mecanismos de verificación específicos. El blindaje y sistemas de respaldo pueden mitigar algunos efectos, pero una gran cantidad de desechos generados podría desencadenar el síndrome de Kessler.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fstatic.dw.com%2Fimage%2F80020748_6.jpg",
-    "fecha": "2026-11-23",
-    "seccion": "mundo",
-    "region": "Estados Unidos",
-    "medio": "DW Español",
-    "url_origen": "https://www.dw.com/es/¿qué-pasaría-si-explotara-un-arma-nuclear-en-el-espacio/a-80026814?maca=spa-rss-sp-all-1122-xml-mrss"
-  },
-  {
-    "id": "n-7e835f08377b",
-    "titulo_original": "La cantante iraní que recibió 74 latigazos por actuar en YouTube sin el velo",
-    "titulo": "Cantante iraní recibe 74 latigazos por actuar sin velo en YouTube",
-    "resumen": "Parastoo Ahmadi, de 29 años, y cuatro miembros de su banda fueron azotados con 74 latigazos cada uno en la ciudad de Qom después de ser condenados por actuar sin hiyab en una transmisión de diciembre de 2024. La sentencia, confirmada por un tribunal de apelaciones, incluye la prohibición de realizar actividades audiovisuales y de salir del país durante dos años, y ha sido denunciada por artistas y defensores de derechos humanos como un castigo cruel e inhumano.",
-    "contenido": "Parastoo Ahmadi, cantante iraní de 29 años, realizó una actuación en directo en YouTube en diciembre de 2024 sin el hiyab obligatorio. Las autoridades iraníes consideraron que la presentación violaba la moral pública y, en junio, un tribunal penal de Qom la condenó junto a tres músicos y un productor por \"atentar contra la moral pública\" mediante la publicación de \"material obsceno e indecente\". Cada uno de los cinco acusados recibió 74 latigazos en la tercera sección de la Oficina de Ejecución de Sentencias Penales en Qom. Además de la flagelación, la sentencia impuso la prohibición de realizar actividades audiovisuales y la restricción de salir del país durante dos años.\n\nA finales de septiembre, un tribunal de apelaciones de Qom rechazó el recurso de los acusados y confirmó la sentencia. Un abogado declaró a la BBC: \"Hicimos todo lo que estuvo a nuestro alcance para que se anulara el veredicto, o al menos para conseguir una reducción de la pena o una suspensión, pero no funcionó\". \"Los demás abogados y yo incluso intentamos que se aplazara la ejecución de la sentencia, pero la oficina encargada de su cumplimiento insistió en llevarla a cabo de inmediato\".\n\nEl diario reformista Etemad identificó a los cuatro hombres que fueron azotados junto a Ahmadi como Soheil Faghih‑Nasiri, Amin Taheri, Amirali Pirnia y Mohsen Lashkari. La directora de defensa de derechos del Centro para los Derechos Humanos en Irán (CHRI), Bahar Ghandehari, calificó la flagelación como \"una violación flagrante de sus derechos fundamentales y una demostración escalofriante de la determinación de las autoridades iraníes de reprimir las libertades de las mujeres\".\n\nOrganizaciones de derechos humanos y artistas iraníes han condenado el castigo, señalando que constituye un trato cruel, inhumano y degradante que viola la prohibición internacional de la tortura. La medida se produce en un contexto de estrictas leyes de vestimenta basadas en la interpretación iraní de la Sharia y de continuas protestas y represión desde la muerte de Mahsa Amini en 2022.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fichef.bbci.co.uk%2Fnews%2F1200%2Fbranded_mundo%2F6a11%2Flive%2Fe201bf70-bb4c-11f1-bc1f-3f186ca4140c.jpg",
-    "fecha": "2026-11-23",
-    "seccion": "mundo",
-    "region": "Medio Oriente",
-    "medio": "BBC Mundo",
-    "url_origen": "https://www.bbc.com/mundo/articles/cmly7qnw55z4o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "id": "n-80c54acfad02",
-    "titulo_original": "PAN responsabiliza a César Cravioto por conflicto entre Alessandra Rojo de la Vega y Diana Sánchez Barrios: exigen su renuncia",
-    "titulo": "PAN exige renuncia de César Craviato tras violencia en Congreso de CDMX",
-    "resumen": "El PAN pidió la renuncia del secretario de Gobierno de la Ciudad de México, César Craviato, después de los incidentes de violencia el 20 de noviembre frente al Congreso durante la comparecencia de la alcaldesa de Cuauhtémoc, Alessandra Rojo de la Vega. El diputado Federico Döring y la dirigencia nacional del partido respaldaron la solicitud, mientras Craviato rechazó las acusaciones y calificó los hechos como un zafarrancho.",
-    "contenido": "El Partido Acción Nacional (PAN) exigió la renuncia de César Craviato como secretario de Gobierno de la Ciudad de México tras los hechos de violencia registrados el viernes 20 de noviembre fuera del Congreso capitalino, durante la comparecencia de la alcaldesa de Cuauhtémoc, Alessandra Rojo de la Vega. La petición contó con el respaldo del diputado federal Federico Döring, quien informó que la bancada del PAN en la Cámara de Diputados y la dirigencia nacional del partido solicitaron la salida del funcionario.\n\nDöring sostuvo que Craviato no ha contribuido a resolver las diferencias políticas entre la alcaldesa y la diputada local Diana Sánchez Barrios, al contrario, lo acusó de alimentar el enfrentamiento. En su posicionamiento, el legislador recordó que Rojo de la Vega tiene la misma legitimidad que cualquier otro alcalde, pues fue elegida por voto popular, y por ello debe recibir un trato institucional y respetuoso. Asimismo, criticó la actuación del secretario, afirmando que su permanencia es incompatible con la necesidad de atender los conflictos en la capital.\n\n“Se le paga por concertación política , no por sedición y motín político . Se le paga por generar soluciones a la ingobernabilidad de la ciudad , no por ser el epicentro carroñero de la reyerta política en la ciudad”, declaró Döring.\n\nEl enfrentamiento del 20 de noviembre incluyó golpes, lanzamiento de objetos y la presencia de personas encapuchadas, según denunció Rojo de la Vega, quien señaló a la diputada Diana Sánchez Barrios como presunta responsable y anunció que acudiría a la Fiscalía General de Justicia de la Ciudad de México. Craviato rechazó las acusaciones, calificó los hechos como un zafarrancho vinculado a la negativa de la alcaldesa a comparecer y acusó a Rojo de buscar distraer la atención de su obligación de rendir cuentas.\n\nLa exigencia de renuncia se suma a otras demandas de la dirigencia panista en la CDMX, encabezada por Luisa Gutiérrez, quien también responsabilizó a las autoridades capitalinas por la falta de seguridad durante la comparecencia y solicitó explicaciones a la Secretaría de las Mujeres.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fwww.infobae.com%2Fresizer%2Fv2%2FAJCY65WXIVAB7GRKJNWGTMO5CQ.png%3Fauth%3D15ca28fc10a38df7048aa7aec89e68dd8dd8bb1e9ba43b60cce17f0a5e5fafb5%26smart%3Dtrue%26width%3D1200%26height%3D630%26quality%3D85",
-    "fecha": "2026-11-23",
-    "seccion": "mexico",
-    "region": "México",
-    "medio": "Infobae México",
-    "url_origen": "https://www.infobae.com/mexico/2026/11/23/pan-responsabiliza-a-cesar-cravioto-por-conflicto-entre-alessandra-rojo-de-la-vega-y-diana-sanchez-barrios-exigen-su-renuncia/"
-  },
-  {
-    "id": "n-e52fea79c2d5",
-    "titulo_original": "Bolsa mexicana sube 1% tras una racha de seis sesiones con pérdidas",
-    "titulo": "Bolsa mexicana sube 1% tras seis jornadas de pérdidas",
-    "resumen": "Las bolsas de México cerraron con ganancias de alrededor del 1% después de una racha de seis sesiones negativas. El índice S&P/BMV IPC subió 1.06% a 69,355.62 puntos, impulsado por acciones como Volaris, Peñoles y Grupo México, y por el regreso de Jensen Huang a Nvidia.",
-    "contenido": "Las bolsas de valores de México terminaron la jornada del lunes con alzas, rompiendo una racha de seis sesiones consecutivas con pérdidas. El índice principal, el S&P/BMV IPC, que agrupa a las acciones locales más negociadas, avanzó 1.06% y cerró en 69,355.62 puntos. Por su parte, el índice FTSE BIVA de la Bolsa Institucional de Valores subió 0.95% hasta los 1,412.73 puntos.\n\nDentro del S&P/BMV IPC, la mayoría de los valores registraron incrementos. Volaris lideró con un aumento del 7.32% y cotizó a 16.28 pesos, pese a una caída de casi 4% en los precios del petróleo. Le siguieron las mineras Peñoles, que subió 4.39% a 670.11 pesos, y Grupo México, con un 3.21% a 198.42 pesos.\n\nEl repunte de los índices locales se dio después de que las compras en Wall Street contagiaron al mercado mexicano, impulsadas por la restitución de Jensen Huang como CEO de Nvidia, empresa que registró la mayor ganancia de capitalización de la historia. La recuperación permitió que los índices compensaran una pérdida acumulada de casi el 5% en la semana anterior.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fimagenes.eleconomista.com.mx%2Ffiles%2Fimage_1200_600%2Fuploads%2F2025%2F10%2F30%2F6904048e02d81.webp",
-    "fecha": "2026-11-23",
-    "seccion": "mexico",
-    "region": "México",
-    "medio": "El Economista",
-    "url_origen": "https://www.eleconomista.com.mx/mercados/bolsa-mexicana-sube-1-racha-seis-sesiones-perdidas-20261123-845385.html"
-  },
-  {
     "id": "n-610e1d9b1fb0",
     "titulo_original": "Medios independientes rusos estiman que el Kremlin ha perdido más de 700.000 militares en su ofensiva sobre Ucrania",
     "titulo": "Medios independientes rusos estiman 700.000 bajas militares desde 2022",
@@ -1948,5 +1896,57 @@
     "region": "Cuba",
     "medio": "Infobae América",
     "url_origen": "https://www.infobae.com/cuba/2026/11/25/oxford-economics-preve-que-la-economia-cubana-se-contraiga-un-25-en-2027/"
+  },
+  {
+    "id": "n-02091d0a3f96",
+    "titulo_original": "Celebra Acción de Gracias sin auto: Así aplica el Hoy No Circula para este jueves 26 de noviembre",
+    "titulo": "Hoy No Circula 26 de noviembre: no transitan autos con holograma 1 y 2",
+    "resumen": "Este jueves 26 de noviembre los vehículos con engomado verde y terminación de placa 1 y 2, así como los que poseen holograma 1 y 2, no podrán circular en la CDMX y el Edomex. No hay contingencia ambiental activa y el incumplimiento genera una multa de $2,346.20 MXN. Los autos con placas de otras entidades o países están exentos, salvo residencia permanente en la zona metropolitana.",
+    "contenido": "Este jueves 26 de noviembre los autos con engomado verde y terminación de placa 1 y 2 están sujetos a la restricción del programa Hoy No Circula y no podrán transitar en la Ciudad de México ni en los municipios del Estado de México. La medida también afecta a los vehículos que poseen holograma 1 y 2, independientemente del color del engomado.\n\nEl programa tiene como objetivo regular el flujo vehicular y reducir las emisiones contaminantes en las 16 alcaldías de la CDMX y en los 40 municipios del Estado de México. Según el reporte más reciente del Sistema de Información y Monitoreo Ambiental de la Ciudad de México (SIMAT), no hay contingencia ambiental activa en la región.\n\nQuedan exentos del Hoy No Circula los automóviles con placas de otras entidades federativas o de otros países, siempre que sus propietarios no residan de forma permanente en la zona metropolitana. En caso de incumplir la restricción, los conductores enfrentarán una multa de $2,346.20 MXN, cuyo pago y trámites pueden consultarse en el portal de la Secretaría de Finanzas.\n\nLa información se actualizó por última vez el miércoles 25 de noviembre de 2026 a las 06:00 horas, hora de la Ciudad de México.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fwww.elfinanciero.com.mx%2Fresizer%2Fv2%2FJURJY3Z37NDDBMYTLNNF5MUXLM.jpeg%3Fsmart%3Dtrue%26auth%3D88152dd2fbefdcd6a4e1c0091276c8fe0db90d51d4b6e158dac657fac825162e%26width%3D1200%26height%3D630",
+    "fecha": "2026-11-25",
+    "seccion": "mexico",
+    "region": "México",
+    "medio": "El Financiero",
+    "url_origen": "https://www.elfinanciero.com.mx/cdmx/2026/11/25/hoy-no-circula-jueves-26-de-noviembre-de-2026-placas-1-y-2-source-ia/"
+  },
+  {
+    "id": "n-94261d862019",
+    "titulo_original": "Monterrey vs América EN VIVO: sigue el minuto a minuto del partido de ida de los 4tos de Final del Apertura 2026",
+    "titulo": "Monterrey y América se enfrentan en el ida de cuartos de Liguilla Apertura 2026",
+    "resumen": "El miércoles 25 de noviembre de 2026 se disputará el partido de ida de los cuartos de final entre Monterrey y América en el Gigante de Acero. Monterrey terminó la fase regular en sexto lugar con 27 puntos, mientras que América ocupó la tercera posición con 30 puntos, lo que le otorga ventaja deportiva en caso de empate global. El encuentro se transmitirá por Canal 5, TUDN y la plataforma de streaming ViX.",
+    "contenido": "La Liguilla del Apertura 2026 arranca con el choque entre los Rayados de Monterrey y las Águilas del América en los cuartos de final. El primer partido se jugará el miércoles 25 de noviembre a las 21:10 horas (tiempo del centro de México) en el Gigante de Acero, estadio ubicado en Monterrey, Nuevo León, donde se disputarán los 90 minutos de la eliminatoria.\n\nMonterrey concluyó la fase regular en el sexto lugar con 27 puntos, mientras que América alcanzó la tercera posición con 30 unidades. Esta diferencia de tres puntos le brinda al conjunto azulcrema la ventaja deportiva en caso de que el marcador global quede empatado, obligando a los Rayados a buscar un resultado favorable en casa antes de viajar a la Ciudad de México para el partido de vuelta.\n\nLa serie se decidirá el sábado 28 de noviembre, cuando ambos equipos se enfrenten en el segundo encuentro de la eliminatoria. Los aficionados podrán seguir el partido de ida por televisión abierta a través de Canal 5, por televisión de paga mediante TUDN y también por streaming en la plataforma ViX.\n\nLas Águilas buscarán capitalizar su mejor posición en la tabla para avanzar a semifinales, mientras que los Rayados intentarán aprovechar la localía y llegar con ventaja al encuentro definitivo.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fwww.infobae.com%2Fresizer%2Fv2%2FBAL44ZAEIJHQ7OAOLYU2TLM3SA.png%3Fauth%3Da566533dad5ce3c96179c6bf09c49b13dedb9eab87d82c90b57b903c64e58429%26smart%3Dtrue%26width%3D1200%26height%3D630%26quality%3D85",
+    "fecha": "2026-11-25",
+    "seccion": "mexico",
+    "region": "México",
+    "medio": "Infobae México",
+    "url_origen": "https://www.infobae.com/mexico/deportes/2026/11/24/monterrey-vs-america-en-vivo-donde-y-a-que-hora-ver-la-ida-de-los-cuartos-de-final-del-apertura-2026/"
+  },
+  {
+    "id": "n-eb633fc9fb02",
+    "titulo_original": "Solicitudes de refugio de cubanos en Brasil alcanzan un récord de 4,885 en septiembre",
+    "titulo": "Récord de solicitudes de asilo cubanas en Brasil en septiembre: 4,885 casos",
+    "resumen": "En septiembre de 2026, los cubanos presentaron 4,885 solicitudes de protección internacional en Brasil, la cifra mensual más alta registrada. El total acumulado de enero a septiembre alcanzó 33,185 pedidos, un aumento del 8% respecto al mismo período de 2025, y dejó 99,306 expedientes sin resolver. La mayor parte de los ingresos se concentró en el estado de Roraima, a través de una ruta terrestre desde Guyana.",
+    "contenido": "Las solicitudes de refugio de ciudadanos cubanos en Brasil alcanzaron un récord en septiembre de 2026, con 4,885 pedidos, la cifra mensual más alta para esta nacionalidad en el país. Entre enero y septiembre del mismo año, el total acumulado ascendió a 33,185 solicitudes, lo que representa un incremento del 8% frente al mismo período de 2025, cuando se contabilizaron 30,731 pedidos. Estas solicitudes constituyeron cerca del 60% de todas las peticiones de protección internacional recibidas por Brasil en los primeros nueve meses del año, consolidando a los cubanos como el principal grupo nacional solicitante de refugio.\n\nEl crecimiento se aceleró desde agosto, cuando se registraron 4,292 solicitudes, un 18% más que en julio, y en septiembre la cifra volvió a subir un 13.8%. El cambio en las rutas migratorias fue determinante: el estado de Roraima, en la frontera norte, concentró 18,501 ingresos (62.5% del total nacional) entre enero y septiembre, desplazando a Amapá como principal punto de entrada. La vía terrestre pasó de representar el 23% al 66% de los ingresos, con la ruta más utilizada que parte de La Habana hacia Georgetown (Guyana), continúa por tierra hasta Lethem y cruza el río Tacutu para llegar a Bonfim, en Roraima.\n\nAl cierre de septiembre, 99,306 expedientes cubanos permanecían sin resolución, equivalentes al 58.7% de los 169,136 casos pendientes de todas las nacionalidades en Brasil. Los venezolanos ocupan el segundo lugar con 36,676 solicitudes en trámite. Durante los primeros cuatro meses de 2026, el organismo brasileño encargado de evaluar estos casos no concedió ninguna protección formal a ciudadanos cubanos.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fwww.infobae.com%2Fresizer%2Fv2%2FVWNIY5RKI5ETTADBKTRAU5K5OM.png%3Fauth%3D8478dae9bcf230e64900115673d97c32cecc44d1d5b6b632034ed7e80256fc95%26smart%3Dtrue%26width%3D1200%26height%3D630%26quality%3D85",
+    "fecha": "2026-11-25",
+    "seccion": "mundo",
+    "region": "Brasil",
+    "medio": "Infobae América",
+    "url_origen": "https://www.infobae.com/cuba/2026/11/25/solicitudes-de-refugio-de-cubanos-en-brasil-alcanzan-un-record-de-4885-en-septiembre/"
+  },
+  {
+    "id": "n-0264ad7df8ea",
+    "titulo_original": "EE UU propone nuevos aranceles contra 14 socios comerciales, entre ellos China y la UE",
+    "titulo": "EE.UU. propone nuevos aranceles a 14 socios, entre ellos China y la UE",
+    "resumen": "La administración de Donald Trump presentó una propuesta de aranceles a 14 socios comerciales, citando exceso de capacidad estructural. China recibiría el arancel más alto (20%) y México queda exento por ahora, aunque su situación está bajo revisión.",
+    "contenido": "La Administración de Donald Trump anunció una propuesta de nuevos aranceles contra 14 de sus principales socios comerciales, entre los que se incluyen China y la Unión Europea, bajo el argumento de que dichos países generan \"exceso de capacidad industrial estructural\" que permite precios artificialmente bajos.\n\nLos aranceles más elevados, del 20%, se aplicarían a China, a quien Washington acusa de inundar los mercados con exportaciones a precios demasiado bajos. México, que había sido amenazado previamente, queda exento por el momento, aunque su situación sigue sujeta a revisión.\n\nSegún la Oficina del Representante Comercial de EE.UU. (USTR), la medida se basa en una investigación de ocho meses bajo la Sección 301 que abarcó a 16 socios, incluidos Japón, Corea del Sur y la UE. Las tasas específicas propuestas son del 15% para la UE, Taiwán, Japón, Corea del Sur y Suiza; 10% para Singapur; y tarifas variables para Vietnam (20% o 35%), India (17% o 25%) y China (20% o 40% si no se prorroga la tregua comercial que expira el 10 de enero).\n\nEstas nuevas cargas no se sumarían a los aranceles del 10% o 12,5% impuestos en julio a un grupo más amplio de 60 socios. La propuesta debe pasar por un periodo de comentarios públicos y, de aprobarse, podría entrar en vigor en enero, aunque se anticipan posibles litigios. La UE rechazó la premisa de exceso de capacidad y lamentó la falta de acción conjunta.\n\nLa medida forma parte de la política arancelaria iniciada en la primavera de 2025, a pesar de la anulación de aranceles previos por parte del Tribunal Supremo y de la reciente victoria del Partido Demócrata en las elecciones de mitad de mandato.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fimagenes.elpais.com%2Fresizer%2Fv2%2FYCJD3GQHXFONJAABQIAIPGVVJI.jpg%3Fauth%3Ddb7959cfe9ccde6d4e4ced7b14f255bd09dd3747dbcd99b9d530a14f025acb6b%26width%3D1200",
+    "fecha": "2026-11-25",
+    "seccion": "mundo",
+    "region": "Estados Unidos",
+    "medio": "El País",
+    "url_origen": "https://elpais.com/internacional/2026-11-25/ee-uu-anuncia-nuevos-aranceles-contra-14-socios-comerciales.html"
   }
 ]
