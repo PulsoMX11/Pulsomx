@@ -1,57 +1,5 @@
 [
   {
-    "id": "n-0617347b3916",
-    "titulo_original": "Dos hombres en mi vida: cómo un accidente de tráfico me enseñó nuevas formas de amar",
-    "titulo": "Kris Armstrong y su vida tras el accidente de Brandon",
-    "resumen": "Kris Armstrong pasó de esposa a cuidadora tras el grave accidente de su marido Brandon, quien quedó con daño cerebral. Después de años de cuidados, se divorció, obtuvo la tutela legal y encontró una nueva pareja, formando una familia que incluye a Brandon como parte integral.",
-    "contenido": "Kris Armstrong tenía poco más de veinte años y llevaba dos años casada cuando recibió la llamada de la policía informándole que su marido, Brandon, había sufrido un terrible accidente de automóvil. Brandon, un bailarín de breakdance y practicante de snowboard, quedó con graves daños cerebrales y en coma. Dos semanas después abrió los ojos, pero su mirada no mostraba comprensión. \"Él no te miraba\", explicó Kris. En ocasiones señalaba a Kris en la foto de su boda o le decía \"Te quiero\", lo que ella describió como \"lo más hermoso que jamás había escuchado\".\n\nCon el tiempo, Brandon desarrolló un déficit cognitivo severo: no podía alimentarse, vestirse, caminar ni recordar hechos básicos. Kris pasó de ser esposa a cuidadora de tiempo completo, describiendo que \"me miraba como un niño pequeño mira a sus padres\" y que a veces se sentía como una madre para él. Tras una fase de agotamiento extremo, aceptó que Brandon fuera ingresado en un hogar de cuidados.\n\nKris decidió divorciarse, pero también luchar por la tutela legal de Brandon. A pesar de la dificultad de los abogados, documentó su continuo cuidado y, al final, obtuvo la tutela sin oposición familiar. Con el tiempo, ingresó a una aplicación de citas, donde conoció a James, quien aceptó la situación y se integró a la familia. Juntos tuvieron dos hijas; Brandon sigue viviendo con ellos y es llamado \"Tío Brandon\" por los niños, participando en todas las fotos familiares.\n\nLa historia, basada en el episodio \"Mis dos esposos\" de Lives Less Ordinary: Love Stories, muestra cómo Kris ha construido una nueva vida manteniendo a Brandon como parte esencial de su familia.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fichef.bbci.co.uk%2Fnews%2F1200%2Fbranded_mundo%2F607a%2Flive%2F72877a90-e356-11f1-acd4-25eaaa5def63.jpg",
-    "fecha": "2026-11-23",
-    "seccion": "mundo",
-    "region": "",
-    "medio": "BBC Mundo",
-    "url_origen": "https://www.bbc.com/mundo/articles/cx4gnrrqm61jo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "id": "n-b594f3597b48",
-    "titulo_original": "EE.UU. incluye a Megaspeed en lista negra comercial por desvío de chips de Nvidia hacia China",
-    "titulo": "EE.UU. incluye a Megaspeed en lista negra por desvío de chips Nvidia a China",
-    "resumen": "Estados Unidos añadió a la empresa singapurense Megaspeed a su lista negra comercial por presunto desvío de chips de inteligencia artificial de Nvidia hacia China. La medida obliga a las compañías estadounidenses a obtener una licencia antes de suministrar a Megaspeed productos sujetos a controles de exportación. La decisión se produce tras disputas internas del gobierno y declaraciones del presidente Donald Trump sobre la restitución del CEO de Nvidia.",
-    "contenido": "Estados Unidos incluyó este lunes (23.11.2026) a la empresa singapurense Megaspeed en su lista negra comercial por sospechas de que desvió chips de inteligencia artificial (IA) hacia China, en violación de los controles de exportación estadounidenses. La medida, adoptada por el Departamento de Comercio y cuya publicación oficial está prevista para el miércoles, obligará a las empresas estadounidenses a obtener una licencia antes de suministrar a Megaspeed productos o tecnología sujetos a los controles de exportación de EE.UU.\n\nSegún informó The New York Times, Megaspeed empezó a comprar grandes cantidades de chips del fabricante Nvidia en 2025 para enviarlos desde California a Malasia, donde su filial recibió entre julio de ese año y febrero de 2026 suministros sujetos a controles por valor de más de 800 millones de dólares. Megaspeed fue fundada por Alice Huang, a quien funcionarios estadounidenses consideran sospechosa de colaborar con los servicios de inteligencia chinos y que mantuvo una relación con el consejero delegado de Nvidia, Jensen Huang.\n\nEl regreso de Jensen Huang a la dirección de Nvidia, anunciado también este lunes, se produjo apenas once días después de su dimisión a raíz de sus relaciones extramatrimoniales con Alice Huang y con empleadas de la tecnológica estadounidense. El presidente Donald Trump aseguró haber intervenido directamente para que Huang fuera restituido, que la investigación del Gobierno exoneraba al directivo y que no había pruebas de ilegalidad.\n\nEl secretario del Tesoro, Scott Bessent, declaró que su departamento, el Pentágono y el Departamento de Estado llevaban meses pidiendo incluir a la empresa en la lista negra, mientras que el Departamento de Comercio, dirigido por Howard Lutnick, se resistía. Tres congresistas demócratas investigan si los intereses de Cantor Fitzgerald, firma controlada por los hijos de Lutnick, influyeron en la decisión.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fstatic.dw.com%2Fimage%2F79909027_6.jpg",
-    "fecha": "2026-11-23",
-    "seccion": "mundo",
-    "region": "Estados Unidos",
-    "medio": "DW Español",
-    "url_origen": "https://www.dw.com/es/ee-uu-incluye-a-megaspeed-en-lista-negra-comercial-por-desvío-de-chips-de-nvidia-hacia-china/a-80027248?maca=spa-rss-sp-all-1122-xml-mrss"
-  },
-  {
-    "id": "n-fab0ff27a37f",
-    "titulo_original": "IA con propósito: empresas enfrentan el reto de automatizar sin ampliar brechas sociales",
-    "titulo": "IA como herramienta: Xira busca productividad sin ampliar brechas sociales",
-    "resumen": "Patricio Castrejón, director comercial de Xira, defiende que la IA debe ser una herramienta para complementar al trabajador y no un sustituto. La empresa usa simuladores de IA para entrenar a nuevos agentes y mide su impacto en productividad, retención y satisfacción del cliente.",
-    "contenido": "\"La IA no debe entenderse como sustituto de las personas, sino como una herramienta para transformar el trabajo\", afirmó Patricio Castrejón, director comercial de Xira. Señala que, aunque el 43% de los directores ejecutivos contempla ajustar la contratación de personal de nivel inicial, la IA puede beneficiar especialmente a los trabajadores menos experimentados.\n\nUna investigación conjunta de Stanford y el MIT con más de 5,000 agentes de atención a clientes mostró un aumento promedio del 14% en productividad y del 34% entre los menos experimentados. Con base en esos resultados, Xira incorpora simuladores con IA para que los nuevos agentes practiquen con clientes virtuales antes de atender llamadas reales, complementando la capacitación con plataformas que analizan interacciones e identifican habilidades a reforzar.\n\nEl Foro Económico Mundial estima que el 40% de las habilidades esenciales de los empleos en México cambiará en los próximos cinco años, y el 85% de los empleadores planea capacitar a su personal. Castrejón insiste en desarrollar capacidades internamente mediante entrenamiento continuo y basado en datos.\n\nEl directivo advierte que algoritmos mal diseñados pueden reproducir prejuicios, por lo que Xira opera bajo la norma ISO/IEC 42001 de gestión de IA y mantiene la responsabilidad humana en las decisiones laborales.\n\nFinancieramente, el mayor retorno de inversión proviene de la mayor productividad, no solo de la reducción de nóminas. Según el estudio Global AI Pulse de KPMG, el 78% de las empresas mexicanas percibe beneficios de la IA, pero solo el 7% ha consolidado un retorno de inversión. El Banco de México reportó que el 48.5% de las empresas con más de 100 trabajadores usa alguna herramienta de IA, mientras que el 95.5% de las unidades económicas del país son microempresas, según INEGI.\n\nPara reducir la brecha, Castrejón propone contratar tecnología como servicio, pagar por uso y facilitar el acceso mediante agentes de voz. Propone medir el costo por resolución efectiva, la productividad por colaborador, la retención del personal y la satisfacción del cliente, con el objetivo de que la IA transforme tareas repetitivas y mejore los resultados empresariales y laborales sin generar mayor desigualdad.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fimagenes.eleconomista.com.mx%2Ffiles%2Fimage_1200_600%2Fuploads%2F2026%2F11%2F23%2F6b050a30e6474.jpeg",
-    "fecha": "2026-11-23",
-    "seccion": "mexico",
-    "region": "México",
-    "medio": "El Economista",
-    "url_origen": "https://www.eleconomista.com.mx/empresas/ia-proposito-empresas-enfrentan-reto-automatizar-ampliar-brechas-sociales-20261123-845455.html"
-  },
-  {
-    "id": "n-1d5cb6bfb4b5",
-    "titulo_original": "Promotor de Andy Ruiz confiesa la decepción que se llevó por firmar al excampeón mexicoamericano",
-    "titulo": "Eddie Hearn admite decepción por derrota de Andy Ruiz ante Damian Knyba",
-    "resumen": "El promotor Eddie Hearn expresó su descontento tras la derrota por decisión unánime de Andy Ruiz contra Damian Knyba. Ruiz, de 37 años, pidió disculpas a su equipo y seguidores y descartó el retiro. La pérdida reaviva dudas sobre su futuro en el peso completo.",
-    "contenido": "El regreso de Andy Ruiz al boxeo profesional no ha cumplido las expectativas y su promotor, Eddie Hearn de Matchroom Boxing, manifestó su decepción tras la derrota del mexicano contra el polaco Damian Knyba. En el programa Mr Verzace Podcast, Hearn dijo: \"Debo ser honesto, me decepcionó mucho la actuación de Andy \".\n\nRuiz volvió al ring el 4 de septiembre y fue derribado en el séptimo asalto; Knyba se impuso por decisión unánime con tarjetas de 117-110, 118-109 y 118-109. El combate tuvo lugar en el Prudential Center de Newark, Nueva Jersey, y el rival, de 2.01 metros, utilizó su alcance para controlar el ritmo, dificultando que Ruiz luchara a corta distancia.\n\nHearn explicó que la combinación de más de dos años fuera del ring, una cirugía en la mano y una considerable pérdida de peso pudo haber influido en la elección de un oponente tan competente. Añadió que, para aspirar a un campeonato mundial, un boxeador debe ser capaz de vencer a rivales del perfil de Knyba, aunque la continuidad de Ruiz con Matchroom aún podría abrirle nuevas oportunidades, como unas conversaciones preliminares para un posible enfrentamiento en Inglaterra en 2027.\n\nTras la derrota, el excampeón mundial unificado emitió una disculpa: \" Quiero pedirle una disculpa a toda mi gente, a mi equipo y a mi familia . No fue la noche que esperábamos. Cometí muchos errores en el ring, no pude encontrar mi distancia ni soltar mis manos como quería. Damian hizo una gran pelea utilizando su alcance, pero no hay excusas, no entregué la actuación que ustedes merecen\".\n\nRuiz no gana desde septiembre de 2022, cuando venció a Luis Ortiz, y su historial incluye un nocaut a Anthony Joshua en 2019 y una derrota reciente que reaviva las preguntas sobre su futuro en el peso completo.",
-    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fwww.infobae.com%2Fresizer%2Fv2%2F5R35YOIZGFGC3AWSBBO6MFKZDA.jpg%3Fauth%3Ded1b274c90759cbdaa4f13e0f144d941156f31f856ff947a0653b7cf24fe552f%26smart%3Dtrue%26width%3D1200%26height%3D630%26quality%3D85",
-    "fecha": "2026-11-23",
-    "seccion": "mexico",
-    "region": "México",
-    "medio": "Infobae México",
-    "url_origen": "https://www.infobae.com/mexico/deportes/2026/11/24/promotor-de-andy-ruiz-confiesa-la-decepcion-que-se-llevo-por-firmar-al-excampeon-mexicoamericano/"
-  },
-  {
     "id": "n-4458530651dc",
     "titulo_original": "Irán flagela con 74 latigazos a la cantante Parastoo Ahmadi por cantar sin velo en YouTube",
     "titulo": "Cantante iraní Parastoo Ahmadi recibe 74 latigazos por actuar sin velo",
@@ -1948,5 +1896,57 @@
     "region": "Medio Oriente",
     "medio": "DW Español",
     "url_origen": "https://www.dw.com/es/irán-acusa-a-israel-de-buscar-otra-guerra-bajo-pretexto-de-que-está-fabricando-armas-químicas/a-80055816?maca=spa-rss-sp-all-1122-xml-mrss"
+  },
+  {
+    "id": "n-85fa48037aa4",
+    "titulo_original": "Ni de Milán ni de Roma: Ferrioni es 100% chilanga y esta es la familia que la creó",
+    "titulo": "Ferrioni, la marca mexicana de moda que muchos confunden con Italia",
+    "resumen": "Ferrioni nació en la Ciudad de México en 1986, derivada de la camisería Savoy de José Rión, y se ha convertido en un referente de elegancia casual. La empresa amplió su oferta con líneas infantiles, calzado y perfumes, manteniendo su icónico logo de terrier y sin vínculo con Italia.",
+    "contenido": "Ferrioni tiene su origen en la camisería Savoy, ubicada en el Centro Histórico de la Ciudad de México, fundada por José Rión. Su hijo Fernando Rión fundó la marca en 1986, combinando su nombre y el apellido Rión, y adoptó el perro terrier como símbolo, heredado de la camisería familiar.\n\nSegún la información presentada ante la Bolsa Mexicana de Valores, Ferrioni, S.A. de C.V. se constituyó a finales de 1986 para atender a consumidores que buscaban ropa de estilo clásico y juvenil. En 1991 lanzó la línea infantil Ferrioni Piccolino para niños de 2 a 14 años, y en 1994 debutó en la Bolsa con una oferta pública del 33% de su capital, presentando también la línea para bebés Ferrioni Bimbinni y tiendas con estética infantil.\n\nA inicios del milenio la marca fue adquirida por Grupo Dunand, propietario también de la marca Campanita, y actualmente Gerardo Dunand actúa como director general. David Schulz Manaut, gerente de operaciones entre 2001 y 2017, comentó en 2007: \"Para nosotros es mejor que no se termine de aclarar el punto\".\n\nDesde el año 2000 Ferrioni incursionó con éxito en el mercado del calzado, creando Ferrioni Shoes. Schulz Manaut explicó recientemente en LinkedIn: \"Iniciamos un proyecto de calzado para toda la familia. Comenzó con unas cuantas pruebas y terminó con más de 30 modelos y miles de pares vendidos al año. Ese esfuerzo culminó en una licencia que hoy sigue en el mercado, incluso con tiendas propias: Ferrioni Shoes\". Más recientemente la empresa también lanzó perfumes, distribuidos en tiendas físicas y plataformas digitales como Walmart, Bodega Aurrera, Liverpool, Amazon y Mercado Libre.\n\nA pesar de la percepción de origen italiano, Ferrioni es una marca 100 % chilanga, con oficinas en la carretera México‑Toluca, y su logo de terrier sigue siendo un símbolo reconocido en todo el país.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fcdn-3.expansion.mx%2Fdims4%2Fdefault%2Fc93b625%2F2147483647%2Fstrip%2Ftrue%2Fcrop%2F1376x722%2B0%2B23%2Fresize%2F1200x630%21%2Fformat%2Fjpg%2Fquality%2F80%2F%3Furl%3Dhttps%253A%252F%252Fcdn-3.expansion.mx%252Fb0%252F0b%252F1f40e9404cdab92d04a2f20216e5%252Fferrioni-es-mexicana-origen-marca-ropa.jpg",
+    "fecha": "2026-11-25",
+    "seccion": "mexico",
+    "region": "México",
+    "medio": "Expansión",
+    "url_origen": "https://expansion.mx/empresas/2026/11/25/ferrioni-marca-mexicana-historia-perrito-terrier"
+  },
+  {
+    "id": "n-a6ee5600e866",
+    "titulo_original": "Defensa confirma siete criminales abatidos y 10 detenidos tras enfrentamiento contra célula del Cártel de los Reyes",
+    "titulo": "Defensa confirma 7 muertos y 10 detenidos en enfrentamiento contra célula del Cártel de los Reyes",
+    "resumen": "El 25 de noviembre, fuerzas del Ejército Mexicano se enfrentaron a una célula del Cártel de los Reyes en la zona entre Peribán de Ramos, Michoacán, y Doctor Villa Gómez, Jalisco, dejando siete muertos y diez detenidos. En el operativo se incautaron armas, una granada y cuatro vehículos, y los detenidos fueron puestos a disposición de la Fiscalía General de la República.",
+    "contenido": "La Secretaría de la Defensa Nacional informó que, durante un reconocimiento en la zona fronteriza entre Peribán de Ramos, Michoacán, y la localidad Doctor Villa Gómez, Jalisco, los militares fueron atacados por integrantes de una célula del Cártel de los Reyes comandada por Fernando “N”, alias “El Maniaco”. En el enfrentamiento, siete agresores murieron y diez fueron detenidos, todos vinculados al grupo delictivo.\n\nLas fuerzas federales aseguraron un fusil Barrett calibre .50, una ametralladora Mínimi calibre 5.56 mm, 33 armas de fuego con cargadores y cartuchos de diversos calibres, una granada de fragmentación y cuatro vehículos. Los cuerpos de los fallecidos, los detenidos y los indicios recolectados fueron entregados a la Fiscalía General de la República con sede en Zamora, Michoacán, para las investigaciones periciales correspondientes.\n\nEl comunicado señaló que la operación se realizó bajo la estrategia “Erandi” del Plan Michoacán y con apego a la Ley Nacional del Uso de la Fuerza y al respeto de los derechos humanos. No se precisó si Fernando “N” fue detenido o logró evadir la acción. La Defensa reiteró que el Cártel de los Reyes es el principal generador de violencia en varios municipios de Michoacán y lo vinculó a extorsiones, narcotráfico, homicidios y robos de vehículos.\n\nPrevios reportes indicaron la presencia de drones sobre la zona el 22 de noviembre y el refuerzo de vigilancia por autoridades estatales. La captura de líderes anteriores del cártel, como Alfonso Fernández “Poncho” y Luis Enrique Barragán “Güicho”, había debilitado su estructura de mando, según la Defensa.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fwww.infobae.com%2Fresizer%2Fv2%2F3D4W54LFCRA47ARODXPHW7RF5I.jpg%3Fauth%3D23a91fc71a6e75728163b0c750559f7d040d982ec812999830ffb4f60552f2c1%26smart%3Dtrue%26width%3D1200%26height%3D630%26quality%3D85",
+    "fecha": "2026-11-25",
+    "seccion": "mexico",
+    "region": "México",
+    "medio": "Infobae México",
+    "url_origen": "https://www.infobae.com/mexico/2026/11/26/defensa-confirma-siete-criminales-abatidos-y-10-detenidos-tras-enfrentamiento-contra-celula-del-cartel-de-los-reyes/"
+  },
+  {
+    "id": "n-02be70972a0b",
+    "titulo_original": "Murió a los 65 años Andy Taylor, exguitarrista de la banda británica Duran Duran",
+    "titulo": "Fallece Andy Taylor, exguitarrista de Duran Duran, a los 65 años",
+    "resumen": "Andy Taylor, exguitarrista de Duran Duran, murió a los 65 años tras una larga y valiente batalla contra el cáncer de próstata. La banda y su familia anunciaron su fallecimiento el 23 de noviembre, indicando que murió en paz rodeado de sus seres queridos. En el comunicado también se recordó su aporte al sonido del grupo y su vida familiar.",
+    "contenido": "Andy Taylor, exguitarrista de la banda británica Duran Duran, falleció a los 65 años después de una \"larga y valiente batalla contra el cáncer de próstata\", según informó la banda y su familia en Instagram la noche del miércoles 25 de noviembre de 2026.\n\nEn un comunicado conjunto declararon que \"Andy falleció en paz en su casa, rodeado de su familia, el lunes 23 de noviembre\". La noticia incluyó elogios a su trayectoria musical y a su papel en la construcción del sonido distintivo de Duran Duran, que fusionó punk rock y música dance.\n\nDuran Duran, conocida por éxitos como \"Girls on Film\" y \"Rio\", se convirtió en una banda emblemática del movimiento \"New Romantic\" del Reino Unido y alcanzó gran popularidad en los años 80, comparada en Estados Unidos con la \"Beatlemanía\". El grupo ha vendido más de 100 millones de discos, con 30 sencillos en el top 40 de su país y 21 en el top 40 de las listas estadounidenses.\n\nAndy nació el 16 de febrero de 1961 en la costa cerca de Newcastle, noreste de Inglaterra, y aprendió a tocar la guitarra a los 11 años. Su esposa, Tracey, lo describió como \"el marido más maravilloso, un padre cariñoso y el abuelo más orgulloso\", y añadió que \"él fue la roca de nuestra familia\".\n\nLa familia subrayó que, pese a las experiencias increíbles que la música le brindó, siempre mantuvo a la familia como prioridad.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fstatic.dw.com%2Fimage%2F80055669_6.jpg",
+    "fecha": "2026-11-25",
+    "seccion": "mundo",
+    "region": "Europa",
+    "medio": "DW Español",
+    "url_origen": "https://www.dw.com/es/murió-a-los-65-años-andy-taylor-exguitarrista-de-la-banda-británica-duran-duran/a-80055951?maca=spa-rss-sp-all-1122-xml-mrss"
+  },
+  {
+    "id": "n-6e5f7d3a08eb",
+    "titulo_original": "Kilmar Abrego García, víctima de las deportaciones masivas en EE UU: “Trump no decide mi futuro”",
+    "titulo": "Kilmar Abrego García llega a Madrid tras vencer deportación forzada de EE UU",
+    "resumen": "El salvadoreño Kilmar Abrego García, deportado por error a El Salvador en 2025, salió de Estados Unidos y arribó a Madrid con su familia. Tras una lucha judicial que anuló los cargos en su contra y evitó su envío a África, Abrego declaró que su futuro ya no lo decide el gobierno estadounidense.",
+    "contenido": "Kilmar Abrego García, de 31 años, fue expulsado a El Salvador en 2025 bajo la administración de Donald Trump, llegando al país esposado y encorvado. Tras ser enviado por error al Centro de Confinamiento de Terrorismo (Cecot), una megacárcel construida por el presidente Nayib Bukele, y amenazado con ser trasladado a Uganda y luego a Liberia, Abrego rechazó declararse culpable y continuó impugnando el caso.\n\nSus abogados, entre ellos Simon Sandoval‑Moshenberg, lograron que un juez federal de Tennessee retirara los cargos de pandillero, maltratador y traficante de migrantes. En el marco de un habeas corpus, la jueza federal de Maryland, Paula Xinis, ordenó eliminar el dispositivo de vigilancia en su tobillo y cualquier restricción que le impidiera volar, estableciendo como fecha límite el 24 de noviembre para abandonar EE UU.\n\nEl 11 de noviembre, Abrego tomó un vuelo comercial a Madrid, ingresó como turista sin necesidad de visado y, acompañado de su esposa y su hermano, realizó una rueda de prensa en la que afirmó que el gobierno estadounidense no decide su futuro. Durante la conferencia, el senador demócrata Chris Van Hollen y representantes de la organización We Are CASA expresaron su apoyo, mientras que el secretario de Seguridad Nacional Markwayne Mullin celebró la salida como una \"autodeportación\".\n\nHuman Rights Watch reportó que entre enero de 2025 y agosto de 2026, el ICE envió a 536 personas a países africanos, más de cinco veces la cifra del año anterior, reflejando el endurecimiento de la política migratoria bajo la administración Trump.",
+    "imagen": "https://wsrv.nl/?w=900&url=https%3A%2F%2Fimagenes.elpais.com%2Fresizer%2Fv2%2FFHGYESP52ZKH3KHZPPANYG4AL4.jpg%3Fauth%3Db2839865b4b962a72b2d37cbdf9a7721be452a5f66f3cd99af29d9e1f9777139%26width%3D1200",
+    "fecha": "2026-11-25",
+    "seccion": "mundo",
+    "region": "Estados Unidos",
+    "medio": "El País",
+    "url_origen": "https://elpais.com/internacional/2026-11-25/kilmar-abrego-garcia-victima-de-las-deportaciones-masivas-de-trump-aterriza-en-madrid.html"
   }
 ]
